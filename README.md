@@ -1,2 +1,1 @@
-Exos_Studi
-# Exos_Studi
+Exercices / défis de la plateforme Studi 
