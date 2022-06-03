@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Exemple</title>
+    <style>
+      header {
+        height: 200px;
+        background-color: cadetblue;
+      }
+      .logo, .badge {
+        background-color: coral;
+      }
+      nav {
+        height: 80px;
+        background-color: darkgoldenrod;
+      }
+      aside {
+        height: auto;
+        background-color: lightslategray;
+      }
+      .article1, .article2, .article3 {
+        height: 200px;
+        background-color: deeppink;
+      }
+      .article4 {
+        height: 400px;
+        background-color: greenyellow ;
+      }
+      footer {
+        height: 200px;
+        background-color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <header class="row justify-content-between">
+          <div class="logo col-3">
+          <div class="h-100 row justify-content-center align-items-center">LOGO</div></div>
+
+          <div class="badge col-4 col-md-2">
+        <div class="h-100 row justify-content-center align-items-center">BADGE</div>
+      </header>
+      <nav class="row justify-content-center align-items-center">
+        NAV
+      </nav>
+      <section class="row">
+        <aside class="col-4 col-md-2">
+           <div class="h-100 row justify-content-center align-items-center">
+             ASIDE
+           </div>
+         </aside>
+        <div class="col-8 col-md-10">
+           <div class="row justify-content-md-around">
+             <article class="article1 col-12 col-md-3">
+               <div class="h-100 row justify-content-center align-items-center">
+                 ARTICLE1
+               </div>
+             </article>
+             <article class="article2 col-12 col-md-3">
+               <div class="h-100 row justify-content-center align-items-center">
+                 ARTICLE2
+               </div>
+             </article>
+             <article class="article3 col-12 col-md-3">
+               <div class="h-100 row justify-content-center align-items-center">
+                 ARTICLE3
+               </div>
+             </article>
+           </div>
+           <article class="article4 row align-items-center justify-content-center">ARTICLE4</article>
+        </div>
+     </section>
+     <footer class="row justify-content-center align-items-center">
+        FOOTER
+    </footer>
+   </div>
+ </body>
+</html>
