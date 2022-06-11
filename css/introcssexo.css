@@ -1,0 +1,32 @@
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;}
+
+.p12{
+    color:#2137db}
+
+h3 {
+    font-style:italic;
+    color:#c20000}
+
+h4 {
+    text-decoration:underline; }
+
+p {
+    padding:5px; text-align: justify;}
+
+.definition {
+    background-color: #e0ecec;}
+
+.exemple {
+    background-color: lightgrey;}    
+
+.syntax {
+    background-color: cornsilk;}    
+
+.warning {
+    background-color: lightcoral;
+}    
