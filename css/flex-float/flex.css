@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 20%;
+    padding: 20px;
+    color: chocolate;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .col{
+        flex: 50%;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+       flex-direction: column;
+    }
+}
