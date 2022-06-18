@@ -1,0 +1,52 @@
+.content{
+    position: absolute;
+    z-index: 0;
+    display:flex;
+    flex-wrap:wrap ;
+    min-height: 600px;
+    padding: 30px;
+    margin: auto;
+    width: 1200px;
+    background-color: hotpink;
+    bottom: 150px;
+    right: 510px;
+
+
+}
+
+.content1{
+    position: absolute;
+    z-index: 1;
+    display:flex;
+    flex-wrap:wrap ;
+    min-height: 600px;
+    padding: 30px;
+    margin: auto;
+    width: 1200px;
+    background-color: rgb(93, 87, 110);
+}
+.logo-wrapper{
+   display: flex;
+   align-items: center;
+
+}
+.logo{
+    height: 5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.company-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menu-item{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
