@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<script src="UFOInput.js"></script>
+<script type="module">
+    import * as THREE from 'https://unpkg.com/three@0.122.0/build/three.module.js';
+    // Création de la scène, de la caméra et du renderer
+    let scene = new THREE.Scene();
+    let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.z = 6;
+    camera.position.y = 2;
+    camera.position.x = 5;
+    let renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+    // Création du vaisseau
+    let sphereGeometry = new THREE.SphereGeometry(1, 32, 32); // La sphère
+    let ringGeometry = new THREE.RingGeometry(1, 2, 30); // L'anneau
+    let material = new THREE.MeshStandardMaterial({color: 0xAAAAAA, roughness: 0.3});
+    // Les deux éléments ont le même Material
+    let sphere = new THREE.Mesh(sphereGeometry, material);
+    let ring = new THREE.Mesh(ringGeometry, material);
+    ring.rotateX(270 * Math.PI / 180);
+    sphere.add(ring);
+    scene.add(sphere);
+    let light = new THREE.PointLight(0xFFFFFF, 0.5, 100);
+    light.position.set(10, 10, 10);
+    scene.add(light);
+    // Rendu de la scène
+    renderer.setClearColor(0x000918);
+    function moveShip(input, ship)
+    {
+        if (input.getCurrentInput() === 'LEFT') {
+            ship.translateX(-0.1);
+        } else
+        if (input.getCurrentInput() === 'RIGHT') {
+            ship.translateX(0.1);
+        }
+    }
+    function getRandomNumber()
+    {
+        return Math.random() * Math.floor(10);
+    }
+    function setStarToRandomPosition(star)
+    {
+        star.position.set(getRandomNumber(), getRandomNumber(), getRandomNumber() - 10);
+    }
+    // Création des étoiles
+    let starNumber = 500;
+    let starGeometry = new THREE.CylinderGeometry(0.01, 0.01, 0.5, 6);
+    let starMaterial = new THREE.MeshBasicMaterial({color: 0xFFFFFF});
+    let stars = [];
+    for (let i = 0; i < starNumber; i++) {
+        let star = new THREE.Mesh(starGeometry, starMaterial);
+        star.rotateX(90 * Math.PI / 180);
+        setStarToRandomPosition(star);
+        stars.push(star);
+        scene.add(star);
+    }
+    function moveStars(stars, limit)
+    {
+        for (let i in stars) {
+            stars[i].position.z += 0.15;
+            if (stars[i].position.z > limit) {
+                setStarToRandomPosition(stars[i]);
+            }
+        }
+    }
+    function setMeteorToRandomPosition(meteor, shipYcoord)
+    {
+        meteor.position.set(getRandomNumber(), shipYcoord, -40);
+    }
+    // Création du météore
+    let meteorGeometry = new THREE.DodecahedronGeometry(2);
+    let meteorMaterial = new THREE.MeshStandardMaterial({color: 0x8B4513});
+    let meteor = new THREE.Mesh(meteorGeometry, meteorMaterial);
+    setMeteorToRandomPosition(meteor, sphere.position.y);
+    scene.add(meteor);
+    function moveMeteor(meteor, limit, shipYcoord)
+    {
+        meteor.position.z += 0.15;
+        meteor.rotateZ(0.01);
+        if (meteor.position.z > limit) {
+            setMeteorToRandomPosition(meteor, shipYcoord);
+        }
+    }
+    let ufoInput = new UFOInput();
+    const animate = function () {
+        moveShip(ufoInput, sphere);
+        moveStars(stars, camera.position.z);
+        moveMeteor(meteor, camera.position.z, sphere.position.y);
+        // Rendu de la frame
+        renderer.render(scene, camera);
+        // Attente de la prochaine frame
+        requestAnimationFrame(animate);
+    };
+    // Ne pas oublier d'appeler la fonction de rendu une première fois
+    animate();
+</script>
+</body>
+</html>
