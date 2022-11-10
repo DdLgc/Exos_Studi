@@ -1,0 +1,17 @@
+<?php
+
+require_once 'MySqlDatabaseManager.php';
+require_once 'DatabaseManager.php';
+
+class DatabaseManagerFactory 
+{
+  public function createDarabaseManager(string $type): DatabaseManagerInterface
+  {
+    if ($type === 'mysql') {
+      return new MySQLDatabaseManager();
+    } else {
+      return new DatabaseManager();
+    }
+  }
+
+}
