@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <link rel="stylesheet"  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+      nav {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .shopping {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        margin-right: 10px;
+      }
+      .shop {
+        width: auto;
+        text-align: right;
+        font-size: 30px;
+        margin-right: 10px;
+        padding-top: 10px;
+      }
+      #shop {
+        display: none;
+      }
+      #shop:hover {
+        cursor: pointer;
+      }
+      .article {
+        width: auto;
+        text-align: right;
+        margin: 0 10px;
+      }
+      #add {
+        background: green;
+      }
+      #delete {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <div class="shopping">
+        <div class="actions">
+          <button id="add">Ajouter un article</button>
+          <button id="delete">Supprimer un article</button>
+        </div>
+        <div class="article">
+          <p id="number-article">0</p>
+        </div>
+        <div class="shop">
+          <i id="shop" class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </nav>
+    <script src="script2.js"></script>
+  </body>
+</html>
