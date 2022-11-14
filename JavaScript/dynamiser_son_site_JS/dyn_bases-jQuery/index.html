@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bases jQuery</title>
+</head>
+<body>
+  <style>
+    ul {
+      height: auto;
+      width: 50px;
+      margin:10px;
+      padding:2px ;
+    }
+    li {
+      padding:10px 50px;
+      margin:10px;
+      border: black solid 1px;
+    }
+    .active {
+      background: #ff4757;
+    }
+    button {
+      box-shadow: 4px 4px 10px lightslategray;
+    }
+    .box {
+      background: blue;
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+  <h1>les bases de jQuery</h1>
+  <button type="button" id="click-me"> don't push me</button>
+
+  <nav class="menu">
+    <ul>
+      <li class="active">real</li>
+      <li>compéteneces</li>
+      <li>Diplomes</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <div class="buttons">
+    <button type="button" id="hide-box">Masque la box</button>
+    <button type="button" id="show-box">Affiche la box</button>
+    <button type="button" id="trigger-animation">déclencher l'animation</button>
+
+  </div>
+  <div class="box"></div>
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

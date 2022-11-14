@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exos badge</title>
+</head>
+<body>
+  <canvas id="badge"></canvas>
+</body>
+<script>
+  const canvas = document.getElementById('badge')
+  let sizeCanvas = canvas.getAttribute('width')
+  sizeCanvas === '0' || sizeCanvas === null ? sizeCanvas = 150 : sizeCanvas
+  canvas.setAttribute('height',sizeCanvas)
+  canvas.setAttribute('width',sizeCanvas)
+  let ctx
+  if (canvas.getContext) {
+    ctx = canvas.getContext('2d')
+
+    ctx.fillStyle='grey'
+    ctx.beginPath()
+    ctx.arc(sizeCanvas/2,sizeCanvas/2,sizeCanvas/2,0,2 * Math.PI)
+    ctx.fill()
+
+    const sizeText = sizeCanvas / 2
+    ctx.fillStyle = 'orange'
+    ctx.textAlign = 'center'
+    ctx.textBaseline = 'middle'
+    ctx.font = `${sizeText}px Arial`
+    ctx.fillText('DLG',sizeCanvas/2,sizeCanvas/2)
+  }
+</script>
+</html>

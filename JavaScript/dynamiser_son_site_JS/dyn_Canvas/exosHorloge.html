@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exos Horloge</title>
+</head>
+<body>
+  <canvas id="hour" height="500" width="500"></canvas>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</body>
+<script>
+  const canvas = document.getElementById('hour')
+  let ctx
+  if (canvas.getContext) {
+    ctx = canvas.getContext('2d')
+    ctx.translate(150,75)
+    ctx.beginPath()
+    ctx.arc(0,0,50,0,2 * Math.PI)
+    ctx.stroke()
+
+// Déplacement du point d'origine
+ctx.translate(150, 75)
+  // cercle de l'horloge
+  ctx.beginPath();
+  ctx.arc(0, 0, 50, 0, 2 * Math.PI);
+  ctx.stroke();
+  // Mise en place des heures
+  // On donne à la police une taille de 15% par rapport à la taille du rayon de l'horloge donc on multiplie le rayon par 0.15.
+  ctx.font = 50*0.15 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -45); // +45 pour revenir au centre
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, 50*((Math.PI / 3)-0.15));
+    ctx.rotate(-ang);
+  }    
+  } else {
+
+  }
+</script>
+</html>

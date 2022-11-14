@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three.js</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>      
+<script type="module">
+  import * as THREE from 'https://unpkg.com/three@0.141.0/build/three.module.js'
+    // Import de three.js
+    // Affichage de la forme
+    let color = 0xFF00;
+    // let background = white ;
+    let xRotation = 0.010;
+    let yRotation = 0.005;
+    let cameraZPosition = 5;
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.z = cameraZPosition;
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+    const geometry = new THREE.BoxGeometry();
+    const material = new THREE.MeshBasicMaterial({color: color});
+    const forme = new THREE.Mesh(geometry, material);
+    scene.add(forme);
+    const animate = function () {
+        requestAnimationFrame(animate);
+        forme.rotation.x += xRotation;
+        forme.rotation.y += yRotation;
+        renderer.render(scene, camera);
+    };
+    animate();
+</script>
+</body>
+</html>
