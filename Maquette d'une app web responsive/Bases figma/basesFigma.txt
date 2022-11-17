@@ -1,0 +1,108 @@
+Contexte
+Figma est un outil de conception d'interface utilisateur collaboratif qui permet à différentes personnes de communiquer sur le même projet.
+
+Jusqu'à il y a quelques années, la notion de collaboration dans ces outils se limitait à la possibilité de commenter des conceptions, etc. Aujourd'hui, avec la popularité croissante de Figma, la collaboration est devenue plus facile que jamais, et les flux de travail ont inévitablement changé, y compris les transferts.
+
+Si vous souhaitez commencer à découvrir un outil extrêmement flexible qui apporte nouveauté et rapidité au monde de la conception et du développement, il vous suffit de vous concentrer sur la suite.
+
+Vous pouvez désormais commencer ce cours en voyant les bases de la création avec Figma.
+
+Voyons ensemble comment créer des frames (espaces de travail), des calques, et des composants. Il faut savoir organiser les composants et les instances.
+
+Créer son espace de travail
+Pour pouvoir créer un espace de travail, vous pouvez choisir une dimension définie par défaut dans l’application, ou en créer directement une avec des dimensions personnalisées.
+
+Vous pouvez maintenant, en haut à gauche de la fenêtre, appuyer sur la touche « Frame », sur cette icône .
+
+Vous pouvez également utiliser la touche « F » en tant que raccourci.
+
+À partir de là, vous pouvez soit tracer vous-même une frame, soit choisir parmi cette liste une taille qui vous correspond.
+
+
+Notons toutefois que, peu importe si l’espace de travail a une dimension définie ou personnalisée, vous pourrez la modifier à souhait en sélectionnant la frame puis, dans le menu à droite, en changeant les valeurs W (« width » signifiant « largeur ») et H (« height » signifiant « hauteur »).
+
+
+Création de calques
+Un calque sera simplement une forme, telle qu’un rectangle, un carré, un polygone, une ligne, etc., ou du texte que l’on va venir créer sur Figma. Ces calques pourront, par la suite, devenir des composants si on souhaite conserver un design de bouton précis pour l’ensemble de notre application. Vous prendrez dans ce cours l’exemple du bouton, mais tout autre exemple est également valable.
+
+Pour créer un bouton rectangulaire, choisissez l’outil de forme, puis le rectangle (s’il n’est pas choisi de base) . Vous pouvez également appuyer sur la touche « R » en tant que raccourci.
+
+Dessinez ensuite un rectangle, peu importe les dimensions.
+
+
+Vous pouvez modifier les dimensions, tout comme les frames, directement dans le menu à droite, en sélectionnant le calque. Vous pouvez également modifier la couleur de la forme, la couleur de la bordure, l’arrondi des bordures ; vous pouvez même ajouter une ombre. Tout se passe dans le menu à droite. Une fois le rectangle sélectionné :
+
+Pour modifier la couleur, utilisez « Fill ».
+
+Pour ajouter une bordure, cliquez sur l’icône « + » de la catégorie « Stroke ».
+
+Pour ajouter un effet (une ombre à l’extérieur du rectangle par exemple), cliquez sur l’icône « + » de la catégorie « Effects ».
+
+Vous pouvez personnaliser vous-même votre rectangle ou vous baser sur les données suivantes.
+
+
+Pour ajouter du texte, choisissez l’icône de Texte ou appuyez sur la touche « T » en tant que raccourci. 
+
+Une fois sélectionné, vous pouvez cliquer n’importe où dans le cadran, pour écrire librement du texte.
+
+Une fois le texte écrit, si ce n’est pas déjà fait, vous pouvez le placer dans le rectangle qui est présent au sein de la fenêtre principale.
+
+Ici, vous pouvez ajuster la taille de la police d’écriture, la police d’écriture en elle-même, la graisse de celle-ci, ou encore la couleur. Il est possible d’ajouter de l’espace entre chaque lettre ou entre chaque paragraphe, d’ajouter un effet d’ombre, une bordure à chaque lettre, etc.
+
+
+Une fois cela fait, vous avez un bouton, mais sous forme de calque uniquement. Voyons désormais comment combiner le tout sous forme de composant.
+
+Transformer un groupe de calques en composant
+Pour transformer un groupe de calques en composant, sélectionnez d’abord l’ensemble des calques que vous souhaitez ajouter dans votre composant, en maintenant la touche « Ctrl » sous Windows ou « Command » sous Mac ; cliquez alors sur l’ensemble des calques désirés.
+
+Il est aussi possible de faire une sélection multiple avec la souris, en maintenant le clic gauche enfoncé dans la fenêtre de travail, et en englobant tous les calques que l’on souhaite.
+
+Ici, vous allez ajouter le rectangle et le texte dans la sélection multiple.
+
+Plusieurs choix s'offrent à vous pour créer le composant : soit, en cliquant sur « Create Component »en haut, au milieu de la fenêtre, sur cette icône  ; soit, en faisant un clic droit sur le groupe de calques, puis en sélectionnant « Create Component ».
+
+Une fois créé, vous pouvez voir que le nom de votre groupe de calque a changé de couleur et qu’il s’est renommé en « Component 1 ».
+
+
+Vous venez de créer votre premier composant.
+
+Voyons désormais comment créer des instances à partir de ce composant.
+
+Les instances de composants
+Une instance est simplement une copie du composant, mais qui pourra être modifiée de manière individuelle. Il sera possible de la modifier pour y ajouter par exemple un effet après un clic, pour changer la couleur au survol, etc.
+
+L’avantage de créer des instances des composants réside dans le fait que, lorsque l’on apporte une modification au composant « main » (le composant original), toutes les instances de celui-ci vont être modifiées en même temps.
+
+Pour créer une instance de votre composant, sélectionnez-le et créez simplement une copie de celui-ci. Pour créer une copie, plusieurs choix possibles :
+
+Faites « Ctrl + C » / « Ctrl + V » (Windows) ou « Command + C » / « Command + V » (Mac) pour copier / coller.
+
+Faites « Ctrl + D » (Windows) ou « Command + D » (Mac) pour dupliquer.
+
+Vous pouvez également maintenir la touche « Alt » (Windows) enfoncée ou la touche « Option » (Mac), pour ensuite faire glisser le composant.
+
+Maintenant que vous vous retrouvez avec deux composants strictement identiques, comment les différencier ?
+
+Dans le menu des layers, sur la gauche de votre fenêtre, vous pouvez voir qu’ils ne sont pas tout à fait similaires.
+
+
+Vous pouvez voir que votre composant principal, le numéro 1, possède une icône sensiblement différente de votre instance. Cela va vous être utile afin de les différencier.
+
+Maintenant, pour comprendre un peu mieux la différence entre le composant principal et l’instance du composant, vous pouvez modifier d’abord votre composant 1, puis votre composant 2. Vous remarquez que lorsque l’on modifie le composant principal, le changement est appliqué à ses instances. L'inverse n'est pas vrai. Si vous avez apporté des modifications à votre instance et que vous voulez revenir à ses paramètres par défaut, vous pouvez « reset » votre instance, en cliquant dans le menu à droite de votre fenêtre, après avoir sélectionné l’instance. Cliquez sur « Reset all overrides ».
+
+
+Vous pouvez également, si vous le souhaitez, appliquer les modifications à votre composant principal.
+
+Attention
+Si vous appliquez les modifications à votre composant principal, les paramètres précédents seront « perdus », et toutes vos instances prendront alors les paramètres que vous aurez choisis.
+
+Voyons désormais comment organiser les composants. Pour ce faire, rien de plus simple, vous allez créer une frame qui va contenir les composants souhaités. Reprenons l’exemple du bouton précédemment créé.
+
+Imaginez maintenant que vous avez plusieurs couleurs de boutons (couleur primaire du site, couleur secondaire, couleur de succès, couleur alerte, info, etc.). Vous créez chaque composant bouton individuellement, en le renommant à chaque fois comme vous le souhaitez.
+
+
+Puis, il s’agit de créer une frame dans laquelle vous pouvez ajouter vos composants, frame que vous pouvez renommer par exemple « Buttons ».
+
+
+Désormais, dans la catégorie « Assets », dans l’onglet à gauche de l’écran, vous retrouvez l’ensemble de vos boutons dans la catégorie « Buttons ».
+

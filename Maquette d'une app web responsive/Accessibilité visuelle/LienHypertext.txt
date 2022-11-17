@@ -1,0 +1,20 @@
+Liens hypertextes et le survol
+Objectifs
+Apprendre à utiliser le survol de façon intelligente
+
+Bien différencier les liens du reste du contenu d'une application
+
+Contexte
+Dans le contexte d'une pratique professionnelle, vous utiliserez cette notion afin de différencier clairement les éléments cliquables et non cliquables de votre application.
+
+Méthode
+Lorsque vous naviguez sur un site internet, les éléments avec un effet de survol sont la plupart du temps cliquables. Faites l'expérience avec des sites sur lesquels vous avez l'habitude d'aller : c'est généralement le cas. Parfois, le survol est aussi utilisé pour des effets visuels (sur des images ou photos par exemple), et n'est alors pas accompagné du curseur signifiant le clic :
+
+
+Nous pourrions nous dire que ce simple changement de curseur devrait faire comprendre à l'utilisateur que l'élément survolé est un lien. Cependant, il ne fera pas toujours attention à ce détail.
+
+Survoler un élément et voir son statut changer (sa couleur, sa couleur de fond, sa taille, ajout d'un soulignement, etc.) permet de montrer de façon très claire et rapide qu'une interaction sera possible au clic.
+
+Syntaxe
+À retenir
+N'utilisez le survol que pour vos éléments cliquables afin de ne pas perdre l'utilisateur.

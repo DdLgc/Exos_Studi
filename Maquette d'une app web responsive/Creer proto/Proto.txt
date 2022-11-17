@@ -1,0 +1,108 @@
+La création ou la refonte d’un site web est une étape qui demande beaucoup de professionnalisme. La qualité d’un site web ou d’une application représente un facteur important de développement pour une entreprise. Ce sont des outils fondamentaux du marketing digital. Ils sont alors très efficaces, non seulement pour attirer des clients, mais aussi pour les fidéliser et entretenir l’image de l’entreprise.
+
+Les différentes étapes de la conception d’une interface digitale sont alors la réalisation du cahier des charges, le maquettage ou prototypage, puis la réelle phase de conception web. Le maquettage est une étape très importante sur laquelle il faut porter beaucoup d’attention. Son principal objectif est de fabriquer le modèle physique, c’est-à-dire le prototype, dans un délai court et à moindre coût, en mobilisant le minimum de ressources. Pour réaliser la création ou la refonte d’une interface digitale, il est donc nécessaire d’utiliser les bons outils. Le logiciel Figma présente de nombreux avantages et permet d’obtenir des résultats professionnels. Il est alors très important de comprendre le fonctionnement de Figma. Cela permet de prendre conscience de toutes les opportunités que cette application offre. On peut ainsi réaliser les projets dans les règles de l’art.
+
+Figma est particulièrement pratique pour la conception d’un prototype. Il est alors intéressant de comprendre ce qu’est le prototype, et de savoir en créer un, de savoir le partager et l’exporter en utilisant le logiciel Figma.
+
+Définition
+Le maquettage ou prototypage
+La base de la création d’une interface digitale est le maquettage. Lors de la conception d’un site web, d’une application ou d’un logiciel, la concrétisation graphique est nécessaire. Le design de l’interface digitale est ainsi appelé le maquettage.
+
+Le maquettage est une étape qui doit être réalisée correctement, car elle permet de s’assurer que toutes les composantes de l’interface soient en harmonie.
+
+Le maquettage est ainsi très important afin d’optimiser l’expérience utilisateur. En effet, l’esthétique et la facilité d’utilisation sont les deux aspects auxquels les utilisateurs accordent le plus d’importance lors d’une visite. Ces deux points-clés attirent efficacement les cibles et rendent leur expérience sur l’interface beaucoup plus agréable. Le maquettage permet également d’assurer le bon fonctionnement graphique et la fondation UX, grâce à l’atténuation des erreurs éventuelles.
+
+Il y a plusieurs phases lors du maquettage.
+
+Le wireframe
+Le wireframe est une maquette fonctionnelle. Il consiste à réaliser un schéma pour définir les détails de l’interface digitale : les contours et les onglets qu’elle doit contenir. C’est un outil important, surtout pour la refonte de l’interface. Cette étape permet alors de visualiser les emplacements des contenus.
+
+Un wireframe est un plan ou un brouillon qui établit la mise en page. Il s’agit uniquement de guides visuels représentant les éléments de l’interface. Un wireframe peut même être un dessin simple et grossier.
+
+L’objectif d’un wireframe est donc uniquement de donner l’allure globale du projet, ainsi que l’emplacement des composants de l’interface. C’est une étape très utile, car le wireframe permet de mettre en place les idées. Le wireframe facilite également le processus de création et la communication entre toutes les parties prenantes du projet.
+
+
+Exemple de wireframe
+
+Source :SDLV
+
+La maquette
+La seconde étape du maquettage est l’élaboration de la maquette. Cette étape permet la visualisation des premières versions de l’interface graphique. Il s’agit alors pour les professionnels UX de choisir les couleurs, le style et le design qu’il faut donner au rendu final de l’interface.
+
+C’est également une étape très importante puisqu’elle prend en compte l’avis des utilisateurs. Il s’agit alors d’identifier les points de vue de l’utilisateur et les améliorations qu’il faut apporter sur l’interface.
+
+Le prototypage
+La troisième phase du maquettage est le prototypage. Un prototype permet de vérifier si les choix pris sont les bons. Il permet également d’orienter l’UX design dans le but de délivrer une expérience optimale à l’utilisateur.
+
+Il s’agit alors de créer une simulation du rendu final pour que l’expérience soit testée par les utilisateurs finaux de l’application mobile ou du site web. Cette phase permet d’obtenir un aperçu du visuel réel de l’interface, et de pouvoir tester toutes les interactions qu’elle possède.
+
+Le prototype permet ainsi de s’assurer de l’utilisabilité du site. Cela permet également de recevoir des retours venant des testeurs. Ces retours sont alors utilisés pour orienter le travail des UX designers et définir les faiblesses à corriger. Le prototype doit être partagé avec des utilisateurs, afin qu’ils puissent le tester. C’est la dernière étape qui précède le développement de l’interface digitale.
+
+Il existe deux types de prototypes :
+
+Le prototype statique
+
+Pour ce type de prototype, les interactions ne sont pas disponibles, mais le prototype peut tout de même être testé. Il est donc nécessaire de simuler l’interaction. Le concepteur donne alors des réponses aux actions faites par les utilisateurs en temps réel pendant le test.
+
+Le prototype interactif
+
+Le prototype interactif, ou prototype cliquable, est un premier gabarit du site web ou de l’application mobile, qui simule les interactions des utilisateurs finaux avec le dispositif. Le testeur peut alors cliquer pour effectuer des changements directement sur le design, sans que le concepteur n’ait à y intervenir.
+
+Remarque
+Un concepteur peut par exemple décider de dessiner le wireframe sur une feuille, en utilisant un stylo. Il s’agit uniquement de réaliser un brouillon pour donner l’aspect de l’organisation des contenus.
+
+Les étapes de la réalisation de la maquette et du prototype demandent cependant l’utilisation d’un logiciel comme Figma.
+
+L’UX ou expérience utilisateur
+Le prototypage fait partie de l’UX design, car il permet de valider l’UX ou l’expérience utilisateur.
+
+Ainsi, l’UX design consiste à réaliser une conception concentrée sur la dimension psychologique de l’utilisateur. Le but est de pouvoir anticiper les besoins de l’utilisateur cible, et de cerner ses émotions. L’UX design mise également sur la dimension ergonomique, pour que le service soit bien utilisable.
+
+L’UX design permet de concevoir un produit attrayant, accessible, facile à utiliser, utile, et surtout efficace. Son but est de répondre de manière optimale aux attentes des utilisateurs.
+
+La réalisation du maquettage peut ainsi être réalisée par un designer et un développeur travaillant ensemble, ou par un UX Designer.
+
+Si la maquette fait appel à des connaissances en ergonomie et en design, le prototype, quant à lui, demande en plus des connaissances en développement web et en interactivité.
+
+Figma et les outils pour réaliser du prototypage
+Il existe de nombreux outils qui permettent de réaliser du prototypage. Si certains d’entre eux sont faciles à utiliser, d’autres requièrent davantage de connaissances informatiques.
+
+Voici trois avantages proposés par l’outil Figma :
+
+Figma est un des outils de design les plus puissants, ainsi que de prototypage d’interfaces graphiques. Il propose ainsi plusieurs fonctionnalités qui permettent de personnaliser et d’automatiser les processus. Il possède de nombreuses fonctionnalités qui permettent de créer les interfaces digitales. Figma offre des solutions de prototypage qui aident à identifier les interactions avec les clients et/ou les développeurs.
+
+Figma est un outil collaboratif qui met en avant l’interaction en temps réel. En effet, c’est un outil de design et de conception en ligne. Il est facilement accessible et n’est pas destiné uniquement aux professionnels UX ou UI. Il s’adresse donc à un public beaucoup plus large. Son principal avantage est en effet sa large panoplie de fonctionnalités qui sont à la fois complètes et faciles à utiliser.
+
+L’aspect très collaboratif de Figma représente également un de ses nombreux avantages. En effet, il offre la possibilité à plusieurs utilisateurs de travailler en même temps. Les différentes personnes peuvent alors travailler simultanément en temps réel, et sans contraintes, ce qui favorise la collaboration. Cela permet d’améliorer la qualité du prototype fini, tout en optimisant le temps de conception.
+
+Complément
+Figma est un outil collaboratif, car il propose par exemple l’option de partage du prototype. Ainsi, le concepteur peut facilement envoyer le lien à toutes les personnes concernées par le projet, pour qu’elles puissent le modifier ou y jeter un œil.
+
+Les intérêts du prototypage
+La réalisation d’un prototype présente de nombreux avantages :
+
+Le prototype permet tout d’abord de définir le périmètre fonctionnel du projet.
+
+Ensuite, les utilisateurs peuvent réagir sur l’interface grâce au prototype.
+
+C’est une étape qui permet de se concentrer sur le fond, en analysant le contenu et les fonctionnalités.
+
+Le prototype permet également de faciliter l’apport de changements sur l’interface, par rapport au départ, en corrigeant les défauts et en l’améliorant, pour répondre aux attentes des futurs utilisateurs.
+
+Il représente également une étape permettant de corriger et de valider les choix, qu’ils soient d’ordre technique ou fonctionnel, avant d’entamer le développement technique.
+
+Les différents types de prototype
+Un prototype peut alors être plus ou moins fidèle au rendu recherché. Le fait qu’il soit de haute fidélité ou de basse fidélité dépend alors de trois grands aspects :
+
+L’interaction : il s’agit de définir si les liens sont cliquables ou non, si les réponses sont automatiques dès que l’utilisateur effectue une action.
+
+Le visuel : est-ce que le rendu visuel du prototype est proche du rendu final de l’interface ? Est-ce que les schémas, les brouillons ou les plans sont précis ?
+
+Le contenu et la hiérarchisation : est-ce que le prototype contient le contenu final, comme les articles, les descriptions, le contenu, etc. ?
+
+Un prototype haute fidélité est donc très proche de l’interface finale. Même s’il demande plus de travail et plus de temps de mise en place, c’est le meilleur type de prototype. Le prototype haute fidélité propose des interactions qui permettent de se concentrer sur les résultats et sur le comportement des utilisateurs. Ce type de prototype permet aussi de tester les composants techniques, pour une observation plus profonde. Il permet ainsi de tester tous les détails, tels que les animations, les menus déroulants, la qualité des images, etc.
+
+Complément
+Parmi les nombreux outils que Figma propose, il existe par exemple le stylo. Cet outil permet de créer, de manière très simple, les symboles souhaités par l’utilisateur, comme les arcs.
+
+L’aspect collaboratif de Figma permet aux designers de jeter un coup d’œil sur le travail de leurs collègues et de donner un avis en temps réel. Cela leur donne également l’occasion d’en discuter et de faire un bon brainstorming par exemple.

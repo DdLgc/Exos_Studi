@@ -1,0 +1,84 @@
+Variantes
+Les variantes vont être utiles lors de la réalisation des prototypes. Ce sont, comme leur nom l’indique, une variation du composant.
+
+Vous pouvez créer une variante pour un bouton, lui donner un état au survol ou au clic par exemple.
+
+Chaque composant peut être décliné en variante, et chaque variante pourra être modifiée selon les besoins.
+
+Créez tout d’abord votre premier composant, un bouton pour commencer. Vous l’appellerez « Button » dans le menu gauche.
+
+
+Une fois fait, vous allez sélectionner votre composant. Dans le menu de droite cette fois, vous allez ajouter une variante.
+
+
+En cliquant sur le « + », vous pouvez observer plusieurs changements.
+
+
+Premièrement, dans le menu de gauche, vous avez désormais votre composant « Button » qui contient deux variantes (le losange plein signifie que votre élément est une variante).
+
+
+Ensuite, une copie parfaite de votre composant « Button » est venue se greffer à l’intérieur de votre composant.
+
+
+Pour finir, le menu « Variants » a changé et laisse désormais la place à cette disposition. Concentrez-vous sur « Property1 » ainsi que sur « Variant2 ».
+
+Le terme « Property » fait référence aux noms des différents aspects du composant. Par exemple, cela peut être renommé par « type », « size », « state », ou « icon », si le composant en possède une.
+
+Pour renommer la « Property », il faut alors sélectionner le composant « Button » dans son ensemble, en cliquant dessus ou en allant dans le menu de gauche directement. Puis, dans le menu de droite, double cliquez sur « Property », et assignez-lui le nom souhaité.
+
+Vous pouvez par exemple créer les variantes de type de ce bouton.
+
+
+« Variant2 » est un nom par défaut, mais cela représente les différentes options disponibles pour votre composant. Cela peut être par exemple : primary, secondary, info, alerte, danger, etc. Les possibilités sont multiples. Dans le cadre de cette démonstration, contentez-vous de « Primary » et « Secondary ».
+
+Pour renommer nos variantes, double cliquez à tour de rôle sur « Default » et « Variant 2 », et entrez les types que vous souhaitez pour vos boutons. Ici, vous pouvez utiliser « Primary » et « Secondary ».
+
+
+
+Le menu de gauche a sensiblement changé et les noms ne sont plus les mêmes.
+
+
+N’oubliez pas de donner une couleur différente à votre bouton « Secondary ». Ainsi, selon si vous lui assignez le type primaire ou secondaire, la couleur pourra varier.
+
+
+Chaque variante est présentée selon son nom. Il est possible d’aller plus loin dans la conception de variantes, en ajoutant plusieurs properties (propriétés), à un seul et même composant.
+
+Vous pouvez désormais, pour faire un test, piocher dans la catégorie « Assets » de votre menu de gauche. Ici, votre composant « Button » apparaîtra. Faites-le glisser n’importe où sur votre fenêtre de travail.
+
+
+Par défaut, la propriété est primaire (car le bouton a été créé en premier, mais tout est modifiable selon les besoins).
+
+Si vous observons le menu de gauche, vous pouvez voir que c’est bien une instance du composant grâce au losange.
+
+
+Cela veut dire qu’une simple modification au composant principal suffit à apporter des modifications à toutes les instances créées.
+
+Maintenant, si vous observez le menu de droite, vous pouvez voir votre variante, qu’il est désormais possible de modifier grâce au menu déroulant.
+
+
+Vous pouvez, à tout moment, basculer entre la valeur primaire ou secondaire très facilement.
+
+Bien évidemment, les propriétés ne sont pas fixées à une seule, et il est possible de créer tout un panel de variantes pour un seul et même composant.
+
+Vous pouvez par exemple ajouter la propriété « Size » au bouton. Pour ce faire, revenez à votre composant principal, sélectionnez votre premier bouton, puis dupliquez-le (« Ctrl + D » ou « Command + D »). Vous pouvez observer le menu de droite de votre nouvelle variante :
+
+
+Un petit message d’erreur vous signale qu’il y a un conflit entre votre élément dupliqué et l’élément de base. Pour réparer cet avertissement, vous pouvez ajouter une nouvelle valeur de taille.
+
+
+Puis, il faut apporter des petites modifications sur les dimensions du bouton, afin que celui-ci soit « Small ».
+
+
+
+On répète la même opération pour le second bouton. On le duplique, on lui assigne la valeur « Small », puis on lui apporte des modifications sur les dimensions.
+
+
+
+Complément
+Vous pouvez décliner ces variantes à l’infini. Vous pouvez ajouter de nouveaux types, comme un bouton contenant une icône par exemple.
+
+
+Avec ce composant, si on fait glisser un composant bouton dans la fenêtre de travail, on peut observer dans le menu à droite une petite subtilité.
+
+
+Vous pouvez voir que, lorsque l’on utilise les valeurs « True » (Vrai) et « False » (Faux), Figma propose automatiquement un petit bouton qui permet d’activer ou de désactiver la valeur. Celle-ci bascule automatiquement sur « True » ou « False ».

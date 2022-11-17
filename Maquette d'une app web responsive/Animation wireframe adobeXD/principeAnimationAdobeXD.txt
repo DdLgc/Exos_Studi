@@ -1,0 +1,45 @@
+Objectifs
+Comprendre les constituantes de la vue Prototype de Adobe XD
+
+Voir comment créer une transition entre plusieurs éléments
+
+Comprendre la notion de point de départ
+
+Apprendre à créer une liaison vers un élément du même plan de travail
+
+Voir comment paramétrer une transition en définissant un déclencheur
+
+Mise en situation
+En activant la vue Prototype de Adobe XD, on retrouve la liste des calques sur la gauche. Nos plans de travail sont toujours représentés dans la zone de travail, au milieu. Le menu contextuel de droite présente en revanche d'autres outils par rapport à la vue Design. Une fois que nous aurons entamé une transition entre plusieurs éléments, c'est ici que nous allons pouvoir configurer les animations et les effets.
+
+L'objectif est de créer plusieurs écrans, puis de pouvoir naviguer entre ces écrans à l'aide de différentes actions utilisateur pour représenter ce que permettra de faire l'application finale développée. On crée un prototype dynamique qui répond aux actions utilisateur. Il sera également possible de capturer un parcours sur ce prototype dynamique et d'en exporter une vidéo.
+
+La notion de point de départ de l'animation
+Adobe XD va nous permettre de définir l'écran de base sur l'animation. Pour fixer un plan de travail comme étant l'écran de base, il suffit de repérer l'icône de maison en haut à gauche du plan de travail et de cliquer dessus. Quand l'icône est bleue, c'est que ce plan de travail est considéré comme le point de départ du prototype. Cet écran sera alors représenté comme le premier écran de notre animation.
+
+Créer une liaison entre deux éléments
+La base de fonctionnement de cet écran prototype est de sélectionner un groupe ou un calque dans un plan de travail. Une fois sélectionné, une icône de flèche apparaît sur la droite de l'élément. Il est alors possible de click-and-drag cette flèche vers un autre élément : il peut soit s'agir d'un élément présent dans la même page (si les deux éléments sont actuellement visibles, il ne se passe rien, si l'élément cible est hors de l'écran, Adobe XD va provoquer un scroll vers cet élément), soit un autre plan de travail. Choisir un autre plan de travail va effectuer une transition vers ce nouvel écran, comme s'il s'agissait d'un lien hypertexte qui avait été cliqué sur une page web.
+
+Liaison vers un autre élément dans la page
+Pour créer un effet de scroll, il est nécessaire que le plan de travail ciblé soit plus haut que les autres plans de travail. On voit alors apparaître sur celui-ci une icône avec une ligne pointillée qui représente le fold : tout ce qui est en dessous n'est pas visible par défaut, il faut scroller, ou déclencher une action qui va scroller à notre place. Nous verrons un peu plus tard comment déclencher une action de défilement vers un élément en dessous du fold.
+
+Paramétrer une liaison entre deux éléments :
+
+Une fois deux éléments liés, le menu de droite affichera les paramètres de cette liaison. Il va alors être possible de configurer la manière dont Adobe XD va gérer la transition entre les deux éléments.
+
+
+Déclencheur
+La première option d'une liaison entre deux écrans est son élément déclencheur. Il est possible de choisir entre quatre valeurs :
+
+Appuyer : réagira au clic ou au touch dans le cas d'une prévisualisation sur un terminal mobile
+
+Faire glisser : réagira au mouvement swipe sur un terminal mobile
+
+Touche et manette de jeu : réagira à une saisie clavier sur une touche particulière ou sur une touche d'une manette de jeu branchée. La touche en question est définie juste en dessous, dans le champ de texte, qui apparaît quand l'option « Touche et manette de jeu » est sélectionnée.
+
+Voix : réagira à la voix de l'utilisateur lorsqu'il prononcera un certain mot-clé. Celui-ci est saisi dans le champ de texte qui apparaît quand l'option « Voix » est sélectionnée. Pour que le micro soit activé, il est nécessaire de réaliser une action différente selon qu'on est sur une fenêtre de prévisualisation Adobe XD sur ordinateur, sur mobile ou sur le Web. Sur ordinateur, il faudra maintenir la touche Espace du clavier et prononcer sa commande vocale ; sur mobile, il faudra maintenir son doigt sur l'écran et prononcer la commande ; sur le Web, il faudra cliquer sur l'icône de microphone dans le coin inférieur droit de l'écran.
+
+
+Syntaxe
+À retenir
+La vue Prototype de Adobe XD permet de définir des transitions entre certains éléments, qu'ils soient présents sur le même plan de travail ou entre deux plans de travail. Ces actions de transition sont définies par un déclencheur qui peut être un clic, une action de swipe, un appui sur une touche de clavier ou de manette, ou encore une commande vocale. Une animation possède un point de départ qui correspond à un plan de travail.

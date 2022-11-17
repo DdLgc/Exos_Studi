@@ -1,0 +1,105 @@
+Aujourd’hui, on ne peut parler de design d’interface, de création, ou encore de refonte de site web, sans évoquer l’outil Figma. Il s’agit en effet d’une des solutions les plus utilisées en ce moment par les UI et UX designers pour la conception d’interfaces graphiques interactives. Cet outil est très largement connu pour ses fonctionnalités de partage et de travail collaboratif entre les différents intervenants d’un projet. Figma présente aussi l’avantage d’être facile à manipuler. Même les designers débutants peuvent le maîtriser rapidement et peuvent ainsi commencer à concevoir des créations graphiques diverses.
+
+Ce cours porte justement sur l’utilisation de l’interface Figma. Dans la première partie, nous allons parler de la manipulation de cet outil de design nouvelle génération. Puis, dans la seconde partie, nous verrons la conception avancée de trois créations graphiques : le menu déroulant ou menu « dropdown », l’incrustation d’écran, et la personnalisation du design.
+
+Rappel
+Pourquoi utiliser Figma ?
+Tout d’abord, Figma est disponible sous deux formes, une application directement sur ordinateur et une webapp directement sur le navigateur. Son grand avantage est qu’il est possible de travailler aussi bien sur son poste de travail que chez soi. On peut également consulter sur n’importe quel device les fichiers créés et partager ces mêmes fichiers grâce à un simple lien.
+
+Un point supplémentaire qui facilite la création d’interface est l’intégration de plugins directement dans Figma. Le prototypage est simplifié, directement intégré, nul besoin de logiciels supplémentaires pour le réaliser. Tout un « écosystème » de plugins disparaît pour plus de simplicité et d’efficacité.
+
+Le versioning
+Une seule version de fichier permet d’éviter des erreurs sur les maquettes. Ainsi, il n’y a pas de fichier source perdu ou démultiplié par le nombre d’acteurs. Il est tout de même possible d’enregistrer ses fichiers sources pour réaliser des back-ups.
+
+Les librairies de composants
+Lors de la création d’une interface, il est possible de créer différentes librairies de composants, basées sur le principe de l’atomic design. Vous pouvez ainsi partager ces librairies à n’importe quel membre lié à votre projet.
+
+Figma est encore plus puissant lors de la réalisation d’un design qui permet à chaque nouveau projet d’être créé sur une base de composants validés. Ce système augmentera la productivité du projet, tout en respectant les deadlines mises en place.
+
+Les débuts de Figma
+Lancé en 2016, l’éditeur graphique Figma est aujourd’hui placé parmi les tops 3 des meilleurs outils de design d’interface par les spécialistes UI et UX designers. S’il a connu un franc succès en seulement quelques années, c’est en raison de sa grande praticité d’utilisation, mais aussi grâce à ses nombreuses fonctionnalités. Figma est très rapidement devenu le concurrent direct des outils d’édition graphique connus, comme Adobe XD ou encore Sketch.
+
+Méthode
+Utiliser l’éditeur graphique Figma
+Figma est un outil digital qui se démarque par sa grande facilité d’utilisation. Il présente une interface intuitive qui se rapproche de celle des autres outils les plus courants, pour permettre aux utilisateurs de manipuler le logiciel avec aisance.
+
+Pour utiliser l’éditeur graphique Figma, aucun téléchargement n’est nécessaire. L’outil est accessible directement sur le web.
+
+Ainsi, pour une première utilisation, il faudra se rendre sur le site figma.com et choisir entre :
+
+Créer un compte utilisateur en ligne : pour cela, vous devez cliquer sur l’onglet « Sign up » en haut, à droite de la page d’accueil. Il suffit, ensuite, de suivre toutes étapes de création de compte sur le site. Une validation de la création du nouveau compte utilisateur est alors envoyée par e-mail. Après réception de cette validation, vous pouvez commencer à explorer le site.
+
+Télécharger l’application Desktop : pour cela, vous pouvez accéder au menu hamburger dans le coin supérieur gauche de la page d’accueil. Vous devez ensuite cliquer sur obtenir l’application de bureau et suivre toutes les étapes pour l’installer sur votre ordinateur.
+
+
+Les étapes à suivre pour une première utilisation de Figma
+
+Remarque
+Le designer ou développeur peut utiliser Figma en utilisant n’importe quel navigateur web avec une connexion internet. Après l’ouverture de son compte utilisateur, il peut, entre autres :
+
+Concevoir des affiches,
+
+Composer une publication pour les réseaux sociaux,
+
+Créer des sites et applications mobiles,
+
+Effectuer le prototypage d’une application.
+
+Les détails de l’interface de Figma
+Pratique et convivial, l’interface de Figma est divisée en 3 grandes parties :
+
+La 1re partie : sur le côté gauche de l’interface se trouve la barre latérale qui regroupe les ressources, les couches ainsi que les pages d’un fichier.
+
+La 2e partie : au centre de l’interface, il y a une grande toile sur laquelle se trouvent tous les motifs.
+
+La 3e partie : sur le côté droit de l’interface sont indiquées toutes les informations sur les éléments du fichier.
+
+
+Interface de Figma
+
+Source : i2.wp.com
+
+Complément
+L’interface Figma pour collaborer en équipe
+Grâce à la fonction collaborative de Figma, une équipe peut participer ensemble et simultanément à un projet, à tout moment et n’importe où. Cette fonctionnalité permet également de donner à des clients ou à des supérieurs un accès au travail de conception graphique en cours, en temps réel.
+
+En pratique, cette fonction de Figma s’apparente à Google Drive, à la différence près que les utilisateurs font de la conception graphique. Sur l’interface, le curseur de chaque utilisateur est codé par couleur et reste visible sur l’écran. L’apport de chaque utilisateur sur le projet est, en plus, facilement reconnaissable, car chaque curseur porte le prénom de son utilisateur.
+
+Attention
+L’outil de création graphique Figma est disponible en deux versions :
+
+L’application web : cette version du Figma est accessible via un navigateur web et une connexion internet. Elle permet de créer des designs, de les stocker en cloud et de les partager pour un travail collaboratif avec les différentes équipes de designers et de développeurs, mais aussi avec les clients ou les testeurs.
+
+La version desktop : cette version de Figma est disponible pour MacOS et Windows. Elle permet à l’utilisateur de travailler de manière « locale », dans le cas où il ne dispose pas d’une connexion internet. Il faudra tout de même une connexion pour partager les travaux avec le reste de l’équipe.
+
+Remarque
+Il est possible de profiter de la version gratuite de Figma à condition qu’il y ait au maximum :
+
+Deux utilisateurs
+
+Trois projets
+
+Cette version permet tout de même de profiter de nombreux avantages, comme un cloud illimité et des invités illimités.
+
+Complément
+Qui peut utiliser l’interface Figma ?
+Très complet, l’outil de création graphique Figma offre de nombreuses fonctionnalités intéressantes sur une interface intuitive et accessible même aux débutants. Toutefois, il faudra que l’utilisateur ait quelques notions sur le design system et qu’il comprenne l’utilisation des styles, ainsi que la logique d’héritage des composants pour utiliser Figma de manière optimale.
+
+Remarque
+L’application Figma s’adresse particulièrement aux utilisateurs professionnels comme :
+
+Les concepteurs
+
+Les designers
+
+Les webdesigners
+
+Les webmasters
+
+Les développeurs front-end
+
+Les PO
+
+Les chefs de projets AMOA
+
+Elle peut être utilisée par toute personne souhaitant créer des interfaces digitales qui dispose d’une aptitude créative.

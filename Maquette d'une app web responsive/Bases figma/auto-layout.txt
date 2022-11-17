@@ -1,0 +1,105 @@
+Auto-layout par la pratique
+Vous savez désormais créer des formes, qu'elles soient simples ou un peu plus complexes. Vous savez de même créer des composants et un wireframe.
+
+Maintenant, vous allez passer à la réalisation d’une maquette un peu plus complexe. Il s’agit de créer quelque chose d’un peu plus visuel. Il faut aussi être capable de paramétrer la maquette si celle-ci possède trop de contenus pour être placée dans une seule frame.
+
+Pour ce faire, vous allez devoir connaître les options de l’auto-layout et des variants.
+
+On se retrouve vite de l’autre côté du rideau pour suivre ce nouveau cours !
+
+Pour comprendre l’auto-layout, il vous faut comprendre ce qu’est l’élément « Parent » et l’élément « Enfant ».
+
+Un élément Parent est un élément qui va venir accueillir d’autres éléments en son sein, les éléments Enfants.
+
+La principale différence entre les contraintes et l’auto-layout réside dans le fait que :
+
+Les contraintes vont être appliquées lorsqu’on va redimensionner l’élément Parent à la main, en modifiant la largeur et la hauteur.
+
+L’auto-layout, c’est l’élément Enfant qui va pousser l’élément Parent à se modifier, se redimensionner.
+
+Attention
+Pour utiliser l’auto-layout de manière optimale, il va falloir utiliser principalement les frames (cadres).
+
+Les frames seront un outil très puissant lors de la réalisation de vos maquettes avec l’auto-layout.
+
+Vous pouvez utiliser les formes à l’intérieur des frames, mais dès lors que vous souhaitez appliquer l’auto-layout, celui-ci n’est disponible que sur les frames.
+
+Méthode
+Commençons doucement en découvrant ce qu’est l’auto-layout par la pratique.
+
+Étape 1 :
+
+Créez une frame de 250 px (width) sur 75 px (height) en y ajoutant une bordure et une couleur de remplissage.
+
+
+Étape 2 :
+
+Une fois la frame créée, ajoutez un texte à l’intérieur et centrez-le.
+
+
+Étape 3 :
+
+Lorsque vous sélectionnez la frame, vous pouvez voir l’option « Auto layout » présente dans le menu à droite. Cliquez sur le « + » et observez ce qu’il se passe.
+
+Rien n’a changé, mais seulement à première vue. Si vous apportez une modification au texte, vous allez pouvoir observer quelque chose d’intéressant.
+
+
+Désormais, selon le texte que vous allez ajouter au sein de votre frame, celle-ci va automatiquement s’adapter à votre contenu. Vous pouvez même faire un retour à la ligne et ajoutez du texte comme ceci.
+
+
+Étape 4 :
+
+Il reste tout de même un problème. Essayez de modifier vous-même la taille de votre frame.
+
+
+Reprenez votre rectangle précédent et sélectionnez-le, puis observez le menu « Auto layout ».
+
+
+Les deux icônes de flèche représentent le sens des éléments : vertical pour la flèche pointant vers le bas, horizontal pour la flèche pointant vers la droite.
+
+Juste à côté, vous avez la marge qui sépare les différents enfants de votre frame.
+
+Vient ensuite le « padding » qui se situe dans votre objet, ainsi que l’emplacement de votre objet. Si celui-ci ne prend pas toute la largeur et / ou toute la longueur, il est possible de lui assigner une place en particulier, en plaçant le petit élément bleu selon vos besoins dans la grille.
+
+Complément
+Le padding est une marge intérieure qui va permettre de définir les écarts de remplissage sur les côtés d’un élément. Ici, il y a 30 px de padding en haut et en bas et 76 px de padding à gauche et à droite. Vous pouvez modifier ces données si vous souhaitez visualiser plus précisément ce qu’est le padding. Retenez ici la notion de padding qui va vous intéresser d’ici peu.
+
+Si l’on modifie la taille de la frame, le texte ne bouge pas, il reste exactement à son emplacement. Comment faire pour que le texte s’adapte à son tour à la taille de la frame ?
+
+Sélectionnez le texte au sein de la frame et attardez-vous quelques instants sur le menu de droite.
+
+
+L’outil « Resizing » a fait son apparition. Celui-ci est défini par défaut sur « Hug contents ». Cela signifie que Figma va faire en sorte de redimensionner ce qui est contenu au sein d’une frame, dans la mesure où les valeurs renseignées dans le padding peuvent être respectées.
+
+Ici, le texte est positionné selon le padding qui a été renseigné par défaut, lors de la création de l’auto layout. En redimensionnant la frame, le texte ne peut plus être placé à un padding précis, alors rien ne se passe et le texte disparaît de la frame.
+
+Il est cependant possible de modifier cela en changeant la valeur « Hug contents » de la largeur du texte.
+
+
+Si vous modifiez la valeur « Hug contents » par « Fill container » et si vous essayez à nouveau de modifier les dimensions de votre frame, vous obtenez normalement ceci.
+
+
+Votre texte s’adapte ainsi de manière spontanée et il peut désormais être agencé différemment.
+
+Complément
+Les objets présents dans une frame avec un auto layout vont s’étendre selon la largeur (width) ou la hauteur (height) de leur frame Parent.
+
+Attention
+Il y a toutefois une limite à l’adaptabilité du texte. N’allez pas redimensionner la frame de manière trop petite, que ce soit en hauteur ou largeur. Aussi forte soit la capacité d’adaptation du texte (objet Enfant), le texte ne peut pas rétrécir en termes de police d’écriture.
+
+Une fois l’auto layout mis en place, il est également possible d’ajouter des objets, des formes ou d’autres textes au sein de la frame.
+
+Vous pouvez par exemple dupliquer votre texte déjà présent au sein de votre frame, en le sélectionnant, puis en utilisant le raccourci « Ctrl + D » (Windows) ou « Command + D » (Mac).
+
+
+Remarque
+Si, lorsque vous essayez de redimensionner la frame, votre texte ne bouge pas, il faut redéfinir « Fill container » dans l’outil « Resizing ».
+
+Dès lors qu’il y a deux éléments ou plus au sein d’une frame, vous pouvez définir leur façon de se positionner avec les flèches directionnelles dans l’outil auto layout. Ici, par défaut, la disposition était faite selon un plan horizontal. Si vous souhaitez les placer de manière verticale, sélectionnez la flèche verticale, puis réglez l’espace qui sépare vos deux éléments, avec l'icône de marge juste à côté.
+
+
+Attention
+Si vos textes ne se placent pas l’un en dessous de l’autre, vérifiez que le resizing de votre frame et / ou de vos textes ne soient pas sur « Fixed width » et / ou « Fixed height ». Ces valeurs doivent être sur « Hug contents » pour la frame et sur « Fill container » pour les textes.
+
+Complément
+Vous pouvez consulter l’article écrit sur la page de Figma afin de connaître les tenants et les aboutissants de cette fonctionnalité particulièrement utile.

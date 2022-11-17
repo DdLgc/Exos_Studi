@@ -1,0 +1,39 @@
+Objectifs
+Voir comment importer plusieurs images dans les emplacements d'une grille de répétition
+
+Voir comment importer plusieurs éléments textuels dans les emplacements d'une grille de répétition
+
+Apprendre à paramétrer l'espacement entre deux éléments
+
+Voir comment dissocier la grille pour permettre la manipulation individuelle des éléments
+
+Mise en situation
+Nous avons vu qu'il était possible de modifier individuellement les éléments d'une grille de répétition, à condition que ces éléments soient du texte ou des images. Adobe XD permet pour ces deux types d'éléments d'automatiser un peu la saisie : c'est ce que nous allons voir tout de suite.
+
+Les images
+Commençons par les images : nous avions vu qu'avec le plugin UI faces, il nous était possible de très rapidement sélectionner plusieurs images pour remplir tous les emplacements, dans le cas d'une grille de répétition. Il existe une autre manière de faire sans aucun plugin.
+
+Il est possible de simplement sélectionner plusieurs images et de les glisser-déposer dans un des emplacements. Nous avons ici 7 images qui correspondent à nos 7 contacts. Ces images sont préfixées avec un numéro de sorte à pouvoir les sélectionner dans l'ordre souhaité dans notre système de fichiers. En les faisant simplement glisser, les images vont remplir les emplacements.
+
+Dans le cas où vous auriez sélectionné moins d'images que ce qu'il n'y a d'emplacements à remplir, Adobe XD aurait alors bouclé sur les images pour remplir tous les emplacements.
+
+Là encore, une fois les images en place, il est possible de modifier les caractéristiques de toutes les images d'un coup, en en modifiant une seule.
+
+Le texte
+Comme pour les images, il existe une technique pour ajouter automatiquement du texte sans avoir à le saisir pour chaque contact dans notre liste. Pour cela, il suffit de simplement créer un fichier textuel (.txt) dans lequel figureront les textes que nous souhaitons importer dans la grille de répétition. Les différents textes sont divisés par des sauts de ligne à l'intérieur du fichier. Il suffit alors, comme pour les images, de réaliser un glisser-déposer du fichier directement sur un emplacement de texte. Chaque élément de la liste recevra alors une ligne du fichier automatiquement.
+
+Espacement
+Il est également possible de paramétrer l'espacement des éléments de la grille de répétition. Pour cela, il suffit de placer le curseur de la souris entre deux éléments jusqu'à ce que la zone rose apparaisse. Il vous faudra ensuite réaliser un clic-and-drag pour augmenter ou réduire l'espacement entre les éléments.
+
+Dissocier la grille
+Comme nous avons pu le voir, certains éléments comme les textes et les images sont modifiables individuellement, mais ce n'est pas le cas des autres types d'éléments, qui répercutent les modifications sur tous les éléments de la grille de répétition. Un exemple est ici le marqueur de présence ou d'absence d'un contact. Modifier la couleur dans le contexte de la grille de répétition appliquera la même couleur partout. Pour modifier ces éléments indépendamment, il sera alors nécessaire de dissocier la grille ; autrement dit, de désactiver le mode Grille de répétition. Chaque élément sera alors créé indépendamment dans la liste des calques et il sera possible de les modifier individuellement, mais les fonctionnalités liées à la grille de répétition ne seront plus possibles.
+
+Pour désactiver la grille de répétition, il suffit juste de la sélectionner, puis de cliquer sur le bouton Dissocier la grille dans le menu contextuel de droite.
+
+Syntaxe
+À retenir
+Adobe XD permet d'importer très rapidement plusieurs images ou textes pour remplir tous les emplacements d'une grille de répétition. Pour utiliser cette fonctionnalité, il s'agit simplement de faire glisser dans l'espace de travail, au niveau de l'emplacement souhaité, les images ou le fichier textuel contenant les éléments souhaités. Ces éléments seront alors automatiquement répartis dans les différents emplacements.
+
+Adobe XD gère automatiquement l'espacement entre les éléments d'une grille de répétition, mais il est possible d'influencer ce paramètre en plaçant le curseur de la souris entre deux éléments. Avec un click-and-drag, il sera alors possible d'augmenter ou de réduire l'espacement.
+
+Enfin, certains éléments ne peuvent pas être saisis indépendamment (comme la couleur d'une forme, par exemple). Pour modifier individuellement ces éléments, il sera alors nécessaire de quitter le mode Grille de répétition en cliquant sur le bouton Dissocier la grille dans le menu contextuel.

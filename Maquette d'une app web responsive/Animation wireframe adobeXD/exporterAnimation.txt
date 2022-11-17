@@ -1,0 +1,68 @@
+Objectifs
+Comprendre comment paramétrer une action principale de transition
+
+Comprendre comment paramétrer une action secondaire de transition
+
+Voir comment ajouter plusieurs déclencheurs différents sur une même transition
+
+Mise en situation
+Une fois la liaison entre deux éléments créée et le déclencheur défini, il va être temps de configurer la transition à l'aide du menu contextuel de droite.
+
+Action principale
+Il s'agit de l'action de transition principale entre les deux éléments au moment où le déclencheur configuré se met en marche. Adobe XD propose plusieurs paramètres pour cette transition :
+
+Type : permet de choisir le mode de transition entre plusieurs options, que nous détaillerons juste après.
+
+Destination : un rappel de l'élément de destination de la transition, qui peut se trouver sur le même plan de travail (en dessous du fold ce qui forcera Adobe XD à scroller vers cet élément) ou bien tout simplement un autre plan de travail représentant une nouvelle « page ».
+
+Rythme : il s'agit de la fonction de easing utilisée. C'est le même principe que pour les transitions et animations CSS, Adobe XD propose le choix entre plusieurs modes de easing, qui produiront des effets visuels différents.
+
+Durée : il s'agit de la durée totale de la transition, exprimée en secondes.
+
+Les différents types d'action
+Comme nous l'avons vu, plusieurs modes sont disponibles :
+
+
+Transition : ce mode permettra d'effectuer une transition selon une animation pré-sélectionnée. Parmi les animations disponibles, on retrouve le « fondu », le « glissé » ou le « poussé », qui produiront des effets différents.
+
+Animation automatique : Adobe XD détecte automatiquement les différences entre deux plans de travail ciblés par la transition et va proposer une animation adaptée entre les deux états.
+
+Incrustation : de la même manière qu'avec le mode « Transition », il va être possible de choisir un mode entre « fondu » et « glissé ». La différence avec la transition est que l'animation se déroulera sur un seul plan de travail. Il va donc être possible de superposer plusieurs éléments graphiques sur le même plan de travail. Ce mode est très utile quand on souhaite représenter le clavier logiciel d'un smartphone qui apparaît au clic sur un bouton, par exemple. Il sera alors possible de faire apparaître le clavier par-dessus le reste du contenu.
+
+Défiler pour : ce mode va nous permettre de configurer un scroll. Ici, il ne sera pas question de sélectionner un autre plan de travail comme la destination de notre transition, mais bien un élément dans la même page se trouvant en dessous de la ligne de fold. Adobe XD déclenchera automatiquement un défilement vers cet élément au moment de réaliser la transition.
+
+Plan de travail précédent : ce mode permet simplement d'effectuer une animation opposée à la dernière transition. Dans le cas où la première animation est une transition entre les plans de travail A et B : depuis le plan de travail B, paramétrer une action « Plan de travail précédent » permettra de revenir tout de suite au plan de travail A.
+
+Lecture audio : ce mode ne déclenche pas de transition visuelle, mais va lire le contenu d'un fichier audio qu'il sera possible de renseigner sur l'interface de Adobe XD.
+
+Lecture vocale : ce mode ne déclenche pas de transition visuelle, mais permet de faire lire à une voix synthétique un texte rédigé. Il est également possible de sélectionner la voix parmi plusieurs propositions.
+
+Action secondaire
+Il est possible d'ajouter une action secondaire, en cliquant sur le bouton + du second bloc Action du menu contextuel du mode Prototype. Cette nouvelle action vient compléter la transition principale entre deux éléments et permet de jouer du son.
+
+Il est possible de choisir entre deux modes :
+
+Lecture audio : permet de sélectionner un fichier audio qui sera lu au moment de la transition.
+
+Lecture vocale : permet de sélectionner une voix synthétique et de saisir un message dans un champ de texte. Ce texte sera lu par la voix sélectionnée au moment de la transition.
+
+Plusieurs déclencheurs
+Il est également possible de définir plusieurs déclencheurs différents sur une même action de transition entre deux éléments. Pour cela, il existe plusieurs méthodes.
+
+La première est de cliquer à nouveau sur l'élément source depuis lequel part une liaison vers l'élément de destination. À la place d'afficher l'icône de flèche à droite de l'élément, une icône + sera alors visible. De la même manière qu'avec la flèche, il est alors possible de click-and-drag vers le même élément de destination ou vers un autre élément. Une nouvelle transition apparaîtra alors dans le menu contextuel, nous permettant de sélectionner un déclencheur qui n'a pas déjà été utilisé sur cette liaison (et ceci pour éviter les conflits). Il n'est possible de paramétrer qu'un seul type de déclencheur par élément.
+
+La seconde méthode consiste à cliquer sur un lien déjà actif et sur la petite icône + présente à côté du texte « Interaction ». Cela aura le même effet et créera une seconde liaison entre les mêmes éléments sources et de destination. Les deux techniques ont les mêmes restrictions au niveau du type de déclencheur unique.
+
+Une fois un second lien paramétré, cliquer à nouveau sur le lien laissera apparaître une icône avec un chiffre, qui représente le nombre de liens. Passer le curseur de la souris dessus affichera une tooltip avec le descriptif des déclencheurs actifs.
+
+Exportation du résultat
+Une fois nos transitions configurées, il va être possible de prévisualiser le résultat et de l'exporter au format vidéo. Pour cela, il suffit de cliquer sur le bouton Aperçu présent en haut à droite de l'interface de Adobe XD. Une fois ce mode activé, une nouvelle fenêtre va s'ouvrir et représenter le plan de travail défini comme « point de départ » de notre animation. Il est alors possible d’interagir avec le design en déclenchant les transitions que nous avions paramétrées. Sur ordinateur, il sera nécessaire de maintenir la touche Espace pour lancer une commande vocale. L'icône de chevron tout en haut à droite de la fenêtre va nous permettre de définir si Adobe XD doit capturer le son provenant du micro de l'appareil pendant l'enregistrement en vidéo, et si les notifications doivent être affichées pour la voix. Si on active ce dernier paramètre, Adobe XD nous préviendra dans le cas où il reçoit une commande vocale qu'il ne reconnaît pas.
+
+Pour exporter au format vidéo, il suffit de cliquer sur l'icône d'enregistrement en haut à droite de la fenêtre, puis de parcourir la maquette. Pour terminer l'enregistrement, il suffit de cliquer à nouveau sur le bouton d'enregistrement ou d'appuyer sur la touche Echap du clavier. Adobe XD devrait alors automatiquement vous demander à quel emplacement enregistrer la vidéo au format mp4.
+
+Syntaxe
+À retenir
+Il est possible de paramétrer le contenu d'une transition entre deux éléments, qui peut être visuelle ou simplement déclencher un effet sonore.
+
+Adobe XD propose plusieurs modes différents : transition, incrustation ou mode d'animation automatique qui se charge de détecter les changements entre deux plans de travail pour proposer une animation fluide. Il est également possible de définir plusieurs liaisons sur un même élément, à condition que chaque liaison soit déclenchée par un élément différent (clic, swipe, voix, bouton de manette ou de clavier).
+

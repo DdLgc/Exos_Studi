@@ -1,0 +1,102 @@
+Objectifs
+Apprendre à lire les maquettes pour gagner du temps à l'intégration
+
+Découper et organiser les éléments de la maquette
+
+Mise en situation
+Une fois que les maquettes sont validées par le client, il va être à la charge du développeur ou de l'intégrateur de les intégrer. Certaines maquettes peuvent paraître totalement impossibles à intégrer : on peut se sentir perdu et ne pas savoir par où commencer. Cependant, il existe des façons de simplifier la tâche en amont de l'intégration.
+
+S'approprier la maquette
+Nous allons commencer par renommer les éléments présents sur la maquette afin de facilement les reconnaître et les identifier. Il est conseillé de les nommer en anglais, et de séparer les mots par un tiret du 6 : par exemple, « article-title ». Ce sera une aide supplémentaire au moment de créer des classes CSS, car il sera plus simple de leur trouver des noms ou des identifiants.
+
+Méthode
+Renommer sous Adobe XD
+Pour cela, dans Adobe XD, il suffit de double-cliquer sur le nom d'un élément dans le volet de gauche, et de saisir son nouveau nom.
+
+Si le volet d'éléments n’apparaît pas, il suffit de cliquer sur un élément du plan de travail pour le faire apparaître.
+
+Exemple
+Dans la pratique 
+Prenons pour exemple cette maquette d'une recette d'un site de cuisine gastronomique :
+
+
+Dans un premier temps, afin de mettre de l'ordre et d'y voir plus clair, il est conseillé de renommer les éléments en leur donnant un nom le plus parlant possible.
+
+Par exemple, l'image de soupe n'a pas un nom qui permet de facilement l'identifier. Imaginons qu'il y ait plus d'images sur cette maquette : cela serait illisible. Nous allons donc la renommer, et faire de même pour les autres éléments de la maquette.
+
+
+Grouper les éléments
+Par la suite, nous allons grouper les éléments de la maquette qui vont ensemble. Ces groupes nous serons très utiles au moment d'intégrer la maquette, car ils nous feront gagner du temps. En effet, ils permettent de mettre en avant les éléments englobants, c'est-à-dire les futurs containers de la page. La plupart du temps, ces containers seront des éléments sémantiques de type <header>, <footer>, ou encore des <div> ou des <span>.
+
+Méthode
+Grouper sous Adobe XD
+En pratique, dans le logiciel Adobe XD, pour grouper des éléments, il suffit de les sélectionner et de faire un clic droit sur l'un d'eux, puis de choisir l'option « grouper ». Il est également possible d'utiliser le raccourci clavier Ctrl + G sous Windows.
+
+Afin de faciliter ce travail de groupements, nous devons lire les éléments du plus grand au plus petit, c'est-à-dire qu'il faut trouver le bloc qui englobe le plus d'éléments, puis celui qui va englober plusieurs éléments dans une même zone. Dans ce groupe ainsi formé, on pourra même identifier des éléments pouvant encore être groupés.
+
+Avec le temps, notre œil sera plus entraîné et reconnaîtra plus rapidement les groupes à former.
+
+Méthode
+Astuce
+Petite astuce : une fois que les éléments englobants sont groupés, il est possible de verrouiller les fonds en faisant un clic droit, puis « verrouiller ». Attention à ne pas verrouiller tout le groupe, ou il ne sera plus possible de le modifier !
+
+Autre raccourci utile : maintenir Ctrl et cliquer sur l'élément souhaité ou double-cliquer dessus ne sélectionnera que l'élément cible, et non le groupe entier.
+
+Exemple
+Dans la pratique 
+Une fois que nous avons renommé nos éléments, nous pouvons voir que certains semblent appartenir à un même groupe. Et c'est là qu'intervient l'outil de groupement d'Adobe XD.
+
+Ici, on constate que les éléments qui concernent la liste des ingrédients peuvent être groupés dans un élément plus gros : un bloc de la liste des ingrédients.
+
+
+Toujours afin de garder une organisation la plus claire possible, nous allons nommer ce groupe « ingredient-list-bloc » :
+
+
+Nous pourrions d'ailleurs former un autre groupe à partir des éléments qui donnent des informations générales sur la recette. Nous pouvons ainsi créer le groupe « recipe-header » :
+
+
+Poser les bases
+Une fois le découpage et le nommage des éléments préparés, il va falloir poser les bases de l'intégration. Intégrer une maquette, c'est transformer des éléments visuels en éléments HTML. C'est grâce à cette étape d'identification que nous allons pouvoir préparer l'écriture du HTML.
+
+Il va falloir identifier les éléments de la maquette pour déterminer s'il s'agit de titres, de listes, de liens, ou encore de tout autre élément de sémantique.
+
+Généralement, les éléments de texte mis en avant par une police plus grosse, avec un poids ou une couleur différente, sont à associer avec les balises heading. Les autres éléments textuels peuvent être des paragraphes lorsqu'il s'agit de texte, ou des listes si des puces ou des tirets sont présents.
+
+Le plus simple est de commencer par identifier les éléments les plus évidents.
+
+Et les groupes ?
+Les groupes formés dans l'étape précédente sont souvent des conteneurs, c'est-à-dire qu'ils englobent d'autres éléments. Ces groupes représentent des <div> ou des <span>, mais, lorsque c'est possible, il faut privilégier l'utilisation des balises sémantiques telles que <footer> et <header>, ou encore <section>.
+
+Il est tout à fait possible que certains éléments de la maquette ne trouvent pas d'éléments HTML correspondants. La plupart du temps, il s'agit d'éléments purement graphiques tels que des bordures, des séparateurs, ou encore des fonds. Ces éléments seront plutôt retranscrits grâce à du CSS au moment de l'intégration.
+
+Pour nous aider, nous allons pouvoir renommer les composants de la maquette en ajoutant le nom des éléments HTML que nous venons d'identifier.
+
+Exemple
+Sur la maquette de recette de soupe précédente, nous allons commencer par associer les composants que nous avons identifiés comme étant des titres par des heading HTML :
+
+
+Ensuite, nous pouvons trouver des éléments qui correspondent à des paragraphes HTML :
+
+
+Puis, ne restent plus que les médias type images, et enfin tout ce qui n'est pas un élément qui correspond à un élément sémantique. Les éléments restants sont souvent des éléments génériques : il faudra déterminer s'il s'agit de <div> ou de <span>.
+
+Ici, nous pouvons partir du plus petit conteneur, puis remonter vers le plus gros :
+
+
+Et voilà, la maquette est prête à être intégrée !
+
+Avec le temps et l'expérience, il sera de plus en plus simple d'effectuer ce travail automatiquement, et même de tête.
+
+Remarque
+Lorem qui ?
+Il est courant que la maquette ne représente pas les vraies données textuelles qui seront présentes dans l'application après le développement. Parfois, elles seront remplacées par du Lorem Ipsum, comme sur notre maquette d'exemple.
+
+Cela n'est pas gênant dans la mesure où elles permettent dans un premier temps de vous repérer et d'identifier que du texte sera présent. Dans la majorité des cas, vous pourrez les associer à des <p>.
+
+Syntaxe
+À retenir
+Nous avons vu que, pour gagner du temps durant la phase d'intégration, il était important de se préparer en prenant le temps d'analyser la maquette.
+
+À partir du fichier .xd ou .psd, on peut d'abord commencer par renommer les composants de la maquette en fonction de leur rôle. Puis on pourra ensuite grouper des éléments en fonction de leur agencement, afin d'identifier les futurs éléments HTML qui les représenteront dans le code.
+
+Ce travail en amont permet de se préparer à la phase d'intégration qui va nécessiter de représenter tous les éléments conformément à la maquette grâce à du HTML/CSS.

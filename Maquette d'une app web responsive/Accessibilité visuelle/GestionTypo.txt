@@ -1,0 +1,16 @@
+Dans le contexte d'une pratique professionnelle, vous utiliserez cette notion afin de choisir des typographies adaptées à votre application.
+
+Méthode
+La gestion de la typographie de votre application jouera un rôle dans sa lisibilité. De nombreuses caractéristiques sont à prendre en compte. Voici les principales :
+
+La taille de votre texte : un texte trop petit et peu lisible demandera plus d'efforts, il sera donc moins lu. Un texte trop gros pourra également paraître trop grossier et compliqué à lire s'il est trop long.
+
+Sa graisse : les textes en gras sont plus visibles, mais si tout votre contenu est en gras, cela peut nuire à la lisibilité globale. À utiliser pour mettre des mots ou phrases en valeur par rapport au reste.
+
+La police utilisée : vous pouvez utiliser des polices différentes pour votre site, mais pas trop au risque de créer quelque chose de confus. Il est généralement conseillé de ne pas utiliser plus de 3 polices pour une même application, personnellement je me limite toujours à deux : une pour les textes « à lire » et une pour les titres et éléments à mettre en avant.
+
+La casse (majuscules ou minuscules) : tout comme la graisse, les majuscules sont à utiliser avec parcimonie. Elles permettent de mettre en valeur des éléments courts (quelques mots isolés, par exemple) mais deviennent difficilement lisibles sur un texte entier.
+
+Syntaxe
+À retenir
+Choisissez les typographies à utiliser dans votre application avec soin, et n'en utilisez pas plus de 3.

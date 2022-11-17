@@ -1,0 +1,103 @@
+Différents types de formes et les contraintes
+Jusqu’ici, le cours vous a présenté la création d’un seul type de forme, le rectangle. Il existe également des autres types de forme « simple », avec des raccourcis utiles pour créer des formes « parfaites ». Il s’agira de vous présenter par la suite la notion de « contraintes » qui vous sera utile pour le maquettage.
+
+Commençons par les raccourcis
+Pour chaque forme que l’on souhaite créer, il est possible, après l’avoir sélectionnée, de cliquer n’importe où sur la fenêtre, afin de créer une forme qui aura une largeur (Width) de 100 px et, lorsque c’est possible, une hauteur (Height) de 100 px également.
+
+Lors de la création d’une forme, vous avez pu remarquer que celle-ci commence par défaut dans le coin en haut à gauche. Il est possible de commencer la forme depuis le centre, en maintenant la touche « Alt » (Windows) ou la touche « Option » (Mac).
+
+Si vous tracez une forme en maintenant la touche « Shift » enfoncée, celle-ci prendra une forme « parfaite ». Le mot parfait désigne ici le fait qu’un rectangle deviendra un carré, une ligne ou une flèche sera tracée avec un angle de zéro degré, une ellipse sera tracée de sorte à former un cercle, un polygone sera tracé pour former un triangle équilatéral (les trois côtés de la même longueur), et l’étoile sera tracée avec tous les côtés de la même longueur.
+
+Il ne s’agit pas ici d’énumérer l’ensemble des raccourcis qui sont disponibles dans Figma. Vous pouvez consulter la liste des raccourcis présents au sein de Figma, en allant sur le menu ci-dessous.
+
+
+Ce menu s'affiche en bas de la fenêtre. Les raccourcis ayant déjà été utilisés s’affichent en bleu, les autres en gris.
+
+
+Revenons à nos formes
+Pour accéder à la ligne ou à la flèche, il suffit de cliquer sur le menu déroulant juste à côté de la forme par défaut, et de sélectionner la ligne ou la flèche. Comme indiqué, il est également possible d’utiliser les raccourcis « L » pour la ligne ou « Shift + L » pour la flèche.
+
+Pour ce qui est de l’ellipse, vous pouvez utiliser le menu déroulant ou utiliser la touche « O » en tant que raccourci.
+
+Les polygones et les étoiles n’ont par défaut pas de raccourci, vous pourrez donc les sélectionner uniquement dans le menu déroulant.
+
+Vous pouvez également accéder aux outils « Crayons » :
+
+Un pour tracer des vecteurs « Pen », dont le raccourci est la touche « P »,
+
+Un pour tracer à main levée « Pencil », dont le raccourci correspond aux touches « Shift + P ».
+
+La création de vecteurs (outil « Pen ») peut se faire en plusieurs fois. Cela vous permet de tracer des lignes avec une forme particulière.
+
+Exemple
+Une fois l’outil « Pen » sélectionné, vous pouvez simplement définir une ligne à chaque clic de la souris. Une fois le vecteur tracé, la touche « Echap » permet de sortir du mode de tracé.
+
+
+A contrario, l’outil « Pencil » sera fait à main levée.
+
+
+Lorsque vous effectuez un double-clic sur l’une des formes, un menu d’outil spécial s’ouvre en haut, à gauche de la fenêtre.
+
+
+Grâce à ce menu, l’outil sélectionné en bleu, le « Bend Tool », vous permet de créer des courbures à partir d’un point quelconque de la forme.
+
+Exemple
+Vous pouvez par exemple arrondir les angles comme ceci.
+
+
+De plus, pour chaque forme, avec l’outil de sélection, il est possible de modifier chaque coin de la forme, afin de créer une forme plus complexe et personnalisée.
+
+Voici un exemple sur un rectangle quelconque.
+
+
+Maintenant que vous avez vu comment créer des formes, il est temps de montrer les contraintes que l’on peut appliquer à celles-ci.
+
+Les contraintes sont des ficelles invisibles qui vont venir fixer votre forme (ou votre composant), à un endroit précis de votre frame. Cela va permettre, par la suite, de rendre vos maquettes responsive.
+
+Exemple
+Dans le cadre d’un design d’application sur téléphone, on peut par exemple mettre l’une sur l’autre une frame « iPhone SE » et une frame « iPhone Pro Max », mais la largeur n’est pas la même. Comment faire en sorte que l’application soit responsive, y compris lors de la présentation de la maquette ? C’est là qu’interviennent les contraintes.
+
+Vous allez maintenant appliquer des contraintes à vos éléments. Prenez une frame « iPhone SE » et mettez-la dans votre fenêtre de travail.
+
+Maintenant, créez un rectangle avec une height (hauteur) de 100 px ; la largeur doit être celle de la frame. Placez maintenant ce rectangle au sommet de votre frame.
+
+
+Ajoutez une bordure noire d’1 px avec l’outil « Stroke » et une couleur différente.
+
+
+Si vous tentez de changer la largeur ou la hauteur de votre frame à cet instant précis, votre rectangle reste de la même taille et ne s'adapte pas à votre écran.
+
+
+Revenez à la taille de frame précédente, en annulant votre changement de taille avec « Ctrl + Z » (Windows) ou « Command + Z » (Mac).
+
+Vous allez maintenant appliquer une contrainte. Sélectionnez votre rectangle. Dans le menu à droite, vous voyez apparaître l’outil « Constraints » (« Contraintes »). Par défaut, vous pouvez observer que les contraintes sont mises sur « Left » et « Top ». Cela signifie que si vous souhaitez modifier la taille de votre frame, le rectangle restera toujours au même emplacement selon votre frame.
+
+Exemple
+Si vous essayez de tirer la taille de votre frame, peu importe le sens, vous pouvez observer que le rectangle sera indéfiniment fixé en haut à gauche de celle-ci.
+
+Pour que votre rectangle puisse être « responsive », appliquez les contraintes suivantes :
+
+
+Plutôt que les contraintes « Left » et « Top », définissez-les sur « Left and right ». Ainsi, lorsque vous allez modifier la largeur de votre frame, votre rectangle restera parfaitement responsive.
+
+Prenons un autre cas :
+
+En plus de votre rectangle, ajoutez une autre forme (peu importe la forme), parfaitement centrée sur votre frame. Pour centrer parfaitement une forme ou un groupe (ou un composant), faites glisser votre objet au milieu de votre frame, jusqu’à ce que deux lignes rouges se croisent.
+
+
+Vous pouvez voir que par défaut les contraintes sont mises sur « Top » et « Left ». Cela signifie, pour rappel, que lorsque vous allez modifier la taille de votre frame, la forme restera exactement à la même place par rapport au « Top » et au « Left » de la frame.
+
+Dans votre cas, si vous souhaitez garder votre forme parfaitement centrée, quelle que soit la taille de frame que vous voulez appliquer, vous pouvez penser que les contraintes à définir sont « Left and right » et « Top and bottom ». Appliquez ces contraintes et tentez de modifier la taille de votre frame.
+
+
+Comme vous lui avez indiqué de garder une position définie par rapport aux bordures de votre frame, votre forme se déforme lorsqu’on applique un ratio « Width / Height » différent du ratio initial, avec une largeur plus importante par rapport à la hauteur, et inversement, une hauteur plus importante que la largeur.
+
+Afin que la forme puisse garder les mêmes dimensions que vous avez précédemment paramétrées, il va falloir appliquer des contraintes différentes.
+
+
+Si vous appliquez les contraintes « Center », votre forme va alors conserver sa propre position et va pouvoir suivre les changements de votre frame.
+
+Cela donne le visuel suivant.
+
+
+Votre forme doit avoir normalement conservé sa place centrale, elle doit rester fixée au centre de votre frame, sans se déformer.

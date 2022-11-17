@@ -1,0 +1,112 @@
+Lorsqu’ils se servent de ce logiciel, les concepteurs réalisent généralement le wireframe de l’interface en utilisant Figma. Pour pouvoir réaliser le prototype, les wireframes et la maquette sont alors déjà prêts. Il suffit de continuer à travailler sur le fichier préétabli.
+
+Exemple
+Lors du maquettage par exemple, une personne a commencé à réaliser une maquette sur Figma. Le concepteur qui sera chargé de la création du prototype n’aura pas à créer un nouveau fichier Figma. Il lui suffira d’ouvrir le fichier sur lequel la première personne a travaillé pour le modifier. Il pourra alors créer le prototype en y ajoutant des interactions.
+
+Méthode
+Créer un prototype
+Pour créer un prototype, vous devez prendre les maquettes et les convertir en prototypes interactifs.
+
+Étape 1 :
+
+La première chose à faire est donc d’ouvrir le fichier Figma sur lequel il faut travailler.
+
+Il faut activer le mode prototype de Figma. Pour cela, cliquez sur le panneau « Prototype » dans le coin en haut à droite. À ce niveau, vous pouvez modifier les paramètres du prototype selon vos besoins, comme la couleur du fond du prototype par exemple.
+
+Étape 2 :
+
+La prochaine étape consiste à créer des interactions entre les différentes pages de l’interface, en ajoutant des connexions entre elles. Pour cela, il faut cliquer sur le futur bouton qui va être lié à une autre page. En cliquant dessus, un petit rectangle autour du mot doit apparaître, avec sur la droite, un petit cercle blanc, appelé « Nœud ». Le nœud permet de connecter le lien à d’autres pages.
+
+Ainsi, cliquez sur le nœud et tirez-le jusqu’à la page à laquelle il doit être lié. Une ligne fléchée partant du bouton à la page est alors créée pour symboliser la connexion.
+
+
+Flèche représentant la connexion entre un bouton et une page
+
+Source : Figma Help Center
+
+Étape 3 :
+
+Maintenant, créez une connexion qui permet à l’utilisateur de revenir sur la page d’accueil, à partir de la page sur laquelle il se trouve. Pour cela, cliquez sur le bouton interactif qui doit être lié à la page d’accueil. Ce bouton peut être un logo sur le haut de la page, ou le mot « Accueil », ou autres.
+
+En cliquant dessus, le nœud apparaît sur la droite du mot.
+
+De la même manière que l’étape précédente, il suffit alors de tirer ce nœud jusqu’à la page d’accueil pour les relier.
+
+Pour appliquer cette connexion sur de nombreuses pages, il est plus simple de sélectionner la connexion, de la copier, et de la coller sur une autre page. Cela permet de gagner du temps considérable.
+
+Étape 4 :
+
+Assurez-vous que les connexions qui ont été établies fonctionnent correctement. Pour cela, cliquez sur le bouton « Play » qui est situé dans le coin en haut à droite. Cela permet d’afficher le mode présentation. À ce moment, vous pouvez alors essayer de cliquer sur le bouton que vous avez relié à la page. Cette dernière devrait s’afficher. Vous pouvez scroller pour vérifier le contenu et les différents détails.
+
+Une fois que vous avez vérifié si les connexions créées fonctionnent correctement, vous pouvez ajouter toutes les interactions dont vous avez besoin, en procédant de la même manière.
+
+Il est également possible de sélectionner plusieurs éléments pour les connecter simultanément à une page. Pour cela, sélectionnez-les, puis cliquez sur « Commande » et « G » sur Mac ou « Ctrl » et « G » sur Windows, en même temps. Cela permet de grouper les éléments pour créer un seul nœud pour le groupe d’éléments sélectionnés. Il ne reste plus qu’à continuer la procédure, en tirant le nœud vers la page.
+
+Un autre détail sur lequel il faut également porter son attention est la flèche qui apparaît sur le haut de la page. Cette flèche est présente sur la page qui doit apparaître en premier, lorsque les utilisateurs ouvrent le prototype. Normalement, elle doit être placée sur la page d’accueil. Il est très simple de la déplacer sur une autre page : il suffit de cliquer dessus, et de la transporter sur la page cible. Il est également possible d’ajouter des animations de transition entre les pages. Pour cela, l’onglet « Détails des interactions » apparaît lorsqu’une flèche de connexion est sélectionnée. Vous pouvez alors choisir parmi les différentes animations qui existent.
+
+Méthode
+Partager le prototype
+Vous pouvez partager le prototype avec un client, avec un collaborateur, ou toute autre personne.
+
+Pour cela, il faut d’abord activer le mode « Présentation ». C’est très important, car si vous partagez à partir du fichier de design, c’est ce dernier qui sera partagé, et non le prototype.
+
+Puis, cliquez sur le bouton « Partagez le prototype ». Cela affiche alors différentes options :
+
+Inviter un utilisateur en entrant son adresse e-mail
+
+Copier le lien pour pouvoir l’envoyer directement aux utilisateurs
+
+Il faut paramétrer le partage pour que tous ceux qui ont le lien puissent voir le prototype.
+
+Le partage permet alors aux utilisateurs d’ouvrir le prototype directement sur le site web, sans devoir télécharger le logiciel Figma.
+
+Méthode
+Exporter un prototype
+Il est possible d’exporter le prototype sous format PNG, JPG, ou SVG.
+
+Afin d’exporter le prototype, il faut d’abord paramétrer les options d’exportation.
+
+Pour cela, il faut sélectionner l’élément à exporter. Une section « Exporter » est alors affichée sur la barre latérale droite. Il faut cliquer sur le bouton « + », à la droite d’« Exporter », pour afficher les différents paramètres.
+
+Il faut alors sélectionner une échelle dans la liste déroulante ou entrer la valeur manuellement, pour définir la taille en pixels de l’objet à exporter.
+
+Vous pouvez avoir un aperçu de l’élément exporté parmi les options.
+
+Quand vous avez fini de paramétrer les options, il ne vous reste plus qu’à cliquer sur le bouton « Exporter » et à sélectionner le dossier de destination.
+
+Exemple
+Voici un exemple pour illustrer la création d’interactions entre les différentes pages. Sur la page d’accueil, il y a de nombreux boutons sur lesquels il faut cliquer. Il peut s’agir, par exemple d’un site web de boutique en ligne : dans ce cas, il peut y avoir différentes catégories : femmes, hommes ou enfants. En cliquant sur le bouton « Femmes », une autre page dédiée aux produits pour femmes doit s’afficher. Pour cela, il faut donc créer la connexion entre le bouton d’accueil et cette page-là.
+
+Conseil
+Voici quelques conseils pratiques pour bien utiliser Figma :
+
+Tout d’abord, prenez connaissance des raccourcis.
+
+Cette plateforme offre énormément de raccourcis. Il est donc intéressant de les connaître afin de gagner du temps. Vous pouvez alors vous servir du clavier, de la souris et / ou du trackpad.
+
+Pour les connaître, il suffit de cliquer sur le bouton « ? » qui est situé dans le coin bas à droite de la fenêtre.
+
+Il est également conseillé de bien nommer les calques.
+
+En effet, lors de l’utilisation de Figma, il faut toujours donner un nom aux différents calques. Ce sera beaucoup plus facile de se retrouver parmi les nombreux calques, surtout lorsque vous travaillez sur plusieurs documents.
+
+Une astuce pour bien utiliser Figma est de copier-coller le style graphique.
+
+Il existe une méthode très simple qui vous permet d’utiliser le même style graphique d’un élément. Pour cela, il faut sélectionner cet élément, puis le copier en cliquant sur «  ⌘⌥ + C » pour Mac ou en faisant « Ctrl + Alt + C » sous Windows. Puis, il faut sélectionner l’élément auquel le style graphique doit être appliqué, et faire « ⌘ + ⌥ + V » pour Mac ou en faisant « Ctrl + Alt + V » sous Windows.
+
+Il est également important de suivre les performances de la page.
+
+Pour savoir si le document reste fluide ou pour connaître sa vitesse de téléchargement, il faut voir les performances de la page. Vous pouvez trouver ces informations dans le menu « Burger » qui se trouve en haut à gauche. Il faut ensuite taper le mot « Ressources », puis cliquer sur « Ressources use ».
+
+Toutes les informations qui concernent votre document s’afficheront alors. Cela vous permettra d’améliorer et d’optimiser le document.
+
+Enfin, voici quelques erreurs à éviter lorsque vous travaillez sur Figma :
+
+Il faut éviter d’utiliser des images trop grandes. Cela ralentit leur vitesse de chargement. Pour vous aider, Figma possède un outil qui permet de vérifier la rapidité d’un fichier.
+
+Il faut aussi éviter les calques masqués. Il faudrait penser à créer des composants sous différents états.
+
+Enfin, il faut éviter de mettre les maquettes et les composants dans le même fichier. Il faudrait les séparer et préférer une librairie externe de composants.
+
+Remarque
+Il existe certains projets de sites qui sont composés de dizaines de pages. Cela peut être dû au nombre de catégories très élevé. Il faut alors créer le prototype sur ce fichier. En connaissant les raccourcis, cela pourrait prendre beaucoup moins de temps. Par exemple, il faut faire « copier-coller » sur le bouton de chaque page qui doit être relié à la page d’accueil.

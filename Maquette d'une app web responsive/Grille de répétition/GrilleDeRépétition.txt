@@ -1,0 +1,48 @@
+Objectifs
+Voir ce qu'est la grille de répétition et comment l'activer
+
+Comprendre comment le style est partagé entre les éléments de la liste
+
+Voir comment écrire du texte différent sur chaque élément de la liste
+
+Voir comment importer des images différentes
+
+Mise en situation
+La grille de répétition va nous permettre de travailler avec un groupe de calques qui doit être dupliqué plusieurs fois (comme une liste de produits dans une boutique en ligne, par exemple). Bien qu'il soit possible de dupliquer manuellement les groupes de calques, la grille de répétition est une manière plus pratique et rapide de le faire, avec une gestion intelligente de cette duplication.
+
+Exemple de grille de répétition
+Nous allons voir comment utiliser cette fonctionnalité à partir d'un exemple : la maquette mobile d'un écran de messagerie instantanée. Il s'agira sur cette page de représenter la liste des contacts de l'utilisateur.
+
+Chaque contact possédera une photo de profil, son nom et son statut de connexion (en ligne, absent ou hors ligne) avec un marqueur coloré.
+
+Voici l'écran sur lequel nous nous baserons :
+
+
+Pour commencer à utiliser la grille de répétition, il est nécessaire de déterminer et de sélectionner le ou les calques qui seront dupliqués. Dans notre cas, il s'agit des éléments qui constituent un « contact » dans la liste.
+
+
+Une fois les éléments sélectionnés, il devient possible d'activer le mode Grille de répétition pour ces éléments, en cliquant sur le bouton présent dans le menu contextuel de droite.
+
+
+L'activation du mode sera alors représentée par une bordure verte pointillée autours des éléments cibles, ainsi que par deux poignées qui vont apparaître dans la zone de travail.
+
+
+On constate également que nos éléments se sont transformés en grille de répétition dans la liste des calques.
+
+
+En manipulant les poignées verticales ou horizontales, il est alors possible de répéter automatiquement les éléments sélectionnés. Dans notre cas, nous souhaitons représenter les contacts sous la forme d'une liste verticale : nous allons donc cliquer-déposer la poignée verticale jusqu'à voir sept contacts.
+
+Ajouter du contenu textuel
+Pour le moment, tous les éléments sont identiques, mais il est possible de saisir des textes différents pour chaque contact en double-cliquant sur les valeurs affichées.
+
+
+Il est possible de modifier le style du texte pour impacter toutes les lignes, en sélectionnant un des éléments textuels et en appliquant des modifications, comme ici avec la taille du texte, le choix de la police ou la graisse. Ces modifications sont automatiquement répercutées sur tous les éléments de la liste.
+
+Ajouter des images
+Pour ce qui est des images, il est également possible de les modifier très rapidement. En utilisant le plugin UI Faces, c'est encore plus simple. Il suffit de sélectionner n'importe quel emplacement d'image dans la liste de la grille de répétition, puis de se rendre sur le plugin. Il est intéressant de noter que le plugin détecte « 7 éléments » sélectionnés, alors que nous n'en avons sélectionné qu'un seul. En réalité, XD sélectionne tous les éléments de la grille de répétition pour nous, ce qui porte le total à 7. Nous sélectionnons ensuite 7 images aléatoires avec UI Faces, et ces images sont ensuite transposées dans notre espace de travail. Nous sommes également en mesure de modifier les propriétés des images, par exemple l'arrondi des coins, ce qui sera également répercuté sur tous les éléments.
+
+Syntaxe
+À retenir
+La grille de répétition est une fonctionnalité disponible sur Adobe XD plutôt unique, qui va nous permettre de dupliquer intelligemment un ou plusieurs calques. Pour l'activer, il suffit de sélectionner au moins un calque, puis d'activer le mode Grille de répétition et de déplacer les poignées pour dupliquer nos éléments verticalement ou horizontalement.
+
+Effectuer une modification de style sur un des éléments de la liste fera en sorte que cette modification soit répercutée automatiquement sur les autres. Il est cependant possible d'avoir des différences entre les éléments textuels et sur les images. Pour ces deux types d'éléments, appliquer une modification ne sera pas propagée sur les autres occurrences de la liste.

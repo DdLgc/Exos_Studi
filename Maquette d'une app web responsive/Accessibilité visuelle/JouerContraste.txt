@@ -1,0 +1,38 @@
+Contexte
+Les applications mobile et desktop sont essentiellement visuelles. Cela signifie que, peu importe l'acuité visuelle ou l'état de fatigue oculaire de vos utilisateurs, tout le monde devrait pouvoir facilement lire ce que vous proposez sur vos pages. Avoir un ratio de contraste suffisant, bien différencier les liens et utiliser correctement les typographies vous permettra de rendre vos interfaces lisibles à accessibles à la majorité des utilisateurs.
+
+Objectifs
+Comprendre l'importance des contrastes sur une interface
+
+Apprendre à optimiser les couleurs pour la lisibilité
+
+Contexte
+Dans le contexte d'une pratique professionnelle, vous utiliserez cette notion afin de créer des interfaces lisibles.
+
+Méthode
+« Le contraste c'est ce qui se passe quand deux choses de même nature mais très différentes sont à côté l'une de l'autre » (Johannes Itten, L'art de la couleur). Dans le cas des applications, le type de contraste qui nous intéresse est celui des couleurs. Par exemple, pour obtenir le contraste maximum, il faut prendre deux couleurs complémentaires et de les juxtaposer :
+
+
+On se rend compte que le jaune ressort très bien grâce au violet. Cependant, si vous regardez très longtemps, cela peut faire mal aux yeux.
+
+Pour une lisibilité optimale, il est nécessaire d'avoir un contraste suffisant mais pas trop élevé. Si l'on reprend l'exemple ci-dessus, voici ce que cela donnerait avec du texte :
+
+
+
+Vous pouvez le constater : ce n'est pas très lisible. La deuxième image l'est un peu plus mais le résultat n'est tout de même pas optimal et peu agréable.
+
+Évitez donc d'utiliser les couleurs complémentaires pour des éléments superposés. Il est possible de jouer avec ce contraste sur certaines parties d'une page, par exemple avec quelques boutons ou images que vous voulez faire ressortir en utilisant une couleur complémentaire, mais il est déconseillé de baser toute une identité visuelle sur ce principe.
+
+Idéalement, utiliser une couleur foncée sur une couleur texte ou inversement aura un rendu de contraste. Je vous conseille également d'éviter les couleurs trop vives.
+
+Voici par exemple une proposition avec des teintes violettes et jaunes :
+
+
+
+Syntaxe
+À retenir
+Un bon ratio de contraste est indispensable pour la lisibilité de votre page. Évitez d'utiliser des couleurs complémentaires ou trop vives.
+
+Complément
+Contrast  https://usecontrast.com/
+Tanaguru  https://contrast-finder.tanaguru.com/

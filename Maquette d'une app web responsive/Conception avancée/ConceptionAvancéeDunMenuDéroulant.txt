@@ -1,0 +1,151 @@
+Conception de menu déroulant et incrustation d’écran sur Figma
+La personnalisation design sur Figma
+
+Personnaliser le design d’une page web sur Figma consiste à réaliser une mise en forme stratégique de futures pages web. L’objectif de cette mise en forme est d’optimiser le taux de conversion du site une fois qu’il est développé. La personnalisation du design des pages web permet également de poser les bases du site et de bâtir son architecture.
+
+Le menu déroulant
+
+Le menu déroulant constitue l’un des patterns de conception graphique les plus courants. Il est utilisé sur les sites web, mais aussi dans les logiciels et les applications mobiles. Ce dispositif permet en effet de rendre une liste d’items plus accessible lorsque l’utilisateur clique sur un bouton.
+
+L’incrustation d’écran
+
+L’incrustation d’écran est une technique d’effet visuel, selon laquelle une image ou un texte apparaît sur l’écran lorsque l’utilisateur clique sur un lien ou un bouton.
+
+Remarque
+L’incrustation d’écran peut être, par exemple, un pop-up sur une option proposée par une boutique en ligne qui apparaît lorsque l'acheteur clique sur le bouton « Mettre dans le panier ». En revanche, la liste des produits disponibles sur le catalogue de la boutique en ligne apparaît en menu déroulant, lorsque l’utilisateur clique sur le bouton « Nos produits ».
+
+Méthode
+Concevoir le menu déroulant sur Figma
+Étape 1 :
+
+Pour créer un menu déroulant, la première chose à faire est, bien évidemment, de se rendre sur Figma. Ensuite, allez dans la section « Design File », puis « New Design File ». Vous pouvez renommer ce fichier en cliquant sur « Untitled ».
+
+Étape 2 :
+
+Vous arrivez alors dans un espace vide où vous pouvez ajouter un artboard, c'est-à-dire une grille qui va servir de base pour aider à positionner les éléments de manière harmonieuse. Pour cela, vous pouvez : soit ouvrir une frame et la dimensionner en fonction de vos besoins, soit choisir un artboard pré-dimensionné.
+
+Étape 3 :
+
+Dans cet artboard, créez un premier outil rectangle en cliquant sur la 4e icône sur la barre haute, à gauche de l’interface. À l’intérieur, écrivez le texte qui va servir de « bouton ». Modifiez la taille et le type de police grâce aux éléments de paramétrage sur la 3e partie de l’interface. Afin de faciliter le travail du développeur, le designer peut renommer cette première création par « Button ».
+
+Étape 4 :
+
+Créez un autre outil rectangle avec, à l’intérieur, plusieurs zones de texte, sur lesquelles vous listerez les items. Ensuite, pensez à faire « Ctrl + G » pour grouper les éléments.
+
+Étape 5 :
+
+Placez ce second outil rectangle contenant les items en dehors de la grille de base, en le glissant. Allez dans « Prototype » (onglet sur la partie droite de l’interface), puis liez la création « Button » avec l’outil rectangle 2. Cliquez ensuite sur « Open overlay ». Vous pouvez choisir l’animation du menu déroulant.
+
+Étape 6 :
+
+Pour avoir un aperçu du rendu de la création graphique, cliquez sur l’onglet « Présentation », sur la partie droite de l’interface.
+
+Méthode
+L’incrustation d’écran sur Figma
+Étape 1 :
+
+Créez une nouvelle frame et définissez ses dimensions. Vous pouvez également choisir un modèle de frame, avec des dimensions prédéfinies. Puis, renommez cette frame par « Écran principal » par exemple.
+
+Étape 2 :
+
+Ajoutez un texte qui va servir de bouton. Modifiez la taille et le type de police d’écriture, en fonction des besoins de l’utilisateur. Choisissez également la couleur de remplissage de la frame.
+
+Étape 3 :
+
+Créez une nouvelle frame, avec une taille plus petite que la première. Ajoutez le texte de l’overlay.
+
+Renommez cette deuxième frame par « Option overlay » par exemple.
+
+Étape 4 :
+
+Allez dans l’onglet « Prototype » et créez un effet de prototyping. Pour cela, reliez la frame principale avec la frame overlay, en glissant la flèche de la première à la seconde frame. Paramétrez l’effet d’incrustation d’écran et personnalisez l’animation.
+
+Étape 5 :
+
+Cliquez sur « Présentation » pour prévisualiser la nouvelle création graphique.
+
+Méthode
+La personnalisation design sur Figma
+Pour commencer à personnaliser le design avec Figma, il n’y a pas besoin d’être un designer expérimenté. Voici les étapes à suivre.
+
+Étape 1 :
+
+D’abord, il faut se rendre sur Figma pour créer un nouveau fichier. Pour cela, cliquez sur « New Design File ». Vous êtes redirigé vers le nouveau fichier (ce dernier est créé dans les « Drafts », disponibles en haut à gauche de la page). Cliquez sur « Untitled » pour modifier le nom du nouveau fichier.
+
+Étape 2 :
+
+Ensuite, créez les différentes pages du futur site internet dans l’espace de création, au centre de l’interface Figma. Pour cela, cliquez sur la forme rectangle sur la barre du haut ou cliquez sur « R », puis dessinez un ou des rectangles, en fonction du nombre de pages à personnaliser. Il est possible de définir les dimensions de chaque rectangle, en cliquant sur chaque forme et en modifiant ses paramètres.
+
+Pour chaque rectangle, vous pourrez créer des frames avec le nom de chaque page. Pour cela, faites un clic droit sur une des formes, puis sur « Frame selection ».
+
+Étape 3 :
+
+Cette étape consiste à créer la barre de navigation du futur site internet. Pour ce faire, créez un rectangle de la même largeur que la page, et avec la longueur au choix. Cliquez sur la forme pour lui donner une couleur. Il est possible, par exemple, d’y ajouter un logo et un texte.
+
+Dupliquez le frame autant de fois qu’il y a de nombre de pages, puis, disposez-les dans les différentes pages en les glissant dans les frames des pages.
+
+
+Les pages du futur site web avec les barres de navigation
+
+Source : assets-global.website-files.com
+
+Étape 4 :
+
+Créer les éléments qui vont alimenter chaque page en insérant des images, des textes et icônes, de manière à structurer les pages. Tous les éléments nécessaires sont listés dans la barre verticale de gauche. Pensez à toujours grouper les sections et à les renommer, afin d’en avoir une vision claire.
+
+Étape 5 :
+
+Partagez le projet avec vos collaborateurs, tout simplement en envoyant le lien du projet aux parties prenantes de celui-ci.
+
+Exemple
+Voici un exemple de personnalisation design sur l’interface Figma :
+
+
+Exemple de personnalisation de design sur Figma
+
+Source : Big District
+
+Attention
+Il est inutile de pousser le design au plus haut niveau, car le but ici est uniquement de structurer les pages, de manière à avoir un schéma cohérent qui pourra servir de guide au développeur. Ainsi, des formes simples, ainsi que des semblants d’image et des textes feront l’affaire.
+
+Pour une personnalisation design réussie, il est conseillé de garder les mêmes formes, pour les mêmes types de contenus (image et vidéo). Il est possible de varier la mise en forme des sections.
+
+Gardez également les mêmes mises en forme et couleurs pour les formes et contenus similaires (titre, call to action, image, etc.).
+
+Pour un design convivial, le mieux est de bien aérer le contenu de chaque page et de rester simple.
+
+Méthode
+Prenons l’exemple d’un site avec 4 pages : « accueil », « Blog », « À propos », « Contact ».
+
+Étape 1 :
+
+Créez 4 rectangles avec une largeur de 1 680 et une longueur qui peut évoluer en fonction du contenu. Renommez ces formes respectivement « Accueil », « Blog », « À propos », « Contact ».
+
+Étape 2 :
+
+Créez une barre de navigation, avec le logo du futur site internet et une couleur définie.
+
+Étape 3 :
+
+Insérez des images et textes dans chacune des pages.
+
+Composants interactifs
+Récemment, Figma a déployé une nouvelle version avec une nouvelle fonctionnalité de composants interactifs qui permet d'établir un lien entre des interactions et des animations, directement dans des variantes. Il est possible de les propager sur chaque composant. Cela signifie qu'il est désormais possible d’utiliser des composants avec des états (focus, survol, clic, actif) et de les rendre interactifs, afin que les composants de même type héritent des mêmes interactions par défaut, ce qui aide beaucoup pour la phase de prototypage.
+
+La nouvelle fonctionnalité de Figma réduit les efforts et le temps nécessaire pour créer des interactions, en réduisant le coût de la conception. Vous n'avez pas besoin de connaissances et d'expérience préalable de Figma pour utiliser ces composants interactifs.
+
+Exemple
+Voici un exemple de composant comparatif :
+
+
+Quatre phases différentes avec huit interactions différentes
+
+Source : Cloudinary
+
+Comme vous pouvez le voir dans l'exemple, il faut quatre phases et huit interactions pour que le prototype fonctionne au plus près d’un produit réel. Et pour utiliser d'autres commutateurs, il faudrait ajouter encore plus d'écrans et d'interactions.
+
+L'utilisation de composants interactifs simplifie le prototype final, mais également la logique, ce qui facilite l'apprentissage de la maintenance, de la construction et de la mise à jour des prototypes.
+
+Considérez les composants comme des éléments qui doivent être dupliqués pour créer une connexion avec leur copie (appelée « instance »). Lorsque le composant est modifié, l'instance reçoit alors les mêmes modifications.
+
+Vous pouvez également appliquer des remplacements aux instances, qui sont essentiellement des changements de style qui permettent une certaine personnalisation. Sur les composants, il existe des variantes qui sont les différents styles du composant. Ils sont généralement utilisés pour appliquer différentes propriétés, telles que la taille ou les états.

@@ -1,0 +1,83 @@
+À la découverte de Figma
+Remarque
+Maintenant que nous avons vu Figma dans la théorie, nous allons pouvoir commencer à naviguer dans l’application, sans entrer dans les détails.
+
+Les principales fonctionnalités
+Avant d’attaquer la création de la maquette, nous allons tout d’abord faire un peu le tour des fonctionnalités principales. Vous pouvez créer un compte sur la plateforme, si ce n’est pas déjà fait.
+
+Une fois le compte créé, vous allez pouvoir choisir de partir d’un template (modèle) vide, d’un template d’iPhone, de tablette ou d’ordinateur par exemple. Nous allons choisir le template vide par défaut, nous ajouterons nous-même le modèle pour l’étudier.
+
+
+En haut à gauche de votre fenêtre, vous trouverez cette barre d’outils qui vous permet d’accéder rapidement à différentes fonctionnalités. Cette barre est d’une utilité remarquable et est de surcroît très simple à utiliser. Si vous avez déjà utilisé Adobe Illustrator et ses nombreux menus et paramètres moins ergonomiques, votre passage à Figma sera un jeu d’enfant. De gauche à droite nous avons :
+
+Le menu principal.
+
+Les outils de sélection « Move » et « Scale » : le premier sert à déplacer les objets, le second à mettre les objets à une échelle différente.
+
+Les outils de « Frame » et « Slice » : le premier sert à utiliser un template par défaut présent dans Figma, le second permet d’exporter une partie du projet au format PNG, JPG, SVG ou PDF.
+
+Les outils pour créer des formes : on va pouvoir créer des composants à partir de ces formes. Parmi les formes, il y a le rectangle, le carré, la ligne, la flèche, etc.
+
+Les outils de dessin : ils servent à tracer des vecteurs ou à tracer à main levée.
+
+Les outils de saisie de texte.
+
+Les outils de déplacement.
+
+Les outils de pour laisser un commentaire sur le projet.
+
+
+En plein milieu de votre fenêtre, vous aurez accès à un outil qui pourra se révéler très utile lors de vos utilisations de Figma. Il s’agit de l’historique des versions de votre projet que vous aurez sauvegardées, avec l’outil « Show version history ». Vous aurez également accès aux outils qui permettent de dupliquer, renommer, déplacer ou supprimer votre projet.
+
+
+Pour le moment, sur la droite, l’interface est partiellement vide, mais nous pourrons voir d’autres fonctionnalités une fois que nous aurons commencé à monter un premier projet.
+
+Nous pouvons y retrouver, entre autres, de gauche à droite :
+
+La possibilité (à partir de l’abonnement professionnel) de discuter avec ses collaborateurs.
+
+La possibilité de partager son projet avec d’autres personnes : on peut alors choisir son audience, publique ou privée, que ce soit en lecture seule ou en édition également, etc.
+
+Le logo « Play » permet de lancer une simulation du projet selon les maquettes utilisées.
+
+Si vous êtes dans une agence où les rôles de concepteur et de développeur sont tenus par deux professionnels différents, le développeur pourra trouver toutes les informations sur le projet Figma en temps réel. Cela signifie qu'il disposera d'informations sur les règles CSS, pourra facilement calculer la distance entre la marge gauche et la marge droite, obtenir des icônes, des images, vérifier le comportement des composants lors du rendu de la page, etc.
+
+De plus, vous pouvez travailler efficacement avec votre équipe grâce au système de commentaires, qui vous permet d'ouvrir des discussions à certains moments du projet. Ce qui est encore plus intéressant et utile, c'est la possibilité de marquer les personnes qui s'intéressent au développement de ce domaine (par exemple @moncollègue), afin qu'elles puissent être informées des différentes suggestions ou demandes d'informations émanant de leurs collaborateurs.
+
+Avec le travail en temps réel, vous pouvez observer les mouvements du curseur de vos collègues dans le projet pour comprendre ce qu'ils font exactement. En synergie avec le système de commentaires, vous pourrez optimiser les temps de production et travailler en synchronisation avec votre équipe, augmentant ainsi considérablement la qualité de votre travail.
+
+La section « Design » permet de gérer les couleurs, la taille et la police d’écriture, les dimensions, etc.
+
+La section « Prototype » permet de gérer les interactions entre les écrans, comme des animations ou un scroll par exemple. Les liens entre les composants et les écrans se font en les reliant tout simplement entre eux. Lors de la création de contenus multimédia, la conception d'une bonne expérience utilisateur joue un rôle essentiel. La fonction de prototypage de Figma permet au concepteur de concevoir la navigation et les fonctions de base de l'application, en ajoutant des éléments interactifs au prototype.
+
+La section « Inspect » permet de retrouver les propriétés CSS des éléments, par rapport à la template.
+
+Attention
+Même si Figma est capable de fournir un code CSS afin d’intégrer ses maquettes, ne recopiez pas bêtement le code CSS. Il faut toujours prendre le temps de l’analyser et de le modifier. Si la maquette présente trop de codes, cela risquerait d’interférer au niveau du caractère responsive.
+
+Vous devez particulièrement éviter les position : absolute ; à tout va. L’avantage avec les positions absolute est que l’élément sera positionné correctement ; cependant, quand on va commencer à toucher au côté responsive (un écran un peu plus large par exemple), tous les composants en position absolute vont alors être déplacés. Ils risquent donc de ne plus être positionnés au bon endroit.
+
+Comme vous le savez, vous pouvez travailler avec vos collègues et / ou vos collaborateurs directement sur un projet en commun.
+
+Mais imaginez que vous puissiez vous inspirer du travail des autres utilisateurs et que vous puissiez même utiliser les travaux mis à disposition de la communauté.
+
+Tout cela est possible grâce à la Figma Community que vous pouvez retrouver au lien suivant : F Community.
+
+Cette page va vous permettre d’avoir accès à des centaines, voire des milliers de travaux, réalisés par d’autres personnes qui ont décidé de partager leurs réalisations avec les autres.
+
+Complément
+Avec cette page de communauté, vous pourrez avoir accès à des plugins, des widgets, des wireframes, et bien d’autres.
+
+Les widgets et les plugins
+Attardons-nous désormais sur d’autres fonctionnalités de l’application : les widgets et les plugins.
+
+Un widget est une extension de l’application en elle-même. Nous pouvons retrouver la liste des widgets dans l’onglet communauté de Figma : F Community. Il est possible d’installer les widgets que vous souhaitez intégrer à l’application, ceux-ci seront disponibles directement dans votre projet à toute occasion.
+
+Il est possible de trouver un widget de vote, un widget pour prendre des notes par exemple, ou encore des widgets pour se divertir entre deux intenses sessions de travail.
+
+Un plugin est une fonctionnalité que l’on va venir ajouter, dans le but d’améliorer le workflow (« espace de travail »). Vous pouvez également retrouver la liste des plugins dans l’onglet communauté de Figma : F Community.
+
+Parmi les plugins proposés, vous pouvez avoir accès à une banque d’images libres de droit, à un générateur de texte (« Lorem Ipsum »), ou encore à toute une bibliothèque d’icônes.
+
+Ce cours n’a pas pour objet de répertorier tous les types de composants auxquels on peut accéder dans l’onglet communauté, juste de vous offrir un aperçu.
+

@@ -1,0 +1,53 @@
+Objectifs
+Découvrir les enjeux autour des maquettes
+
+Comprendre l'intérêt des maquettes en tant que développeur
+
+Mise en situation
+Les maquettes graphiques prennent vie à partir des wireframes réalisés dans la phase de conception graphique précédente, mais elles s'appuient également sur le cahier des charges pour donner une identité visuelle aux fonctionnalités.
+
+En tant que développeur, ce sont des éléments très précieux sur lesquels il va falloir s'appuyer dans la phase le développement du projet. Les respecter et intégrer correctement les éléments est primordial, car les maquettes ont souvent une valeur contractuelle pour le client.
+
+Les maquettes
+Une maquette est avant tout une proposition graphique faite aux clients. Le client va devoir choisir entre plusieurs déclinaisons et variantes. Parfois, les maquettes vont même lui donner de nouvelles idées d'éléments à ajouter au projet.
+
+Chaque maquette représente le plus souvent un écran, une page de l'application, et permet de donner une idée de la direction artistique, même si toutes les pages de l'application ne sont pas maquettées. C'est l'ébauche du site, une représentation de ce que devrait être le rendu final après développement.
+
+De plus, il s'agit d'un support de communication et de développement, c'est-à-dire qu'elles vont aussi bien aider le client à comprendre la direction du projet, que servir de guide pour les développeurs front-end et les intégrateurs. Elles sont donc très importantes et permettent aux développeurs d'avoir une vue d'ensemble du projet.
+
+Les maquettes ont également pour rôle de préciser les fonctionnalités et les comportements attendus, car, avant d'être présentées à l'équipe pour les développements, elles sont validées par le client. Ce support permet d'enrichir les spécifications fonctionnelles de l'application, puisqu'il se base aussi sur le cahier des charges, en apportant une dimension visuelle aux fonctionnalités.
+
+Remarque
+À noter qu'intégrer une maquette n'est pas faire du design ! Ce n'est pas nous, développeurs, qui allons faire les choix graphiques de l'interface, mais bien l'UI/UX designer en charge de la réalisation des maquettes. Même si on n'a pas l'âme d'un Picasso, il ne faut pas avoir peur lorsque l'on parle d'intégration.
+
+Le travail d'intégration consiste à transcrire les éléments visuels statiques de la maquette, en code HTML/CSS et parfois même JavaScript.
+
+Charte graphique
+Les maquettes sont parfois accompagnées d'une charte graphique, qui est un document référençant les détails graphiques à utiliser lors de la phase de conception des maquettes. On y retrouve souvent les codes hexadécimaux des couleurs, les tailles et le type des typographies en fonction des contextes, ou encore les logotypes du client.
+
+Elle rassemble les éléments d'identité visuelle du client, et lui permet de conserver la même image et un visuel uniforme, peu importe le support.
+
+Remarque
+Parfois, en tant que développeur, nous aurons accès à cette charte. Lorsque ce document est fourni, il est d'une aide précieuse, car il évite à l'intégrateur d'extraire lui-même ces informations des maquettes.
+
+Le design system
+Nous avons évoqué la possibilité d'avoir une charte graphique en complément des maquettes : il est également possible que le designer fournisse un design system. Ce dernier va plus loin que la charte graphique, car il rassemble les lignes directrices concernant le projet en cours, et non plus les éléments purement graphiques du client. Il va rassembler des composants fonctionnels, les typographies, la palette de couleurs, les éléments de grille propres au projet actuel, etc.
+
+Il ne représente pas l'écran, mais plutôt les éléments, les blocs de composants qui vont permettre au développeur d'intégrer les maquettes. Son but est avant tout d'harmoniser l'intégration.
+
+Cela pourrait rappeler la librairie Bootstrap, qui propose du code d'éléments à copier/coller pour les intégrer dans le code. Les design systems s'inspirent de ce type de librairie.
+
+Syntaxe
+À retenir
+Les maquettes sont donc là pour appuyer et préciser le cahier des charges de façon visuelle. Elles seront réalisées en amont du projet, à partir des zonings, mais doivent être proposées au client avant de démarrer les développements. En effet, le client doit les valider avant que les développeurs ne puissent s'appuyer sur celles-ci, et commencer à intégrer.
+
+Il ne faut pas négliger cette phase au moment du démarrage du projet, car elle donne un aperçu de l'application finale.
+
+Il est possible qu'elles soient accompagnées de la charte graphique du client ou d'un design system.
+
+Complément
+En savoir plus sur les chartes graphiques en exemple
+https://www.anthedesign.fr/creation-de-sites-internet/charte-graphique/
+
+Quelques design systems populaires
+https://subvitamine.com/mag/articles/apres-bootstrap-les-design-systems-fleurissent

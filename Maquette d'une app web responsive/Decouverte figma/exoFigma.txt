@@ -1,0 +1,19 @@
+L’objectif de ce cas pratique va être, dans un premier temps, de prendre en main Figma. Nous allons créer une première maquette simple, sans chercher à y appliquer de transitions ou à créer un prototype.
+
+
+Question
+Dans l’onglet communauté, faites une petite recherche pour trouver une bibliothèque d’images, puis installez-la.
+
+Solution
+Afin de télécharger une bibliothèque d’images, vous avez plusieurs solutions qui s’offrent à vous. Dans un premier temps, vous devez vous rendre dans la communauté Figma au lien suivant : F Community.
+
+Puis, vous pouvez installer la bibliothèque d’images Unsplashou encore le plugin Content Reel qui vous propose, entre autres, des images. Ce dernier vous sera fort utile tout au long de vos projets.
+
+Question
+Une fois la bibliothèque d’images installée, vous pouvez désormais vous atteler à la réalisation de la maquette fournie ci-dessus.
+
+Solution
+L’objectif ici n’est pas de réaliser une maquette « pixel perfect », il s’agit plutôt de découvrir Figma sans y aller à l’aveugle, en ayant un modèle à votre disposition. Bon courage et amusez-vous bien dans la prise en main de ce merveilleux outil !
+
+Cet exercice final amène une transition entre la découverte de Figma et le maquettage étape par étape, en commençant par le wireframe.
+
