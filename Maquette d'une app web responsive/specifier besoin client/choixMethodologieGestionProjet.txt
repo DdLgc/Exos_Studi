@@ -1,0 +1,43 @@
+Partie 2 : Le choix d’une méthodologie de gestion de projet
+Aujourd'hui, dans le domaine de la gestion de projet, les chefs de projet et les leaders visionnaires ne s'en tiennent pas à une seule méthodologie. En effet, ils sont familiarisés avec plusieurs d’entre elles et apprennent à coordonner les pratiques en fonction des besoins du projet.
+
+Le rôle d'un chef de projet est d'identifier les méthodologies, les aspects spécifiques des méthodologies applicables à une certaine pratique et de réaliser des projets de manière efficace.
+
+Anciennement chef de projet pour de multiples agences digitales, vous vous êtes reconverti en tant que formateur pour les chefs de projet de demain.
+
+Le choix de la bonne approche est important, car il détermine la manière de travailler dans le cadre d'un projet digital. Il constitue la structure qui peut orienter vers le succès ou non de projets. Il est donc essentiel de prendre le temps nécessaire pour sélectionner l'approche de gestion de projet la mieux adaptée à une situation.
+
+Question
+2.1. Quelles sont les étapes permettant de décider d’une méthode de gestion de projet ?.
+Solution
+Pour commencer, il faut d'abord dresser la liste des différents facteurs et les identifier en fonction de leur simplicité ou de leur complexité. Cela inclut le projet, le client ou l'utilisateur final, les moyens à disposition, les restrictions du projet, les délais, les outils et les équipes sur le coup.
+
+Ensuite, si l'environnement de travail est dynamique et encourage les modifications en cours de route, une approche agile peut être appropriée. Toutefois, si les exigences, les calendriers et les budgets sont très précis, l'approche en cascade peut être préférable. De même, si une organisation est soit plus flexible, soit plus rigide, c'est le moment idéal pour envisager de changer d'approche. En effet, une seule approche ou une approche hybride peut être choisie pour faire évoluer l'organisation dans l'une de ces deux directions.
+
+En outre, il est important de se pencher sur ce qui apportera le plus de valeur à l'utilisateur final. Une liste d'exigences peut être établie et utilisée pour sélectionner la méthode de travail qui répond le mieux à ces exigences. Ainsi, si les clients formulent souvent des requêtes continues et souhaitent des mises à jour et des changements constants, une approche itérative avec des cycles courts leur permettra de se sentir davantage concernés.
+
+De plus, les objectifs prédéfinis de l'équipe ou de l'organisation doivent être utilisés pour orienter le choix de la méthodologie du projet. Il est clair que la méthode doit être un outil au service de l'objectif final. Par conséquent, la méthode la plus appropriée est celle qui oriente de la manière la plus directe les objectifs stratégiques, avec les plus grands avantages et le moins de répercussions négatives possible.
+
+Enfin, il est essentiel de s'inspirer de ses propres valeurs. Les méthodologies sont en définitive employées par des personnes possédant des habitudes, des avis et des principes. Plutôt que d'adopter une méthodologie basée sur les tendances, il est plus sage d'utiliser l'état d'esprit, les relations et les styles de travail de l'équipe pour développer une méthodologie qui lui correspond parfaitement.
+
+Question
+2.2. Quels sont les avantages et les inconvénients de la méthode Agile ?
+
+Solution
+Grâce à l'étroite collaboration entre le client et l'équipe de projet, cette dernière est mieux à même de livrer des projets qui répondent aux attentes du client. En outre, dans ce type d'approche, les employés ont plus de responsabilités et d'autonomie, ce qui leur donne plus de motivation et un grand sentiment de gratification. De plus, cette approche permet d'intégrer davantage de projets. Toutefois, il faut être vigilant et ne pas surestimer la capacité de production.
+
+Le plus grand inconvénient de l'approche agile est que l'aperçu initial n'est pas assez précis. Cela signifie que les délais et les coûts définitifs ne sont pas clairement définis, ce qui est problématique tant pour le client que pour l'organisation. Le fait est que le client doit pouvoir contrôler son budget. De son côté, l'agence doit gérer son calendrier de production ainsi que ses ressources. Il est donc important de consacrer du temps en amont pour établir les fondations du projet.
+
+De plus, les multiples modifications font qu'un projet risque de faire du sur-place et de ne plus être aussi cohérent. Il est donc nécessaire de hiérarchiser les changements sur la base de leur pertinence, de la portée du projet et des contraintes fixées avec le client. De même, le suivi du cycle de développement devient encore plus complexe si un projet s'étale sur une longue période. En effet, il apparaît difficile de maintenir une vue d'ensemble de chaque projet.
+
+Question
+2.3. Quels sont les avantages et les inconvénients de la méthode en Cascade ?
+
+Solution
+Malgré l'évolution récente vers Scrum, la méthode Waterfall présente toujours des avantages appréciables. Tout d'abord, des fonctionnalités bien conçues permettent aux développeurs d'identifier à l'avance les dangers potentiels. Grâce à cette programmation anticipée, les ressources peuvent être allouées de manière efficace si le développement se poursuit comme prévu.
+
+En outre, le développement est destiné à se poursuivre sans heurts, car le modèle a tout planifié de manière efficace. Cela offre des possibilités inaccessibles lorsque l'on utilise Scrum pour concevoir un produit. Bien entendu, il n'est pas possible de tout prévoir, donc la méthode en cascade n'est pas imperméable aux aléas. En principe, cette méthode constitue un procédé organisé avec des domaines de responsabilité bien déterminés.
+
+De plus, la méthode de développement en cascade présente des inconvénients évidents. Le premier inconvénient est le temps nécessaire au processus de planification. Étant donné que les différents éléments du développement doivent être planifiés de manière précise au préalable, le codage peut être retardé de plusieurs jours, voire de plusieurs semaines.
+
+Enfin, la méthode en cascade exige un niveau important de micro-gestion, ce qui constitue un autre inconvénient. Le processus, déjà lent, est également freiné par le niveau élevé d'implication de la direction que requiert la méthode par rapport à Scrum.

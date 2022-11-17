@@ -1,0 +1,64 @@
+Mise en situation
+Une fois les maquettes UI statiques finalisées, il est nécessaire de les rendre dynamiques pour permettre une validation des usages de l'application ou du site web. Cette validation de l'ergonomie se fait par la réalisation d'un prototype reprenant toutes les fonctionnalités prévues.
+
+Nous allons voir en quoi consiste l'établissement d'un prototype, puis nous verrons comment associer toutes les étapes de la conception graphique à un processus de développement agile.
+
+Définition
+Prototype
+Le prototype est la dernière étape de la phase de maquettage.
+
+Ce livrable, pouvant être conçu en HTML, est une simulation haute fidélité et interactive du produit final. Le prototype est souvent utilisé pour faire de l'A/B testing quand il subsiste des doutes sur des orientations stratégiques et des choix ergonomiques. Il est donc essentiel, pour réaliser des tests, de résoudre les problèmes et d'améliorer ce qui doit l'être, avant de lancer les développements.
+
+Définition
+A/B testing
+L'A/B testing est une méthodologie de test consistant à comparer deux versions d'une page web ou d'une application afin de comparer leur performance. Dans la conception graphique, la performance peut se mesurer en fonction de critères variés : nombre de clics, taux de validation, taux de visibilité...
+
+Le prototype, une dynamisation des mockups
+Les prototypes peuvent être réalisés rapidement grâce à des outils tels qu'Adobe XD, qui vont rendre les maquettes UI de la phase précédente interactives. Mais ils peuvent également être développés avec la même technologie que le produit final. Cela permet d'évaluer la faisabilité dans les choix des librairies de composants, et des interactions et animations envisagées.
+
+Ainsi, un prototype fonctionnel et interactif permet de tester tous les éléments de type boutons, liens, et d'évaluer la qualité du retour utilisateur.
+
+La réalisation du prototype est la dernière étape de la phase de conception de la méthodologie de Design Thinking.
+
+Une étape trop souvent ignorée
+La phase de prototypage est souvent écartée, à tort, car les équipes craignent qu'elle soit trop chronophage et qu'elle ne réduise les temps de développement ou ne prolonge les délais de livraison.
+
+Cette étape est pourtant fondamentale dans l'évaluation de l'ergonomie d'un site ou d'une application, car elle permet de manipuler un produit dynamique dans une représentation au plus proche du résultat final.
+
+Il est donc essentiel d'intégrer la planification des maquettes très tôt dans le planning du projet, et ce bien en amont de la phase d'intégration, afin qu'elle ne bloque pas l'amorçage des développements.
+
+Exemple
+
+Cet exemple illustre la création d'un prototype avec Adobe XD : on y retrouve les différentes pages du projet et leurs interactions les unes avec les autres, et on constate que leurs différentes versions peuvent être incluses dans le prototype.
+
+Les outils de conception
+Adobe XD
+
+Sketch
+
+Invision
+
+Ou encore :
+
+Adobe XD
+
+Figma
+
+Une méthodologie agile de la conception graphique
+Il existe depuis quelques années une nouvelle approche méthodologique de la conception graphique, le SCRUX. Cette méthodologie s'attache à utiliser les principes de la méthode agile SCRUM, qui est la plus utilisée dans les secteurs de l'IT, et à les retranscrire aux réalités de la conception graphique.
+
+Comme pour SCRUM, cette organisation du travail est fondée sur des périodes courtes (les sprints) pendant lesquelles l'équipe se concentre sur des objectifs précis et fait des reportings réguliers.
+
+Généralement, ce mode de fonctionnement est difficile à suivre en termes de conception graphique, car il nécessite de se coordonner au rythme rapide des sprints. Cela implique de pouvoir fournir des maquettes basse fidélité, puis haute fidélité, abouties et validées à la fois par le client et les utilisateurs, au moment de l'amorçage des développements d'une tâche. Pour permettre cela, tout en respectant les principes de la méthode SCRUM, les équipes de conception graphique fonctionnent avec une itération d'avance par rapport aux équipes de développement.
+
+De plus, il est fréquent que les UX et UI designers soient intégrés à l'équipe de développement. Cela favorise la communication, le peer-programing, l'itération rapide et réactive, la recherche de solution, et apporte davantage de souplesse dans la construction d'un produit final.
+
+Exemple
+
+Le dessin ci-dessus illustre l'intégration de la conception graphique dans les processus agiles de la méthode SCRUM. On peut ainsi constater que les itérations de conception graphique interviennent en amont des développements d'un sprint.
+
+
+À retenir
+La constitution d'un prototype, qui est une représentation fidèle et dynamique du résultat final, est une étape importante de la conception graphique, car elle est la seule à même de confirmer les choix ergonomiques.
+
+Nous avons pu voir que la conception graphique suit une méthodologie itérative précise et pouvant être consommatrice de temps. Afin de l'intégrer aux processus agiles de la conception de projets, il est possible de suivre la méthode SCRUX, qui s'inspire des principes du SCRUM, par la réalisation d'itérations courtes, des sprints, intervenant en amont des itérations de développement.

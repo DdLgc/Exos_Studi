@@ -1,0 +1,41 @@
+Question
+Dans le cadre d'un projet de refonte d'un site web d'e-commerce, vous intervenez en tant que chef de projet.
+
+La phase de recueil des besoins a permis de dégager les différentes fonctionnalités à faire évoluer et il vous est demandé de présenter le planning prévisionnel de la réalisation de cette refonte.
+
+Pour cela, vous réaliserez un diagramme de Gantt modélisant l'organisation des tâches à réaliser, dont la liste est la suivante :
+
+Rédaction des spécifications (8 jours)
+
+Développement front (12 jours)
+
+Développement back (7 jours)
+
+Tests unitaires (3 jours)
+
+Tests fonctionnels (3 jours)
+
+Mise en production (1 jours)
+
+Vous représenterez sur ce diagramme les différentes dépendances entre les tâches, ainsi que les jalons représentant la livraison des livrables (cahier de spécification et code final).
+
+Afin de réaliser un diagramme de Gantt, vous pouvez utiliser les outils numériques de votre choix ou un papier et un crayon.
+
+Parmi les outils permettant la réalisation d'un diagramme de Gantt, vous pouvez utiliser celui proposé par Lucidchart : https://www.lucidchart.com/pages/.
+
+
+
+
+Solution
+Avant de réaliser le diagramme, il est nécessaire d'identifier les tâches pouvant être réalisées en parallèle, ainsi que les dépendances pouvant exister.
+
+Ainsi, les tâches de développement ne pourront pas commencer tant que les spécifications n'auront pas été rédigées, tandis que les développements front et back pourront être réalisés en simultané.
+
+De la même façon, les tests unitaires pourront être réalisés en même temps que les différents développements, alors qu'une dépendance forte existe entre les tests unitaires et les tests fonctionnels, puis entre les tests fonctionnels et la mise en production.
+
+Les livrables pouvant être produits ici sont le cahier de spécifications et le code final de l'application : ils seront respectivement disponibles une fois les spécifications rédigées et une fois l'application livrée.
+
+On peut donc à présent réaliser le diagramme de Gantt suivant :
+
+
+La réalisation de ce diagramme permet de déterminer la durée totale du projet de refonte à 24 jours.

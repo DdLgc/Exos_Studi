@@ -1,0 +1,76 @@
+Qu'est-ce qu'un design system ?
+Objectifs
+Déterminer ce qu'est un design system
+
+Voir un ensemble de composantes d'un design system
+
+Étudier quelques exemples de design system mis à disposition
+
+Faire un point sur la relation entre design system, gestion de projet et développement logiciel front-end
+
+Mise en situation
+Le design system est une notion apparue il y a quelques années. Il désigne un ensemble de pratiques de design consignées dans un format partageable, dans le but de servir de référence à une organisation pour ses futurs travaux de design.
+
+Objectifs et composantes
+Les objectifs pour mettre en place un design system sont multiples. Un design system permet de mettre à plat et de partager une base de travail pour tous. Le but final n'est pas de limiter la créativité des acteurs, mais de faire en sorte que tout le monde parle le même langage pour créer ensemble, dans la même direction. En définissant de manière précise le design system d'une organisation, on est à même de préciser les valeurs que l'on souhaite faire véhiculer à cette organisation par le biais du design, et de pousser pour obtenir une identité marquée et tangible.
+
+Concrètement, un design system peut être composé (sans y être pourtant limité) des éléments suivants :
+
+Un guide des couleurs, généralement nommées et représentant l'image de marque. Ces couleurs peuvent également être accompagnées du résultat d'un test de contraste pour vérifier la lisibilité d'une police de caractères claire ou sombre sur un fond de cette couleur.
+
+Un guide sur la ou les polices de caractères utilisées, ainsi que les indications sur les tailles et les graisses utilisées, parfois une liste des styles de texte pour les différents niveaux de titres, de paragraphes et d'emphases avec les tailles d'interligne, alignement du texte.
+
+Un guide sur le ou les logos utilisés, ainsi que des instructions précises sur comment correctement utiliser ce logo (taille minimum/maximum, dégagement minimum vis-à-vis des autres éléments du design, couleur du logo pour permettre le meilleur contraste...).
+
+Un guide sur l'iconographie utilisée, le style des icônes et un guide d'utilisation précisant des éléments comme le dégagement minimum entre une icône et le texte associé, les pratiques concernant les icônes dans des boutons, etc.
+
+Certaines sociétés ou organisations décident de mettre à disposition du public leur design system. Que ce soit pour s'en inspirer, partager des bonnes pratiques de design ou permettre à des développeurs tiers de réaliser des projets liés à leur plateforme en conservant une uniformité dans le design. Par exemple, en France, certaines institutions comme des municipalités possèdent leur design system et le communiquent aux sociétés prestataires qui réalisent des projets pour leur compte.
+
+Nous allons nous intéresser à quelques exemples.
+
+Exemple
+AirBnB
+
+Ce n'est pas la première fois que nous parlons de AirBnB : ils ont pour habitude d'être très transparents et portés sur l'open-source s'agissant de leurs pratiques de développement ou de design. Nous avions déjà évoqué le code-style JavaScript AirBnB, qui définit un ensemble de bonnes pratiques dans le développement front-end. On retrouve ici une approche similaire pour le design avec cet article où Karri Saarinen, designer pour AirBnB, décrit le nouveau design system mis en place, son implémentation dans les applications web et mobile et les différents challenges rencontrés. C'est un article très intéressant. L'approche de AirBnB est ici surtout pédagogique et à l'attention des designers pour la réalisation de leur propre design system. On y apprend qu'une des raisons qui a motivé AirBnB à basculer sur ce mode de fonctionnement est la volonté de se donner plus de contraintes pour accélérer et standardiser les pratiques de design.
+
+Exemple
+Atlassian
+
+De son côté, Atlassian (la société derrière de nombreux produits comme Jira, Trello ou encore BitBucket) met à disposition son design system pour permettre aux développeurs de s'en servir de base pour leurs propres projets. Il n'est pas spécialement question de projets liés à Atlassian, mais bien de tout projet qui pourrait faire usage d'une base de design.
+
+Le site est organisé en grandes catégories : on retrouve tout d'abord les components et les patterns. Les components sont des éléments graphiques réutilisables, et les patterns sont des briques plus macro, contenant plusieurs components mis en situation pour former un morceau d'interface utilisateur.
+
+Parmi les components, on retrouve par exemple le bouton.
+
+
+Dans la liste des patterns, on retrouve un élément nommé Benefits modal servant à présenter à l'utilisateur une information sous la forme d'une modale, qui exprime un avantage d'utilisation du produit. Dans ce pattern, on retrouve plusieurs components, comme notre bouton.
+
+
+Il est intéressant de noter que, même si une grande partie du design system d'Atlassian est mis à disposition du public, l'accès à certaines parties, considérées comme plus stratégiques, est limité au personnel d'Atlassian, par exemple le pattern First Impressions.
+
+
+Exemple
+Apple et Microsoft
+
+
+Microsoft et Apple fournissent également des informations sur leur design system, mais, ici, l'objectif est un peu différent. Ces éléments de design sont surtout à destination des développeurs d'applications pour leur plateforme. Même s'il n'est pas obligatoire de suivre ces guides pour proposer son application Windows ou iOS/macOS, Microsoft et Apple rappellent souvent qu'il est préférable de rentrer dans les standards de design qu'ils proposent.
+
+Microsoft Fluent est adopté petit à petit sur les systèmes Windows et se base sur des fond translucides assez particuliers. Pour assurer une plus grande cohérence dans son écosystème, Microsoft conseille ainsi aux développeurs d'applications de suivre les préconisations de Fluent.
+
+Là encore, pour ces deux design systems, on retrouvera un ensemble de couleurs, polices, icônes, logos et didacticiels sur comment mettre en forme nos projets.
+
+L'agilité et les design systems
+Nous en avions déjà un peu parlé, mais ce qui explique en partie le succès de cette nouvelle manière de concevoir le design dans une organisation, c'est l'adoption graduelle de la gestion de projet Agile. Au-delà de fixer des éléments très tôt (les couleurs, par exemple), un design system est souvent formé de composants réutilisables, ce qui permet d'avoir une vision itérative et de faire évoluer les composants unitairement très rapidement, plutôt que de devoir modifier tout un ensemble d'écrans. Ce fonctionnement en composants (en « briques ») qu'il est possible d'assembler fait écho à ce qu'il se passe dans le monde du développement front-end depuis quelques années, où on parle également de « composants d'interface ».
+
+Le développement et les design systems
+Ce n'est sans doute pas une coïncidence, mais avec la montée en puissance des composants d'interface du côté design, on a retrouvé une méthode de travail similaire du côté des nouveaux frameworks JavaScript front-end qui permettent, eux aussi, de travailler avec des composants réutilisables et paramétrables.
+
+De la même manière que ces composants sont assemblés pour former une application web ou mobile, les composants d'un design system peuvent être assemblés dans des ensembles plus ou moins granulaires, comme des patterns (notion décrite dans le design system d'Atlassian), ou dans des écrans entiers.
+
+Quand une organisation (par exemple, AirBnB) embrasse conjointement la création d'un design system et d'un framework front-end moderne comme Angular, Vue ou React, une nouvelle forme de collaboration et de synergie naît entre les équipes de design et de développement. Il est alors possible, toujours de manière itérative, de créer un composant et de l'implémenter en code. La distinction entre les deux pratiques s'efface alors un peu et laisse une plus grande part à la communication inter-disciplinaire. Comme le démontre le design system d'Atlassian, qui propose ses composants directement sous la forme de composants React téléchargeables et utilisables très rapidement. La maintenabilité est accrue puisqu'il est alors possible de mettre à jour les éléments indépendamment des autres.
+
+Syntaxe
+À retenir
+Un design system est une pratique de design apparue il y a quelques années et qui consiste à rassembler toutes les pratiques de design propres à une organisation. Le design system peut alors être constitué des valeurs portées par l'organisation, des couleurs, typographies, iconographies, logo, gestion de l'espacement, ainsi que des composants d'interface, comme les modales, boutons ou éléments de formulaire.
+
+Un design system peut avoir des objectifs différents, comme centraliser les bonnes pratiques et être certain que tous les acteurs parlent la même grammaire, exposer ses bonnes pratiques de design au public, encourager les développeurs à produire des applications en accord avec un design homogène sur une plateforme donnée, etc. C'est en tout cas une pratique qui a trouvé écho dans la gestion de projet Agile (qui est prédominante aujourd'hui) et avec les pratiques de développement JavaScript front-end, qui ont également adopté ce système de composants d'interface réutilisables et paramétrables, ce qui rend la collaboration entre les équipes beaucoup plus simple.

@@ -1,0 +1,62 @@
+Objectifs
+Voir comment télécharger un kit d'interface via Adobe XD
+
+Comprendre comment utiliser un composant lié
+
+Savoir détecter et réparer une perte de liaison entre deux fichiers Adobe XD
+
+Apprendre à créer une deep copy locale d'un composant lié
+
+Comprendre le processus de mise à jour de composant lié
+
+Mise en situation
+Adobe met à disposition pour XD des kits d'interface qu'il est possible de télécharger de la même manière que les plugins, que nous avions déjà vus. Ces kits sont parfois assimilés à des design systems, dont certains que nous avons déjà abordés, comme les kits Apple et Microsoft. Nous allons voir comment télécharger et utiliser ces kits pour accélérer le design d'un projet.
+
+Commençons par créer un nouveau projet avec Adobe XD. Nous allons choisir un template correspondant au format iPhone XR, XS, 11 max. Dans ce projet, nous allons ensuite nous rendre dans le menu Fichier -> Télécharger les kits d'interface utilisateur.
+
+Télécharger le kit Wireframe
+Nous allons commencer par télécharger le kit nommé Wireframes qui est réalisé directement par Adobe et mis à disposition pour offrir un ensemble de composants graphiques pré-conçus, sur lesquels il est possible de se reposer pour créer très rapidement un wireframe à la manière de ce qu'il est possible de faire avec l'application Balsamiq, par exemple. Ces composants ne sont pas faits pour avoir une identité visuelle très marquée, mais pour permettre d'avoir un résultat rapidement.
+
+Une page web s'ouvre alors sur le site Behance, appartenant également à Adobe et permettant de télécharger le kit. Une fois décompressée, l'archive laisse place à deux fichiers XD :
+
+
+Nous allons ouvrir le fichier Wires - Mobile.xd, ce qui permet de visualiser l'ensemble des éléments que nous pourrons utiliser.
+
+
+On remarque plusieurs catégories, la première étant UI Elements, contenant la définition des couleurs, de la typographie, et de l'iconographie. Tous ces éléments sont repris sous la forme d'actifs et enregistrés dans les couleurs, styles de textes et composants.
+
+
+Concept de composant lié
+Pour utiliser un élément, nous allons simplement pouvoir le copier/coller dans notre projet. Nous allons récupérer ici tout un plan de travail, mais il est également possible de ne récupérer que certains calques.
+
+Comme des composants sont présents dans les éléments du plan de travail que nous avons récupéré sur notre projet, Adobe XD nous indique que ces composants sont automatiquement importés dans les actifs du projet sous la forme de composants liés. On retrouve alors la même logique que lorsque nous avions utilisé plusieurs instances d'un composant dans un même projet. Il existe une instance originelle et des copies.
+
+
+En d'autres termes, et pour reprendre un concept de programmation, ce que fait Adobe XD dans cette situation, c'est une shallow copy de notre composant. Un lien existe entre nos deux projets, et c'est en réalité très pratique. Dans le cas d'un très gros projet qu'il serait nécessaire de découper en plusieurs fichiers, modifier l'instance d'un composant sur le fichier représentant notre design system aura immédiatement un impact sur toutes les instances de ce composant dans les autres fichiers.
+
+Il est possible de neutraliser cette liaison en créant cette fois-ci une deep copy du composant vers notre fichier de projet, en réalisant sur le composant lié un clic droit et en choisissant l'option « Créer un composant local ».
+
+
+Perte de la liaison
+Il est important de noter que Adobe XD crée ce lien en se souvenant de l'emplacement du fichier d'origine (le fichier Wires - Mobile.xd dans notre cas). Comme il s'agit ici d'un fichier local, si nous supprimons ou déplaçons ce fichier, la liaison sera perdue (comme indiqué par l'icône de lien devenue rouge et par la tooltip lorsque nous plaçons notre curseur dessus).
+
+
+Dans ce cas, il est possible de restaurer la liaison entre les deux fichiers en cliquant sur l'icône et en indiquant à Adobe XD le nouvel emplacement du fichier source.
+
+Gestion des mises à jour
+Nous avons dit que les mises à jour des composants sur le fichier source étaient répliquées sur toutes les instances de ces composants. Ce processus n'est pas complètement automatique : cela pourrait être dangereux d'appliquer les modifications aveuglément. À la place, Adobe XD vous notifiera lorsqu'il aura détecté que l'instance source d'un composant aura été modifiée et vous demandera si vous souhaitez appliquer cette mise à jour sur le projet.
+
+Depuis une instance du composant, il est possible d'ouvrir le fichier pour modifier le composant source en réalisant un clic droit sur un composant et en choisissant l'option « Modifier le composant principal dans le document source ».
+
+
+Une fois le composant source modifié, l'icône de chaîne sur l'instance du composant dans le fichier du projet va devenir bleue (ce n'est pas toujours instantané, il faut parfois attendre un peu). Cliquer sur cette icône appliquera alors la mise à jour.
+
+Quand plusieurs mises à jour sont présentes, il est possible de cliquer sur le bouton Mettre à jour pour toutes les appliquer.
+
+Nous avons ici modifié l'instance principale du composant responsable d'afficher l'icône de flèche pour passer sa couleur à rouge, et nous appliquons cette mise à jour sur les instances de cette icône dans notre fichier de projet.
+
+Syntaxe
+À retenir
+Adobe met à disposition pour XD plusieurs ressources gratuites qu'il est possible de trouver dans le menu Fichier -> Télécharger les kits d'interface utilisateur. Ces kits prennent la forme de fichiers .xd qu'il faut télécharger sur sa machine et qui permettent de créer très rapidement une maquette avec des éléments pré-conçus.
+
+Ces kits permettent alors de mettre en évidence un mécanisme d'héritage des composants. Il est possible d'utiliser un composant déclaré dans un fichier source dans notre fichier de projet. Un composant lié est alors créé et reprend toutes les caractéristiques du composant source. Modifier cette instance source provoquera la mise à jour sur les instances enfants de ce composant. Cette mise à jour n'est pas automatique et devra être appliquée à la main par le designer.

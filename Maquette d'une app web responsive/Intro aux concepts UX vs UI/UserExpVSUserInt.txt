@@ -1,0 +1,158 @@
+Mise en situation
+Ces dernières années, la place du design et l'importance de la qualité des interactions utilisateur ont su démontrer leur utilité au sein des projets informatiques. En effet, l'expérience vécue par l'utilisateur et les émotions qu'il va ressentir à la navigation sont primordiales pour lui donner envie de l'utiliser, et même de revenir. Le design (dans notre cas, appliqué au Web et aux applications informatiques) est un domaine complexe et entier. On y retrouve des process, des outils et des méthodologies propres, mis à disposition des designers pour réaliser des interfaces de qualité, adaptées à chaque contexte et à chaque projet.
+
+Nous allons découvrir deux grandes disciplines fondamentales dans le monde du design informatique. Nous verrons ce qui les différencie et quels sont leurs rôles.
+
+Définition
+L'UX design
+L'UX Design (User eXperience Design ou Design d'eXpérience Utilisateur) désigne la qualité de l'expérience vécue par un utilisateur dans une situation d'interaction. En d'autres termes, cela représente l'ensemble des émotions que peut ressentir un utilisateur par rapport à une interface donnée, que ce soit un site Internet, une application mobile ou tout autre objet du quotidien.
+
+Même si cette discipline est très employée dans le secteur de l'IT, ce domaine d'étude ne se limite pas aux interfaces web. Il couvre tous types d'expériences sociales et peut également s'attarder sur le rapport des utilisateurs face aux produits (utilisation d'une enceinte Bluetooth, par exemple) ou aux services (comme la visite d'un parc d'attraction).
+
+L'UX designer va donc se concentrer sur l'expérience de l'utilisateur (ses perceptions, ses émotions) avant, pendant et après, et l'accompagner au mieux dans son parcours.
+
+Définition
+L'UI design
+L'UI Design (ou User Interface Design ou le Design d'Interface Utilisateur graphique) détermine quant à lui les approches, les outils et les guides de styles appropriés pour la conception d'une interface.
+
+L'UI designer est également présent pour l'utilisateur en lui proposant une interface graphique qui soit adaptée à son contexte. L'UI va traiter des sujets comme les couleurs, les typographies utilisées ou encore l'organisation de la structure. Les sujets abordés tournent plus ici autour de l'identité visuelle et de la charte graphique.
+
+Exemple
+Une journée dans un parc d'attraction
+Pour comprendre la différence entre l'UX Design et l'UI Design, imaginez que vous devez passer une journée dans un parc d'attraction.
+
+Lors de votre arrivée, vous allez vous concentrer, en premier lieu, sur vos impressions visuelles, votre ressenti. Ce parc est magnifique, il est boisé, les décors sont colorés et réalisés avec des matériaux de qualité. Il y a une offre de restauration qui semble variée et des toilettes publiques à des espaces réguliers sur le parcours du parc. Le plaisir que vous ressentez à la vue de ce parc s'apparente à l'un des objectifs qui définissent le domaine de l'UI Design.
+
+Au fur et à mesure de la journée, votre ressenti va se concentrer sur votre parcours à travers le parc, votre expérience des manèges, et non plus sur l'esthétique des lieux. Vous vous souviendrez que, pour se rendre en voiture sur le site du parc, ce fut une vraie navigation à l'aveugle, la signalétique routière n'était pas optimale. Que le nombre de places disponibles sur le parking est limité. L'accueil du personnel n'est pas chaleureux et agréable. Le nombre d'attractions est acceptable, mais le temps d'attente pour chacune est insupportable. Les toilettes sont sales et le papier manquant, etc.
+
+Pensez-vous, en tant qu'utilisateur, revenir une seconde fois, dans quelques années ? Recommanderiez-vous ce parc à vos proches ? Comme vous l'aurez compris, la réponse à ces questions sera influencée par la qualité de votre expérience en tant qu'utilisateur et consommateur des services proposés. Il s'agit donc bien d'UX Design.
+
+Fondamental
+L'UX designer
+C'est la personne qui est chargée d'identifier et de décrire le contexte d'utilisation réel ou prévu des utilisateurs et qui en déduit les exigences qui devront être développées pour le projet.
+
+L'UX designer va donc, à partir d'entretiens, d'observations, d'enquêtes et d'analyses, concevoir les interactions et imaginer la manière dont les pages vont s’enchaîner, dont le contenu va s'afficher.
+
+Il va dans un premier temps participer, en collaboration avec le Product Owner et le client, à l'architecture de l'information. C'est-à-dire structurer, hiérarchiser les contenus (écrans, pages, etc.) les uns par rapport aux autres afin d'en faciliter la navigation. Mais également agencer les informations au sein même d'une page.
+
+L'UX designer va ensuite modéliser les différentes tâches à accomplir par la rédaction de scénarios : description textuelle narrative du workflow que l'utilisateur devra accomplir. Ces scénarios sont en principe revus par un panel d'utilisateurs cibles, qui devront valider chaque étape du parcours.
+
+Une fois cette étape validée, l'UX designer peut alors passer à la conception de wireframes, c'est-à-dire des prototypes basse fidélité, plutôt sur papier. Il doit se limiter à des illustrations simples et représenter avant tout l'interaction entre les écrans.
+
+Fondamental
+L'UI designer
+C'est l'extension graphique de l'UX designer. Il est chargé de valoriser les fonctionnalités de l'interface pensées par l'UX designer. Il se concentre, comme son nom l'indique, sur l'aspect visuel des écrans (également appelé « Look and feel ») de l'interface. Il est garant du respect de la charte graphique de la marque : usage des couleurs, de la police de caractères, des icônes, photos, images.
+
+L'UI designer s'attarde sur la disposition des éléments qui constituent le contenu d'un écran, mais également sur les interactions, les animations et les retours visuels, qui véhiculent également des informations.
+
+Son objectif est certes d'offrir une interface attractive, intuitive et agréable à utiliser, mais il doit également innover et se tenir informé des tendances visuelles dans le domaine du numérique, tout en prenant en compte les contraintes technologiques employées pour le développement de la solution.
+
+Ce profil doit savoir maîtriser les outils de conception graphique tels que la suite Adobe (Illustrator, Photoshop, XD, Sketch, Invision, etc.), mais également avoir des notions en développement (HTML, CSS, JAVA, PHP...). Il doit également comprendre les enjeux du responsive design, c'est-à-dire la technique de conception d'interface digitale qui fait en sorte que l'affichage d'une quelconque page d'un site s'adapte de façon automatique à la taille de l'écran du terminal qui l'affiche.
+
+Complément
+Les 5 composants de l'UX
+Accessibilité : s'assurer que les utilisateurs peuvent accéder au contenu et aux informations et peuvent interagir avec le système en fonction du contexte environnemental, physique, etc.
+
+Utilisabilité : permettre à l'utilisateur d'interagir facilement et de comprendre rapidement le parcours à réaliser.
+
+Utile : l'interface doit répondre aux besoins des utilisateurs en fonction de leurs contextes d'usage.
+
+Émotion : générer du plaisir, inciter à utiliser le produit.
+
+Persuasion : la forme de l'objet doit encourager les personnes à changer de comportement (acheter plus, rester plus longtemps).
+
+Méthode
+Le Design Thinking
+Le Design thinking est une méthode de conception qui est centrée sur l'utilisateur. Elle permet, via une démarche structurée, d'orienter les projets vers davantage d'innovation. Elle repose sur 5 étapes. Et pour chacune de ces étapes, des outils sont utilisés.
+
+Étape
+
+Objectifs
+
+Outils
+
+Recherche
+
+Comprendre les objectifs du client et surtout comprendre les attentes et besoins de ses utilisateurs, appréhender leur environnement d'usage.
+
+Observation, interview utilisateur, données analytiques, benchmark, empathy map.
+
+Définition
+
+Préciser qui sont les utilisateurs finaux, quelles sont les tâches qu'ils devront accomplir, évaluer le budget et le temps de réalisation.
+
+Personas, carte de l'expérience.
+
+Idéation
+
+Générer des idées, visualiser les usages, définir les étapes sans rentrer dans la technique.
+
+Brainstorming, scénarios.
+
+Conception
+
+Hiérarchiser le contenu, regrouper les informations et les fonctionnalités en rubriques, mettre en scène visuellement l'expérience utilisateur au travers de séquences d'images.
+
+Tri par cartes, wireframes, prototypes cliquables, tests utilisateurs.
+
+Design d'interface
+
+Créer une ambiance graphique tout en préservant l'identité graphique de la marque, renforcer l'affordance.
+
+Tri Moodboard, maquettes graphiques.
+
+Méthode
+Les étapes de conception
+Pour les deux premières étapes de conception, il n'est pas rare que l'UX designer et l'UI designer travaillent en binôme.
+
+Le zoning est l'étape où on schématise grossièrement et rapidement ce que l'on souhaite pour notre future application ou site web, etc. Cette étape permet de représenter rapidement les différents éléments comme le contenu et les différentes fonctionnalités. Cela permet de poser les idées, de donner la ligne directrice, de définir l'organisation générale des pages et de fixer la hiérarchie, les objectifs et les actions de chaque page et, pour finir, de présenter une première approche à l'équipe et/ou au clients. Cette étape est très importante car elle permet de prendre la bonne direction et de faire valider les choix, de voir la faisabilité du projet avant la réalisation des wireframes.
+
+Le wireframe (ou « maquette fil de fer ») est une partie de la phase de zoning. Elle permet de préciser l'organisation interne de certaines sections, comme l'emplacement des boutons, des titres et des contenus photos ou vidéos, etc. Les wireframes peuvent déjà servir de tests pour produire des retours utilisateur et permettre de réajuster les décisions avant de lancer la phase de développement.
+
+Le Mockup est une maquette qui représente un projet le plus fidèlement possible. Il reste tout de même une simple représentation statique mais les images, les liens et le texte sont ajoutés. Cela permet de visualiser avec le plus de clarté le projet. Il existe aussi le prototype, qui est un mockup où l'on a ajouté des interactions et des animations, et qui représente la version finale d'un produit avant sa conception. Une fois finalisé, on peut visualiser l'UX/UI et faire les derniers rajouts ou corrections du produit fini avant de passer à l'étape du codage du projet.
+
+Complément
+Différents styles de design
+Il n'est pas rare d'entendre parler de différents styles de designs. Voici les plus courants :
+
+Atomic design : approche modulaire initialement utilisée par les développeurs, qui consiste à organiser chacun des éléments de l'interface en atomes, molécules, organismes, templates et pages.
+
+Material design : c'est un ensemble de guidelines UX et UI créées par Google et qui permettent une facilité d'intégration pour les développeurs.
+
+Neumorphism design : design qui tend vers le réalisme des éléments graphiques, c'est-à-dire imiter l'apparence des objets lors de la conception.
+
+Flat design : c'est un style épuré, minimaliste qui se base sur des formes simples, avec des aplats de couleurs.
+
+Complément
+Différents intitulés de poste
+Les différents intitulés de poste que vous êtes susceptibles d'entendre dans les activités centrées sur l'humain sont :
+
+Ingénieur en utilisabilité pour parler d'UI designer.
+
+Ingénieur en exigences utilisateur pour l'UX designer.
+
+Évaluateur ou testeur : c'est la personne qui évalue les interfaces utilisateur à différents stades de la réalisation, en collaboration avec d'autres profils de l'équipe.
+
+Architecte de l'information : personne qui crée et organise la structure de l'information du système dans la phase de Définition.
+
+Designer d'interaction et designer d'interface utilisateur : personne qui définit et conçoit l'interaction en se basant sur les exigences des utilisateurs et le contexte d'usage. Il prend comme base les scénarios et les personas. Il est à la jonction entre l'UX designer et l'UI designer.
+
+Dans les petites structures, c'est-à-dire dans la plupart des cas, vous aurez toutes les casquettes en même temps !
+
+Syntaxe
+À retenir
+Nous avons vu que l'UI et l'UX Design sont deux métiers distincts dans le monde du design d'interface. Il faut distinguer leurs enjeux respectifs :
+
+L'UX Design est centré autour des interactions utilisateurs, et de la qualité de l'expérience qu'il va vivre sur l'interface.
+
+L'UI Design va s'attacher à donner un style, une identité visuelle à l'application afin de respecter l'image de marque du client.
+
+Pour ce faire, il existe différents outils et différentes méthodologies applicables par l'UX designer, dont le Design Thinking, qui est centré autour de l'utilisateur et qui va permettre de concevoir l'interface la plus adaptée possible. Il est important pour le designer de placer les émotions et l'utilisabilité au centre de son travail.
+
+Ce travail, parfois aidé de l'UI designer, se découpe en plusieurs étapes :
+
+Le zoning, qui permet de définir des zones en fonction du besoin
+
+Les wireframes qui, pour compléter le zoning, précisent l'organisation des éléments entre eux
+
+Le design qui ajoute la couleur, et définit le visuel des maquettes

@@ -1,0 +1,60 @@
+Partie 1 : Choisir le meilleur outil de design d’interface
+Figma est un outil de design accessible directement en ligne ou téléchargeable telle une application, qui permet la collaboration en temps réel des UX/UI designers. Il permet notamment la conception d'interfaces web et mobiles.
+
+La création d'une interface utilisateur vise à prévoir ce que les utilisateurs sont enclins à faire et à s'assurer que l'interface dispose d'éléments faciles d'accès, faciles à comprendre et faciles à utiliser pour simplifier les actions. Les interfaces utilisateur réunissent les principes du design d'interaction, du design visuel et de la structure de l'information.
+
+Vous avez été repéré et embauché depuis peu par une agence digitale du nom de Design corp. Ils vous missionnent sur un projet durant lequel vous aurez la possibilité d’utiliser l’outil de design de votre choix. Cette opportunité vous est offerte à condition que vous leur fournissiez une présentation de l’outil et de ses avantages lors d’une réunion et que celui-ci ait été validé par l’ensemble de l’équipe.
+
+Dans un premier temps, vous décidez de présenter Figma à l’équipe.
+
+Question
+1.1. Quels sont les avantages d’une utilisation de Figma ?
+
+Solution
+Dans un premier temps, Figma offre le partage de fichiers et la collaboration en temps réel.
+
+Un autre avantage de Figma est la possibilité de collaborer avec des systèmes de gestion des versions. Grâce à son système de branches calqué sur celui de Github, il est possible de fractionner un fichier en plusieurs sous-branches afin que chaque modification n'altère pas celles des branches voisines.
+
+De plus, Figma gère toutes ces fonctions de manière native, qu'il s'agisse de prototyper, d'ajouter des commentaires, de concevoir des illustrations vectorielles ou de vérifier le code. Figma a même conçu « Figjam », un outil offrant la possibilité de mener des projets collaboratifs à distance.
+
+Figma a mis en place un espace partagé dans sa plateforme afin que les concepteurs puissent partager des templates, des plugins, des widgets, des systèmes de conception, des wireframes, des illustrations, des icônes, des typographies et des kits d'interface utilisateur. Cet espace est appelé « Communauté ».
+
+En outre, la structure des composants dans Figma permet de personnaliser et de modifier très facilement les diverses propriétés. De ce fait, en associant plusieurs composants et en personnalisant les attributs de style de chaque instance, moins de composants seront requis ce qui contribuera à rendre le projet plus fluide.
+
+Enfin, le fait de pouvoir consulter ses fichiers à partir de n'importe quel navigateur web disposant d'une connexion internet fait de Figma un outil des plus appréciés.
+
+Dans un second temps, vous décidez de présenter Sketch à l’équipe.
+
+Question
+1.2. Quels sont les avantages d’une utilisation de Sketch ?
+
+Solution
+Sketch est un outil de graphisme vectoriel destiné à la conception UI/UX de sites web et d'applications mobiles. Au même titre que Figma, il est parfaitement adapté au prototypage, de même qu'à la coopération dans le domaine de la conception.
+
+En outre, il est entièrement compatible avec de multiples programmes très répandus tels qu'Adobe Illustrator et Photoshop.
+
+Il supporte un grand nombre de formats de fichiers tels que PDF, JPG, PNG, SVG, WEBP et de nombreux autres.
+
+L'un des principaux avantages de Sketch est qu'il se développe quotidiennement en fonction des exigences de l'utilisateur. Il est également léger, rapide et relativement peu coûteux. De plus, ses menus ont été conçus dans un souci de simplicité. Il permet de générer automatiquement des grilles de mise en page sur les sites web, avec des modèles immédiatement utilisables.
+
+L'interface est dégagée, ce qui est l'un de ses points forts. Cela économise de l'espace et il n'y a plus de palettes qui viennent encombrer le plan de travail. Il est donc plus simple et rapide à prendre en main.
+
+Vous avez exposé les avantages de Sketch et de Figma à vos collaborateurs, seulement, ils sont encore indécis, car les deux outils leur plaisent. De votre point de vue, Figma reste tout de même la meilleure solution et vous prenez l'initiative de réaliser un comparatif des deux outils.
+
+Question
+1.3. Selon vous, en quoi Figma serait une meilleure alternative à Sketch ?
+
+Solution
+L'une des principales différences entre les deux outils est que Figma est accessible dans le navigateur, alors que Sketch est une application de bureau exclusivement proposée sur les ordinateurs Apple. En ce qui concerne la collaboration, Figma présente un avantage de taille car, à la différence de Sketch, il est disponible de manière universelle.
+
+Un point fort de Figma réside dans le travail d'équipe. En tant que concepteur d'interface utilisateur à distance, Figma représente probablement le meilleur choix. Sa particularité la plus marquante est la collaboration en temps réel qui donne la possibilité à de multiples membres d'une équipe de collaborer en même temps sur un même projet de conception. Pas besoin de communiquer les modifications dans les deux sens : chaque participant peut les visualiser directement dans l'outil, au fur et à mesure de leur apparition.
+
+Un autre atout est que Figma est accessible par navigateur, ce qui évite aux développeurs qui désirent visualiser un projet, par exemple, d'avoir à installer un outil de conception qu'ils n'utilisent pas. Les projets possèdent chacun une URL qui leur est propre, ce qui facilite le partage des fichiers.
+
+En ce qui concerne les outils de conception, Figma offre certaines fonctionnalités qui sont sans doute supérieures à celles de leurs équivalents de Sketch.
+
+Figma reprend également les outils de dessin traditionnels et les optimise en recourant à des réseaux vectoriels. Concrètement, cela se traduit par une plus grande souplesse dans la cartographie.
+
+Le fait que Figma fonctionne dans un navigateur est un avantage indéniable pour ceux qui n'ont pas de Mac ou pour ceux qui ont besoin d'accéder à certains fichiers, mais ne veulent pas télécharger et installer des outils de conception.
+
+Figma est destiné au travail en équipe. Les fonctions de collaboration en temps réel et de contrôle détaillé des versions sont assurément un atout appréciable.

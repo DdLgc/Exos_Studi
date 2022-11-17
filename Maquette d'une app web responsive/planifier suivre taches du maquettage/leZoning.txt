@@ -1,0 +1,87 @@
+Mise en situation
+Première étape de la conception graphique, le zoning joue un rôle majeur dans la définition de la structure des pages d'une application. Nous allons voir à quel moment il s'inscrit dans la réalisation d'un projet, avant de décrire son rôle, puis son contenu et les règles qu'il respecte.
+
+Définition
+Le zoning est la première forme de maquette, statique, sous forme papier, en nuance de gris, qui consiste à définir le découpage et l'organisation du contenu des pages.
+
+Quand est-il réalisé ?
+Il est souvent réalisé lors d'ateliers de co-conception, entre l'UX designer, le Product Owner, des représentants des équipes métiers et des utilisateurs, lors de la phase d'idéation du Design Thinking. Il intervient après la définition de l'arborescence et de l'architecture fonctionnelle de l'application ou du site web, et sert de base à la conception des wireframes. Cette version de la future interface s'attache à détailler le fond, mais pas la forme.
+
+Définition
+Le Design Thinking
+Dans la méthode de conception centrée utilisateur, appelée Design Thinking, l'UX designer et ses collaborateurs (UI designer, développeurs, PO, etc.) avancent de manière itérative, à travers les 5 étapes suivantes :
+
+Recherche : comprendre les objectifs du client et surtout comprendre les attentes et besoins de ses utilisateurs, appréhender leur environnement d'usage
+
+Définition : préciser qui sont les utilisateurs finaux, quelles sont les tâches qu'ils devront accomplir, évaluer le budget et le temps de réalisation
+
+Idéation : générer des idées, visualiser les usages, définir les étapes sans rentrer dans la technique
+
+Conception : hiérarchiser le contenu, regrouper les informations et les fonctionnalités en rubriques, mettre en scène visuellement l'expérience utilisateur
+
+Intégration ou design d'interface : créer une ambiance graphique tout en préservant l'identité graphique de la marque
+
+Pourquoi ?
+Le zoning permet donc de matérialiser ses premières idées. Pour chaque page, il s'agit d'identifier les différentes zones ou blocs de contenu et de définir leurs objectifs, les actions qu'elles devront proposer et qui seront intégrées à l'interface du site. En architecture, le zoning reviendrait à définir l'emplacement des pièces dans une maison.
+
+Son contenu
+Il existe des gabarits d'écrans-types ou « design patterns » qui contribuent à l'homogénéité des interfaces. Cela permet aux utilisateurs de lire et de mémoriser plus rapidement les informations, car elles se retrouvent fréquemment au même endroit.
+
+Cette maquette de basse fidélité inclut généralement les éléments suivants :
+
+Logo
+
+Navigation
+
+Contenu
+
+Outils
+
+Publicités si elles sont prévues dans l'interface
+
+Fil d'Ariane
+
+Champ de recherche
+
+Pied de page
+
+Exemple
+
+Cet exemple de zoning permet de visualiser le placement des différents éléments qui composeront la page. On y retrouve une grande partie des composants habituellement présents dans les applications web, comme un panier, un espace de navigation et des panneaux latéraux avec différentes informations entourant un contenu principal.
+
+Les règles à respecter
+Les blocs de contenu sont généralement représentés à l'aide d'une nuance de gris plus ou moins forte, afin d'illustrer leur hiérarchie visuelle dans l'interface, et donc leur niveau de lecture dans l'arborescence.
+
+La résolution de l'écran et le type d'appareil utilisés vont bien évidemment orienter les choix en termes d'organisation de l'espace. Les éléments de navigation, par exemple, ne seront pas pensés et placés de la même façon sur un ordinateur ou sur un mobile. Si votre bloc de contenu principal (bloc publicité, dans l'exemple) se trouve sous la ligne de flottaison en mobile, il faudra alors revoir son positionnement.
+
+De la même manière, le zoning permet de penser les zones de contenu en termes de dimensions et de proportions. C'est pour cela qu'il est recommandé, pour des sites soumis à la contrainte du responsive, de débuter ce schéma de conception par le mobile. Cette démarche vous permettra de :
+
+Donner la priorité aux contenus les plus importants.
+
+Donner aux utilisateurs une expérience complète, et ce malgré la taille de leur support.
+
+Permettre de penser en termes de performances, et ce dès le début du projet.
+
+Les outils de conception
+Pour concevoir un zoning, il n'est pas nécessaire d'avoir un logiciel de conception graphique en sa possession. Seuls du papier et un crayon suffisent. Vous pouvez cependant illustrer votre zoning avec des applications telles que :
+
+Balsamiq Mockups
+
+PowerPoint
+
+Illustrator
+
+Excalidraw
+
+Ou encore :
+
+Adobe XD
+
+Figma
+
+À retenir
+L'étape de zoning joue un rôle important dans la réalisation de la phase d'idéation du Design Thinking. En effet, sa structure, illustrant l'architecture d'une page, facilite les échanges d'idées et permet de centrer l'étude sur la satisfaction des besoins des utilisateurs.
+
+Le zoning doit permettre de représenter la position des éléments structurels d'une page. Dans le cadre des applications web, il existe des patterns de placement des éléments qu'il est bon de respecter, car ils sont familiers pour les utilisateurs.
+
+Sa représentation, dans les tons de gris plus ou moins accentués, permet de représenter la structure hiérarchique visuelle des différentes composantes de la page.

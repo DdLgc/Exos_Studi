@@ -1,0 +1,43 @@
+Les mockups
+Objectif
+Découvrir le contenu et le rôle des mockups
+
+Mise en situation
+C'est à partir de la version finale des wireframes que l'équipe d'UI Design va pouvoir intervenir sur le projet. En effet, c'est en se basant sur ceux-ci qu'elle va pouvoir élaborer des propositions graphiques détaillées, les mockups.
+
+Nous allons voir quels sont leur contenu et leur rôle.
+
+Le contenu des mockups
+Les mockups (ou maquettes UI) constituent la première étape faisant intervenir l'UI designer. Conçu à partir des wireframes fournis par l'UX designer, ce livrable est un modèle d'interface utilisateur réaliste et abouti, qui doit être le plus fidèle possible au résultat final.
+
+À ce stade, on ne s'intéresse pas à la navigation entre les pages ou aux animations des boutons, mais uniquement à la représentation visuelle du contenu.
+
+Comme dans le domaine de l'architecture où les plans d'un projet de construction sont toujours complétés par des maquettes en volume permettant aux décideurs comme aux futurs acheteurs de visualiser le projet en trois dimensions, les mockups permettent aux différents intervenants du projet d'avoir une représentation du rendu graphique final de chaque page.
+
+Cette prévisualisation haute fidélité fait intervenir les codes graphiques de la charte du client, tout en tenant compte des recommandations ergonomiques exprimées par l'UX designer.
+
+Exemple
+
+Cet exemple de mockup permet de visualiser de la manière la plus fidèle possible le rendu graphique des pages, depuis le rendu des images jusqu'aux couleurs spécifiques utilisées.
+
+Le rôle des mockups
+Les mockups, qui ne sont pas conçus à l'aide d'outils de développement, sont généralement statiques.
+
+Ils permettent de valider avec l'utilisateur tous les aspects visuels de l'interface, à savoir la mise en page générale, le choix d'un type de bouton plutôt qu'un autre, la taille de la typographie, la compréhension des icônes, la qualité des images, etc.
+
+Ils servent très souvent de cahier de spécifications graphiques aux équipes d'intégration et interviennent comme une deuxième étape dans la phase de conception de la méthodologie de Design Thinking.
+
+Les outils de conception
+Photoshop
+
+Illustrator
+
+Ou encore :
+
+Adobe XD
+
+Figma
+
+Syntaxe
+À retenir
+Les mockups sont des représentations graphiques les plus proches possibles de ce que sera le résultat final. Étant statiques, ils ne serviront pas à représenter les différentes animations prévues, mais uniquement la représentation visuelle des éléments de chaque page. Leur constitution doit tenir compte de la charte graphique et des impératifs ergonomiques définis lors des étapes de conception précédentes.

@@ -1,0 +1,80 @@
+Récolter les données
+Objectifs
+Comprendre le processus de conception du design
+
+Savoir se mettre à la place de l'utilisateur
+
+Découvrir les fiches personas
+
+Mise en situation
+Précédemment, nous avons vu que la clé d'une interface simple, efficace et intuitive passait par une première phase de découverte et de recherche de données, essentielle pour comprendre et décrire les attentes, besoins et comportements de nos futurs utilisateurs.
+
+Cette phase, qui peut se dérouler sous différentes formes (observations, entretiens individuels et/ou groupés, en face-à-face et/ou en ligne) a pour but de définir avec précision le profil des personnes qui vont utiliser le produit, et qui vont servir de références pour la rédaction des personas. C'est à ce moment que l'on définira également les parties prenantes, c'est-à-dire les personnes qui sont affectées directement ou indirectement par cet usage.
+
+L'ensemble des données recueillies pendant cette phase, qu'elles soient qualitatives ou quantitatives, permettra également de comprendre les biais des utilisateurs, de définir leurs exigences et leurs motivations, de faire ressortir les forces et les faiblesses du produit. Autant d'informations qui serviront à la rédaction de scénarios d'usage, en vue de prendre la meilleure direction lors des phases suivantes (Définition et Idéation), orientées sur la conception de la solution numérique.
+
+Fondamental
+Qu'est-ce qu'une persona ?
+Une persona ne correspond pas à une personne réelle, mais est une personne imaginaire dont le profil est, lui, réaliste et correspond à de vrais utilisateurs, cœur de cible du produit. Il consiste à dresser le portrait-robot de l'utilisateur type en se basant sur des données quantitatives et qualitatives.
+
+Il est en général nécessaire d'interviewer au minimum 5 et au maximum 12 utilisateurs pour réaliser une persona, et ce afin de garantir une quantité d'informations suffisante, l'homogénéité de ces informations récoltées et d'être certain que chacun des utilisateurs possède la même connaissance et les mêmes intérêts par rapport au sujet couvert.
+
+Pour vos projets, limitez-vous à la création de 3 personas maximum :
+
+Primaires : utilisateurs cibles inévitables
+
+Secondaires : utilisateurs importants qui partagent certains besoins avec les utilisateurs primaires, mais qui ont des besoins supplémentaires
+
+Négatifs : les autres utilisateurs qui ne font pas partie des utilisateurs cibles
+
+Une persona est toujours constituée d'informations personnelles, telles que :
+
+L'âge, le sexe, la situation familiale, la personnalité
+
+La vie professionnelle : métier, secteur d'activité
+
+Son comportement et son expérience en lien avec votre produit : ce qu'il aime, ce qu'il reproche, les améliorations souhaitées
+
+Son expérience face aux outils numériques
+
+Exemple
+
+Source : capture d'écran https://www.sitew.com/Comment-developper-son-entreprise-en-ligne/persona-marketing
+
+Conseil
+Il est important que ces personas soient communiquées au plus grand nombre au sein d'une équipe, que ce soit au service Marketing, Commerce, Design ou Développement, car elles servent à communiquer et partager une vision commune des utilisateurs, et surtout à générer de l'affect et de l'empathie pour des utilisateurs parfois difficilement accessibles.
+
+Fondamental
+Scénario ou parcours utilisateur
+Un scénario est une description textuelle narrative de la procédure qu'un utilisateur spécifique suit pour réaliser une ou plusieurs tâches. Il est issu des résultats d'observations et des entretiens réalisés lors de la phase de Découverte.
+
+Il y a deux types de scénarios :
+
+Scénario de l'existant qui décrit comment les tâches sont actuellement réalisées.
+
+Scénario d'usage qui décrit comment les tâches sont réalisées avec le système interactif prévu. Ils servent de référence au moment de la conception de prototypes pour créer des modèles de tâches.
+
+L'objectif des scénarios est de répondre aux problèmes des personas et est une manière de réfléchir aux usages, car ils permettent de visualiser les interactions. On choisit les cas un peu extrêmes, ceux qui sont les plus « challengeants ». On cherche à se projeter et à idéaliser l'expérience pour l'utilisateur.
+
+Le travail de rédaction des scénarios de tests est aussi important que le temps consacré à l'évaluation du dispositif digital avec les utilisateurs finaux. En règle générale, il y a un scénario par tâche.
+
+Un scénario utilisateur doit être bref et concis. Cet exercice permet également aux équipes de développement de mieux chiffrer. C'est au stade du Développement que les scénarios seront transformés en user stories. Comme à chaque étape de la conception, ils sont revus par les utilisateurs.
+
+Exemple
+
+Source : capture d'écran http://www.uxforthemasses.com/scenarios-part-one/#
+
+Syntaxe
+À retenir
+Avant de se lancer dans la réalisation des maquettes, le designer doit récupérer les informations sur les différents utilisateurs du projet, afin de bien comprendre le besoin et de cerner son attente. Pour cela, il va pouvoir réaliser des interviews et des fiches personas, et même écrire des scénarios d'utilisation.
+
+Une fiche persona représente une personne imaginaire conçue à partir de vrais profils utilisateurs. C'est en quelque sorte le portrait-robot de l'utilisateur type qui va utiliser l'application. La persona permet de communiquer avec les autres acteurs du projet, et permet de mieux comprendre les attentes des utilisateurs de la future application.
+
+Il est également possible d'écrire des scénarios permettant de retracer le parcours utilisateur afin de mieux visualiser les interactions. Il en existe deux types : le scénario de l'existant, qui décrit comment le système actuel est utilisé, et les scénarios d'usage, qui vont s'attacher à décrire comment le futur système sera utilisé.
+
+Complément
+Quelques outils pour créer des personas :
+
+Make My Persona : https://www.hubspot.fr/make-my-persona
+
+Xtensio : https://app.xtensio.com/design/7xncqjb4

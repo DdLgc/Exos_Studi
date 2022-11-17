@@ -1,0 +1,65 @@
+Différents modèles de pensées
+Objectifs
+Découvrir des modèles de pensées permettant d'améliorer la conception
+
+Savoir différencier l'UCD, le HCD et le Data Driven Design
+
+Mise en situation
+Dans cette partie, nous allons découvrir quelques modèles de pensées utilisés dans l'UX. Il en existe de nombreux, dont la frontière est mince pour certains. Ensuite, nous verrons un troisième modèle tout à fait différent, mais qui s'impose de plus en plus dans les entreprises IT avec l'arrivée de l'Intelligence Artificielle.
+
+Fondamental
+La conception centrée sur l'humain (HCD)
+La conception centrée sur l'homme est le processus de création qui va prendre en compte toutes les particularités psychologiques, physiologiques, sociologiques (et autres sciences humaines) des utilisateurs. Elle va observer l'humain et sa manière d'interagir dans son environnement. Elle va au-delà du statut d'utilisateur consommateur. Cette méthode va bien évidemment faire en sorte que le produit soit fonctionnel, agréable, et qu'il réponde aux besoins de l'utilisateur.
+
+Mais ce n'est pas tout ! Elle va en plus prendre en compte des critères plus différentiels, mais pourtant cruciaux, comme :
+
+La capacité physique : personne en statut de handicap passager ou définitif, léger ou lourd
+
+La perception des couleurs : le daltonisme par exemple ou la signification de la couleur en fonction de la culture
+
+L'environnement d'usage : personne vivant dans un pays chaud avec beaucoup de luminosité ou personne vivant dans un pays froid où la nuit tombe rapidement
+
+L'âge : capacité visuelle et cognitive
+
+Le niveau d'éducation
+
+Cette méthode est davantage utilisée par les ergonomes. Tout comme l'UCD, les utilisateurs sont impliqués tout au long de la conception et son processus est itératif.
+
+Les équipes de conceptions centrées sur l'humain ne doivent pas être grandes, mais l'équipe doit être suffisamment diversifiée pour collaborer sur les décisions de conception. Les domaines de compétences nécessaires sont bien évidemment un ergonome et des utilisateurs, mais également des experts du domaine applicatif, un responsable marketing, un analyste commercial et système et un ingénieur des systèmes.
+
+Fondamental
+La conception centrée sur l'utilisateur (UCD)
+Vous l'aurez donc compris, la conception centrée sur l'utilisateur est une version plus concentrée et concise de la conception centrée sur l'humain, avec une analyse plus approfondie du public cible. La conception centrée sur l'humain est souvent un prémisse de la conception centrée sur l'utilisateur, qui, elle, va approfondir les caractéristiques des utilisateurs cibles et ainsi se concentrer sur les gains, difficultés et objectifs des futurs utilisateurs.
+
+Différence entre conception centrée sur l'humain et conception centrée sur l'utilisateur
+L'une considère les fonctionnalités d'interaction humaine, et l'autre approfondit les détails de certaines catégories d'utilisateurs, leurs besoins, souhaits et problèmes.
+
+Le Design Thinking, comme nous l'avons vu tout au long du cours, est une méthodologie de découverte / conception / prototype / test / répétition, sur laquelle l'UCD se base.
+
+Définition
+Data Driven Design
+Le Data Driven Design est une technique de conception d'UX basée sur la récolte de données pour cibler les défauts d'un site ou d'un design afin de les résoudre, pour que l'expérience utilisateur soit la plus agréable et la plus fonctionnelle possible.
+
+La récolte de ces données se fait, comme vu précédemment, lors de la phase de découverte à travers des enquêtes, des sondages et des tests utilisateurs. L'A/B testing est, par exemple, un outil très utilisé en conception basée sur les données.
+
+Avec cette méthode, nous n'allons pas seulement nous concentrer sur le ressenti de l'utilisateur, sur des données suggestives, mais également analyser l'API, c'est-à-dire les indices de performance, grâce à des outils de récolte de données comme Google Analytics.
+
+Exemple
+Netflix
+Netflix est un bon exemple de business model qui a tout misé sur l'expérience utilisateur. La plateforme américaine utilise les données d'audience pour créer des recommandations de contenus personnalisés et produire des programmes qui répondent aux intérêts des téléspectateurs. Ces données sont devenues un avantage concurrentiel pour l'entreprise. Chaque client bénéficie en effet d'une interface qui est désormais le reflet de ses comportements.
+
+(Source : https://ictexpertsluxembourg.lu/divers/data-driven-design-quand-ia-transforme-ux/)
+
+Complément
+Le machine learning
+L'intelligence artificielle dans le design d'expérience utilisateur commence à prendre de l'importance. Les algorithmes sont aujourd'hui capables de trier, agréger, présenter les informations et d'en prédire des comportements via des méthodes statistiques d'apprentissage. Cet apprentissage automatique s'appelle le machine learning.
+
+Syntaxe
+À retenir
+Il est possible d'orienter la conception selon plusieurs types de pensées afin de pousser la représentation du besoin plus loin. Nous avons découvert deux modèles de conception similaires, mais qui comportent tout de même des différences :
+
+HCD est la conception centrée sur l'humain, elle va prendre en compte la manière dont l'utilisateur interagit avec son environnement, et notamment si ce dernier souffre de handicaps, du daltonisme, s'il est âgé, ou encore en fonction de l'endroit où il vit. Prendre en compte ces éléments permet une meilleure réponse aux besoins utilisateurs.
+
+UCD est la conception centrée sur l'utilisateur, elle va donner plus d'importance à des aspect plus intrinsèques aux utilisateurs, c'est-à-dire leurs objectifs de navigation, ce qu'il pourrait y gagner, et ce qu'il pourrait ne pas apprécier.
+
+Nous avons également découvert le Data Driven Design, dont le but est de mettre en avant les défauts d'une application pour mieux les corriger. Il va également prendre en compte des éléments statistiques, notamment grâce à des outils tels que Google Analytics.

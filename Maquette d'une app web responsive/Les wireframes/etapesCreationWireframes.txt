@@ -1,0 +1,87 @@
+Mise en situation
+La conception de wireframes est une étape essentielle du processus de création graphique, car ils permettent de valider les solutions à apporter aux besoins utilisateurs, en collaboration avec toutes les parties concernées par le projet.
+
+Nous allons voir qu'il est nécessaire de suivre un processus en cinq étapes pour concevoir des wireframes de qualité : l'articulation, la production, la répétition, la communication et la validation.
+
+Articulation
+Cette première étape se déroule généralement en atelier de co-conception lors de la phase d'Idéation. Mais, dans un cycle court, il n'est pas rare qu'elle amorce le processus de production graphique.
+
+L'étape de l'articulation est primordiale, car elle permet de répondre à 3 questions :
+
+Qui utilisera l'interface ? Quel est le profil de ses utilisateurs (personas) ?
+
+Quel est l'objectif de ses utilisateurs? Quels problèmes cette application et les fonctionnalités qui la constituent résolvent-elles ?
+
+Quelles sont les actions que ses utilisateurs sont susceptibles d'effectuer (flux utilisateur) ? Quels sont leurs besoins ?
+
+S'il manque des réponses à au moins une de ces questions, il n'est pas recommandé de se lancer dans la phase de conception. Le périmètre du produit n'est pas encore clairement défini. Il y a donc un fort risque d'être contre-productif et de répondre à côté du besoin réel des utilisateurs.
+
+À l'inverse, dès que les profils des personas auront été élaborés et que les objectifs et besoins des utilisateurs auront été déterminés clairement, il sera possible de cartographier le flux des utilisateurs (ou user flow) à travers un plan de site.
+
+Un user flow est une représentation d'une série d'étapes qu'un utilisateur doit suivre pour atteindre un objectif spécifique. Il vous permettra de déterminer le nombre d'écrans nécessaires à spécifier pour qu'un utilisateur navigue d'un point A à un point B. Bien évidemment, c'est le rôle de l'UX Designer que de proposer aux utilisateurs différents chemins possibles pour atteindre leurs objectifs.
+
+Exemple
+
+L'exemple de user flow ci-dessus présente le parcours utilisateur d'une application, depuis l'écran d'accueil jusqu'au paiement d'un produit, en passant par sa recherche et sa sélection dans un panier. Il permet de représenter chacune des étapes nécessaires à la réalisation de cet objectif.
+
+Production
+Une fois en possession des user flow représentatifs des parcours utilisateur liés à chaque besoin, il devient possible de les matérialiser sous forme de wireframes.
+
+Pour cela, il est conseillé de réaliser autant de wireframes (papier ou numériques) qu'il y a de pistes de réflexion pour un flux donné. Le principal est de ne pas se censurer et de ne pas hésiter à aller chercher l'inspiration dans des modèles UX qui ont fait leurs preuves.
+
+Tout au long de la réalisation de ces maquettes, il est important de garder les règles suivantes en tête :
+
+Limiter l'usage de la couleur et des images : il s'agit de tester l'architecture de l'information et la navigation, et non l'esthétique. La couleur doit juste signifier les informations prioritaires.
+
+L'information la plus importante doit être la première chose que l'utilisateur voit. Il faut donc réfléchir en termes d'espace entre les éléments, de taille du texte et des boutons, etc.
+
+Utiliser autant que possible du vrai contenu afin de respecter la lisibilité des textes et de se rendre compte de la taille nécessaire à une police pour être suffisamment percutante.
+
+Tous les éléments doivent être présents, mais il ne faut pas surcharger.
+
+Il faut penser responsive first : les versions mobile et tablette des wireframes doivent être conçues avant de passer à la version desktop, car il est plus facile de placer les composants en élargissant l'espace qu'en les confinant.
+
+Adaptez l'interaction et la navigation en fonction de votre appareil.
+
+Répétition
+Il s'agit ici de faire un bilan des idées proposées, de comparer les différentes solutions maquettées et de constater ce qui marche ou non.
+
+Cette étape peut être réalisée à l'occasion d'une réunion de conception avec le Product Owner et les équipes de développement. Un œil externe permet très souvent d'envisager une solution sous un autre angle.
+
+Il s'agit alors de prendre le meilleur de chacune des propositions, c'est-à-dire les éléments qui fournissent une réponse la plus ergonomique possible aux attentes et besoins des utilisateurs.
+
+Communication
+Une fois en possession de ce qui semble être, à ce stade, les propositions les plus adaptées, il est temps de les faire tester par les futurs utilisateurs et les équipes métiers. En fonction des retours liés à cette phase, il sera nécessaire de réaliser autant d'itérations que nécessaire, jusqu'à proposer des solutions acceptées par tous les intervenants du projet.
+
+Il ne faut pas oublier que les utilisateurs ne sont pas les seuls concernés par le travail de réflexion induit par la réalisation des wireframes.
+
+C'est pourquoi il est important de les soumettre aux équipes de développement. Cela permet d'exposer et d'expliquer les choix faits aux personnes qui se chargeront de l'intégration. Elles auront ainsi une meilleure visibilité de ce qui les attend.
+
+Ces personnes se sentiront par ailleurs plus investies dans le processus de création et pourront aussi anticiper les retours utilisateurs et donc être plus réactifs en termes d'intégration, de performance, etc.
+
+Validation
+Après l'étape de communication, il est important d'annoter tous les retours reçus lors des présentations et des phases de test sur la conception des wireframes. Ils peuvent être divisés en trois grandes catégories :
+
+Contenu : libellé, choix des composants
+
+Apparence et sensation
+
+Interaction ou workflow complet
+
+Toutes les remarques doivent être entendues, consignées, synthétisées et doivent faire naître des correctifs jusqu'à validation de tous les intervenants.
+
+Les wireframes aboutis devront (avant d'être transformés en mockups UI) être soumis à validation finale par les équipes de développement et le Product Owner, qui jugeront non seulement de la faisabilité technique, mais surtout de la cohérence entre la charge d'intégration prévue et les délais de livraison imposés.
+
+Syntaxe
+À retenir
+La création de wireframes de qualité nécessite de suivre différentes étapes, qu'il faudra répéter jusqu'à validation pour passer à la suivante. Celles-ci se décomposent en cinq parties :
+
+L'articulation : c'est la définition du user flow répondant aux besoins des utilisateurs et permettant de représenter comment vont s'articuler les pages entre elles.
+
+La production : il s'agit de l'étape pendant laquelle les wireframes sont réalisés en suivant différentes recommandations.
+
+La répétition : cette étape fait collaborer différents intervenants, comme le Product Owner et des représentant des équipes techniques si nécessaire, afin d'offrir une vision externe des différentes propositions et d'en faire une présélection.
+
+La communication : il s'agit à ce stade de présenter les wireframes aux intervenants métier, aux utilisateurs et aux équipes de développement afin d'en recueillir les retours.
+
+La validation : dernière étape du processus de création des wireframes, elle permet, après avoir pris en compte les retours de l'étape précédente, de sélectionner les wireframes apportant les réponses les plus adaptées aux besoins des utilisateurs.

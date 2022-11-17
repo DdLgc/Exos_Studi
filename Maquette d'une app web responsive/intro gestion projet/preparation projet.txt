@@ -1,0 +1,77 @@
+Enoncé
+
+Dans la continuité de l'exercice précédent concernant le projet d’aménagement d'un espace naturel sur lequel vous intervenez en tant que chef de projet, il vous est demandé de réaliser la phase d'initialisation du projet.
+
+Pour rappel, la réalisation de ce parc fait partie des propositions faites par la nouvelle équipe municipale lors des élections : il s'agit donc d'un projet tenant à cœur à la majorité des riverains, ainsi qu'à la municipalité.
+
+Cet espace naturel proposera différents parcours pédestres pédagogiques sur l'environnement naturel local, ainsi que des espaces de détente et sera gratuit d'accès pour les habitants des communes proches.
+
+Pour cela, de nombreux aménagements du territoire sont à prévoir : conception et maintenance des chemins, aménagement d'espaces de repos et de divertissement, mise en place de toilettes, etc.
+
+En vous basant sur l’identification des parties prenantes et des contraintes, vous écrirez une ébauche de la charte du projet, ainsi que quelques lignes du registre des parties prenantes en incluant le maire, un adjoint au maire, un chargé d'étude et un représentant des riverains.
+
+Pour rappel, la charte du projet contient les rubrique suivantes :
+
+Le contexte du projet,
+
+Les objectifs et contraintes,
+
+Le périmètre,
+
+Les principaux acteurs,
+
+Les premiers risques potentiels,
+
+Les bénéfices du projet,
+
+Une idée du budget.
+
+SOLUTION:
+
+À partir des informations dont nous disposons, nous pouvons proposer une ébauche de la charte du projet sous la forme suivante :
+
+Le contexte du projet : dans le cadre du respect de ses propositions électorales, la municipalité souhaite créer un espace naturel pédagogique et de divertissement gratuit pour les habitants des communes environnantes et payant pour les visiteurs éloignés.
+
+Les objectifs et contraintes : disposer d'un parc naturel à vocation pédagogique et commerciale avant la fin du mandat et respectant les normes environnementales. La réalisation du projet ne devra pas dépasser le budget alloué par la municipalité.
+
+Le périmètre : déboisement d'une partie de l'espace, création de chemins pédestres, parcours pédagogique, aires de détente et de jeux, zones de restauration, toilettes...
+
+Les principaux acteurs : la municipalité, les riverains, les associations de protection de l'environnement et les usagers.
+
+Les premiers risques potentiels : risques Incendie, risques liés à l’accueil du public, risques d'impact négatif sur l'environnement et de rejet des riverains ou des usagers.
+
+Les bénéfices du projet : mise en valeur du patrimoine naturel, rentabilisation sur le long terme avec les visites payantes, augmentation de l'attractivité de la commune grâce à l'espace d'activités...
+
+Une idée du budget : environ 1 M €.
+
+Une première approche du registre des parties prenantes pourrait être :
+quiz-gestion-projet-registre.png 
+
+
+Exo exécution et finalisation d'un projet 
+
+Dans le cadre de l'exécution du projet d’aménagement d'un espace naturel pour le public, présenté dans les exercices précédents, différents acteurs du projet ont fait remonter l'apparition de risques non anticipés pendant les phases d'initialisation.
+
+Parmi ceux-ci, on retrouve :
+
+Le risque de perturber la biodiversité
+
+Le risque de chutes d'arbres
+
+Le risque d'incendie
+
+Le risque de l'indisponibilité des ressources (maladie, démission, congés...)
+
+Vous classerez ces risques en fonction de la matrice gravité/probabilité établie dans le plan de gestion du projet (et disponible en indice), et proposerez un plan d'action pour chacun d'entre eux afin d'apporter une réponse.
+
+Vous préciserez ensuite sous quelle forme devront être communiqués ces plans d'action aux différentes parties prenantes.
+
+SOLUTION :
+
+Le risque incendie : probabilité peu fréquente et gravité forte
+
+Le risque de perturber la biodiversité : probabilité forte et gravité significative
+
+Le risque de chutes d'arbres : probabilité faible et gravité forte
+
+Le risque de l'indisponibilité des ressources : probabilité peu fréquente et gravité faible

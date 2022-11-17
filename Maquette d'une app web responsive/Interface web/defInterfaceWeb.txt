@@ -1,0 +1,51 @@
+Mise en situation
+La notion d'interface est, depuis longtemps, indissociable de l'informatique. Il existe différents types d'interfaces : physique (dans le sens « objet » : souris, claviers, etc.) et système. Mais celle qui nous intéresse aujourd'hui est l'interface graphique numérique. On aurait tort de réduire cette notion à la sphère artistique, car les interfaces web sont avant tout fonctionnelles et utilitaires (est-ce que ça fonctionne ? à quoi ça sert ?) et sont devenues, depuis quelques années, étroitement liées à l'interactivité.
+
+Voyons ensemble comment, en trente ans, nous sommes passés du Web 1.0 au Web 2.0, centré sur la personnalisation du contenu.
+
+Définition
+Une interface web correspond à une interface (dite « homme-machine ») qui permet le dialogue et l'interaction entre une application web et son utilisateur. Elle est visualisable à partir de n'importe quel dispositif possédant un navigateur web (ordinateur, tablette ou smartphone, etc).
+
+L'interface web est à différencier de l'interface système, qui permet de commander un système d'exploitation (lignes de commande). Toutefois, les deux utilisent une interface graphique : objet à manipuler (souris, menus, etc.), texte à lire ou à saisir.
+
+Web 1.0
+Les premiers sites Internet des années 90 étaient centrés sur la documentation. On utilisait essentiellement des boîtes mails et des portails de contenus, c'est-à-dire des pages statiques, sans interaction entre l'interface et son lecteur. Les sites e-commerce, par exemple, étaient en fait des catalogues virtuels sans option d'achat. Internet était tout simplement un canal de diffusion de l'information, d'un professionnel vers un particulier.
+
+
+Web 2.0
+Dans les années 2000, l'apparition des premiers blogs et sites de contributions éditoriales (comme Wikipédia) ont permis au Web de devenir interactif. L'internaute n'est alors plus un lecteur passif, mais un acteur, à la fois dans sa relation avec « l'objet » ou « système technique », mais aussi au sein d'une communauté mondiale.
+
+
+De 2003 à 2005, la naissance des réseaux sociaux les plus emblématiques (Facebook, Linkedin et Youtube) ont radicalement changé le rapport de l'internaute avec le Web. Internet s'est démocratisé dans tous les foyers. L'internaute est devenu utilisateur, consommateur. Les codes d'usages ont évolué, les codes graphiques également.
+
+Le secteur numérique a dû par conséquent se professionnaliser et faire appel à de nouvelles compétences techniques, créatives, sociologiques. On a vu naître de nouveaux profils, tels que UX Designer, UI Designer, Community Manager, etc.
+
+
+La conception des interfaces web est devenue méthodologique. Un travail de structuration et d'habillage graphique ergonomique qui finira par imposer des standards de conception.
+
+Rappel
+La méthode Design Thinking
+Dans la méthode de conception centrée utilisateur, appelée Design Thinking, l'UX Designer et ses collaborateurs (UI Designer, développeurs, PO, etc.) avancent de manière itérative, à travers les 5 étapes suivantes :
+
+Recherche : comprendre les objectifs du client et surtout comprendre les attentes et besoins de ses utilisateurs, appréhender leur environnement d'usage
+
+Définition : préciser qui sont les utilisateurs finaux, quelles sont les tâches qu'ils devront accomplir, évaluer le budget et le temps de réalisation
+
+Idéation : générer des idées, visualiser les usages, définir les étapes sans rentrer dans la technique
+
+Conception : hiérarchiser le contenu, regrouper les informations et les fonctionnalités en rubriques, mettre en scène visuellement l'expérience utilisateur
+
+Intégration ou design d'interface : créer une ambiance graphique tout en préservant l'identité graphique de la marque, renforcer l'affordance
+
+Définition
+Affordance
+On appelle « affordance » la capacité d'un élément graphique à expliciter sa fonction. Ainsi, une forte affordance pour un élément graphique signifie que sa fonction est suffisamment explicite pour ne pas nécessiter d'explication détaillées.
+
+Syntaxe
+À retenir
+Une interface web permet les échanges entre des utilisateurs et un site web. La conception d'interfaces web a beaucoup évolué depuis les années 1990 : d'abord à visée purement informative, elle s'oriente aujourd’hui vers une interactivité toujours croissante entre l'utilisateur et le système.
+
+Cette évolution a vu naître une méthodologie de la conception d'interface centrée sur l'utilisateur, en suivant les étapes de recherche, définition, idéation, conception et intégration.
+
+Complément
+https://www.usabilis.com/definition-affordance/

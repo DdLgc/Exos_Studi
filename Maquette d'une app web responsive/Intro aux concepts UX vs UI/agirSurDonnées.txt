@@ -1,0 +1,122 @@
+Objectifs
+Transformer les informations récoltées en idées
+
+Définir les wireframes et comprendre leur rôle
+
+Découvrir l'A/B testing et le fonctionnement itératif
+
+Mise en situation
+Les deuxième et troisième phases en méthodologie UX sont celles de la Définition et de l'Idéation, c'est-à-dire les étapes où l'UX designer va synthétiser les informations récoltées, en générer des idées, définir les périmètres du projet et enfin amorcer le chantier de conception et de prototypage.
+
+Nous allons donc voir comment les données recueillies peuvent être exploitées et traduire nos pistes de réflexion à travers un prototype que nos futurs utilisateurs testeront à chaque itération. L'étape d'Idéation va se dérouler autour d'ateliers avec l'équipe technique (ingénieurs, développeurs, UI designer, etc.) sans pour autant mettre de côté les utilisateurs.
+
+En Design Thinking, toutes les phases sont, comme vous l'aurez compris, itératives. L'utilisateur est toujours l'acteur principal du projet. Et, à chaque étape, il doit être consulté pour tester et évaluer les solutions proposées, toujours dans un seul et même but : réduire les erreurs et les frustrations, et augmenter la productivité.
+
+Méthode
+Le wireframing
+Le wireframe (ou maquette fonctionnelle) est une représentation visuelle schématique, souvent en noir et blanc, utilisée lors de la conception d'une interface utilisateur pour définir les zones et composants qu'elle doit contenir.
+
+À la différence d'une maquette graphique, un wireframe fait complètement abstraction de l'aspect graphique et design du site. Ainsi, il permet de limiter les risques d'erreurs, car il est plus rapide et moins coûteux de revoir et de modifier la structure des pages avant la phase de conception graphique, et encore davantage avant la phase de développement, voire de livraison.
+
+Comme pour chaque étape de la méthodologie UX, l'utilisateur est au cœur du process : l'étape de wireframe permet de tester la structure du site et la fluidité de la navigation avec les utilisateurs, bien en amont des développements. Les utilisateurs ont souvent du mal à se projeter et à visualiser le rendu des écrans. Ces maquettes fonctionnelles leur permettent de se projeter et d'utiliser ces supports comme base de réflexions, d'interrogations, de suggestions.
+
+Une maquette fonctionnelle a la même fonction qu'un plan d'architecte. On ne peut pas construire une maison en 3D sans en avoir conçu au préalable le plan, en 2D et en noir et blanc. De la même manière, il n'est pas possible de créer des motifs sur Photoshop et d'écrire des lignes de code sans savoir à l'avance où ces motifs et lignes de code doivent se placer sur le site.
+
+L'inconvénient majeur de cette phase est, qu'à cette étape, les contraintes techniques et temporelles ne sont pas toujours définies et claires. Le designer et les utilisateurs peuvent parfaitement s'entendre sur l'expression et la conception des besoins, mais devoir revoir leur copie à la baisse pour répondre aux contraintes liées aux technologies, aux deadlines de livraison, etc.
+
+L'ensemble des wireframes, validés par les utilisateurs, constituent la base du prototype de la solution numérique.
+
+Exemple
+Un exemple de wireframe
+Ici, le wireframe représente l'interface d'un site en lien avec le cinéma.
+
+
+Source : capture d'écran https://www.experienceux.co.uk/faqs/what-is-wireframing/
+
+Complément
+Quelques outils pour créer des wireframes
+Balsamiq est disponible sur tous les supports (Mac, Windows, Linux) et propose une version web qui vous permet de travailler dans le Cloud (SaaS).
+
+Axure est l'un des tous premiers logiciels de wireframing professionnels. Jusqu'à récemment, il n'était disponible que sous Windows.
+
+Flairbuilder est beaucoup plus récent qu'Axure, disponible en version Mac et Windows.
+
+Méthode
+L'A/B testing
+Un A/B test consiste à diffuser deux versions d'un même contenu auprès de deux échantillons d'audience de taille similaire, afin de comparer les performances de chaque variante. Il permet de mesurer l'impact des deux propositions, de construire et vérifier des hypothèses, de déterminer quelle version déclenche le plus de clics, d'abonnements, d'achats...
+
+Il est tout à fait possible de tester plusieurs changements simultanément sur une page web : une bannière, un titre, une description ou encore une vidéo. Cette variante de l'A/B testing s'appelle le MVT (« test multi-varié »). Il en existe beaucoup d'autres en fonction de vos objectifs : test Bandit ou test à allocation dynamique de trafic (multi-armed bandit testing), test A/B/n, etc.
+
+En résumé, l'A/B testing permet de prendre des décisions sur une base de données fiables.
+
+L'A/B testing peut également être appelé split testing ou split URL testing. Dans un A/B test classique, les deux variations de vos pages sont sur la même URL. Dans le cas du split URL testing, la variante B est sur une URL distincte (vos visiteurs ne voient évidemment pas la différence).
+
+Méthode
+Procéder à l'A/B testing
+Sélectionner un élément à tester
+
+Définir l'objectif du test et identifier les indicateurs à mesurer
+
+Définir la version de référence et la version test
+
+Créer l'A/B test et le diffuser
+
+Promouvoir le contenu testé auprès d'un échantillon pertinent
+
+Collecter suffisamment de données
+
+Élargir l'analyse à l'ensemble de l'entonnoir marketing
+
+Mettre les conclusions en application
+
+Exemple
+Un exemple de test A/B
+Dans un A/B test, vous pouvez évaluer l'efficacité de différents composants de votre interface, notamment :
+
+la structure de la page
+
+la navigation
+
+les intitulés et les titres
+
+les boutons et/ou call-to-action
+
+les images
+
+etc.
+
+
+Source : capture d'écran https://www.abtasty.com/fr/ab-testing/
+
+Méthode
+La conception itérative
+Il est pratiquement impossible de concevoir une interface utilisateur qui ne présente aucun problème d'utilisation dès le départ. Même les meilleurs experts de l'utilisabilité ne peuvent pas concevoir des interfaces utilisateur parfaites en une seule tentative, c'est pourquoi un cycle de vie d'ingénierie de l'utilisabilité doit être construit autour du concept d'itération – Nielsen Norman Group
+
+
+Le principe de la conception itérative est, qu'à chaque étape, nous sommes susceptibles de revenir en arrière pour effectuer des ajustements, jusqu'à ce qu'un résultat souhaité soit atteint et ce même après la mise en ligne de notre produit.
+
+Le but du modèle itératif est d'éliminer progressivement l'incertitude lors des développements. Cette approche est particulièrement utile dans les équipes qui fonctionnent en Agile, et pour lesquelles il est préférable de travailler par incréments plutôt que d'un seul coup. Ainsi, à chaque itération, les profils experts peuvent apporter des améliorations ou des fonctionnalités supplémentaires.
+
+D'un point de vue UX, l'itération implique que les descriptions, les spécifications et les prototypes soient révisés et affinés lorsque de nouvelles informations sont fournies par les utilisateurs. Vous comprendrez donc qu'il est impossible de spécifier complètement et précisément chaque détail de chaque aspect de l’interaction à chaque début de développement.
+
+Remarque
+Les avantages et inconvénients du fonctionnement itératif
+Le fonctionnement itératif permet notamment :
+
+D'impliquer le client et les utilisateurs très tôt, dès la phase de conception. Ils ont donc une vision précoce du produit, non pas de manière globale, mais par fraction de fonctionnalités et peuvent ainsi se projeter continuellement.
+
+D'obtenir des retours en flux continu, sur des sujets précis et ne pas noyer ces informations dans un livre blanc d'impressions.
+
+Plus de réactivité et rapidité : il est plus facile et rapide de modifier une micro fonctionnalité que de changer un workflow complet avec plusieurs écrans.
+
+Plus d'implication des équipes de développement, qui se sentent ainsi plus productives, car elles livrent de manière régulière une production au client.
+
+Néanmoins, cette méthode peut être coûteuse, car les itérations augmentent la durée de développement.
+
+Syntaxe
+À retenir
+Une fois les informations des utilisateurs collectées, le designer peut les utiliser afin de commencer à concrétiser le projet. Il va pouvoir utiliser les wireframes pour déterminer et délimiter les zones et les différents composants. Les wireframes n'ont pas pour vocation de représenter les éléments de façon graphique, mais simplement de donner une idée de leur agencement sur la page et de présenter un prototype au client pour validation. Ils sont plus rapides à réaliser que des maquettes graphiques, et les modifications et retours éventuels formulés par le client seront plus rapidement applicables que sur des maquettes graphiques.
+
+Pour s'assurer que le design mis en place est le plus proche possible des besoins utilisateurs, il est possible de réaliser des A/B tests, qui consistent à proposer aux utilisateurs plusieurs variantes, parmi lesquelles ils devront choisir celle qui, selon eux, est la plus pertinente.
+
+Nous avons également vu que la conception du design d'une application s'adapte parfaitement à la méthodologie Agile, car elle est elle-même itérative.

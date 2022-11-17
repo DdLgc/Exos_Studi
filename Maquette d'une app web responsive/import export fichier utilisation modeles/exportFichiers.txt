@@ -1,0 +1,67 @@
+Exporter des fichiers Figma
+Il est possible d’exporter certaines parties de nos fichiers selon différents formats que nous avons cités précédemment.
+
+Sélectionnez l’item que vous souhaitez exporter (cela peut aussi bien être un composant ou un frame par exemple) et ajoutez l’outil d’export dans le menu en bas à droite de votre fenêtre :
+
+
+Cliquez sur le « + » à droite et vous allez vous retrouver avec :
+
+
+Ajoutez un suffixe et paramétrez le format du fichier que vous souhaitez obtenir.
+
+Note : « Export Page d’accueil » correspond au nom du frame que je souhaite exporter. Il se peut que le contenant du bouton soit différent pour vous.
+
+
+Cliquez sur les points de suspension à droite du format d’image, vous avez accès à différentes options :
+
+
+Remarque
+Si vous sélectionnez le format SVG, des options supplémentaires s’ajoutent :
+
+
+Voyons ensemble ce que signifient ces options :
+
+Ignore overlapping layers : Figma ne va inclure que les calques sélectionnés. Tout autre objet qui viendrait à croiser ou chevaucher l’objet sélectionné n’affectera pas l’exportation.
+
+Include bounding box : Figma va déterminer la taille de l’exportation selon les dimensions du texte lui-même. Figma coupera et supprimera tout espace entre les caractères et cette « bounding box » (littéralement : boîte englobante).
+
+Include “id” Attribute : Figma va venir ajouter une balise « id » au sein des métadonnées du SVG. Elle basera la valeur de l’id sur le nom de l’objet.
+
+Outline Text : Figma va convertir tous les calques de texte en glyphes. Ce qui signifie que, si ce paramètre est coché, cela rendra impossible l’édition de texte dans d’autres systèmes.
+
+Méthode
+Une fois un suffixe ajouté (pas obligatoire) et le format avec ses options choisies :
+
+Cliquez sur « Exporter » puis stockez-le dans le dossier de votre choix et c’est terminé, le fichier a été exporté avec succès.
+
+Complément
+Notons qu’il est également possible d'exporter votre fichier Figma entier si on le souhaite. Il suffit de sauvegarder une copie de façon locale.
+
+
+Ainsi, le fichier sur lequel nous sommes en train de travailler sera sauvegardé dans son entièreté et il sera alors possible de l’importer où bon nous semble.
+
+Utilisation de modèles
+Nous le savons, Figma est un outil puissant et qui est porté sur la collaboration. Il y a d’ailleurs toute une section consacrée à la communauté de Figma. Et en naviguant un peu sur cette partie du site, nous pouvons rapidement nous rendre compte que des personnes ont abattu un travail parfois colossal pour proposer des modèles d’icônes, de typographie, de design, etc.
+
+Nous allons voir ensemble dans cette partie de cours comment importer ces modèles directement dans notre projet et comment les exploiter.
+
+Pour ce faire, nous allons nous rendre simplement sur la page de communauté Figma et nous allons chercher ensemble un modèle.
+
+Prenons ce modèle par exemple. Nous allons le dupliquer et l’intégrer à un projet Figma ensemble. Tout d’abord, cliquons sur « Duplicate » qui se trouve en haut de page :
+
+
+Une fois le bouton cliqué, nous allons être redirigés vers une page Figma. Pour résoudre les potentiels conflits de police d’écriture, nous allons avoir besoin de la police Geoma, la police Nirmala Regular ainsi que la police Nirmala Bold. La police d’écriture Sonny Gothic n’est pas utilisée pour des éléments que nous serions susceptibles d’utiliser.
+
+Une fois que toutes les pages sont à notre disposition, nous pouvons alors commencer à prendre les éléments qui nous intéressent afin de les intégrer dans notre application Figma.
+
+Nous pouvons alors retrouver cette page dans la catégorie « Drafts » de notre application Figma. Afin de le dupliquer dans notre espace de travail, nous pouvons simplement utiliser la fonctionnalité « Drag & Drop » (ou glisser-déposer en français) pour le faire glisser à destination souhaitée. Une fois ceci fait, nous pouvons alors retrouver l’ensemble du modèle dans notre espace.
+
+
+Revenons au sein de notre modèle. Une fois le modèle dans notre espace de travail, si nous souhaitons utiliser certains composants afin de les intégrer dans un projet spécifique, nous pouvons alors copier-coller un frame complet ou simplement un objet. Prenons dans un premier temps un frame entier et faisons un copier-coller dans un nouveau projet.
+
+
+En revenant sur la page de nos projets Figma, nous pouvons désormais constater que nous avons correctement copié-collé le frame et nous pouvons désormais l’exploiter si on le souhaite.
+
+Notons toutefois qu’il n’est pas nécessaire de copier l’intégralité du modèle au sein d’un projet sur notre espace de travail. Nous pouvons simplement, depuis l’espace « Drafts » effectuer la même démarche, ce qui permet d’éviter d’occuper un espace pour nos projets (l’offre gratuite est, rappelons-le, limitée à 3).
+
+Nous pouvons faire exactement la même chose si nous souhaitons exploiter uniquement les formes de manière indépendante. Il suffit alors de sélectionner un objet présent sur n’importe quelle page et d’effectuer le même procédé afin de l’intégrer au sein d’un projet.

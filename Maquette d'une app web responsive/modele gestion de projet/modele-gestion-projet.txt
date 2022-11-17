@@ -1,0 +1,160 @@
+Le Manifeste Agile
+Le Manifeste Agile, rédigé par des experts de la conception logicielle en 2001, présente les dénominateurs communs à toutes les méthodes agiles. Il est consultable à l'adresse : https://agilemanifesto.org/iso/fr/manifesto.html.
+
+Il décrit quatre valeurs fondamentales à privilégier. Il faut accorder de l'importance :
+
+Aux individus et à leurs interactions plus qu'aux processus et à leurs outils
+
+À un logiciel fonctionnel plus qu'à une documentation exhaustive
+
+À la collaboration avec les clients plutôt qu'à la négociation contractuelle
+
+À l'adaptation au changement plutôt qu'à l'exécution d'un plan
+
+Et 12 principes généraux :
+
+La plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée,
+
+Accueillir positivement les changements de besoins, même tard dans le projet. Les processus agiles exploitent le changement pour donner un avantage compétitif au client,
+
+Livrer fréquemment un logiciel opérationnel avec des cycles de quelques semaines à quelques mois et une préférence pour les plus courts,
+
+Les utilisateurs ou leurs représentants et les développeurs doivent travailler ensemble quotidiennement tout au long du projet,
+
+Réaliser les projets avec des personnes motivées. Leur fournir l'environnement et le soutien dont elles ont besoin et leur faire confiance pour atteindre les objectifs fixés,
+
+La méthode la plus simple et la plus efficace pour transmettre de l'information à l'équipe de développement et à l'intérieur de celle-ci est le dialogue en face-à-face,
+
+Un logiciel opérationnel est la principale mesure d'avancement,
+
+Les processus agiles encouragent un rythme de développement soutenable. Ensemble, les commanditaires, les développeurs et les utilisateurs devraient être capables de maintenir indéfiniment un rythme constant,
+
+Une attention continue à l'excellence technique et à une bonne conception renforce l'agilité,
+
+La simplicité (c'est-à-dire l'art de minimiser la quantité de travail inutile) est essentielle,
+
+Les meilleures architectures, spécifications et conceptions émergent d'équipes auto-organisées,
+
+À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace, puis règle et modifie son comportement en conséquence.
+
+De nombreuses méthodologies de gestion de projet suivant ces principes existent, elles constituent ce que l'on nomme « les méthodes agiles ».
+
+
+La méthode Scrum
+Scrum est une méthode agile pour développer des produits complexes.
+
+Ce n'est pas une méthodologie de gestion de projet au sens où on n'y décrit pas comment gérer le budget vis-à-vis d'une organisation, comment gérer des contrats de prestation, etc.
+
+À la place, Scrum est une méthodologie empirique qui se base sur une cadence fixée et un retour des utilisateurs pour piloter la réalisation d'un produit. Elle répond à beaucoup de points du Manifeste Agile et est adaptée aux projets complexes avec une équipe de réalisation réduite (3 à 9 personnes).
+
+Les piliers de Scrum
+La méthodologie Scrum respecte trois piliers fondamentaux :
+
+La transparence : l'équipe doit avoir un langage commun et une confiance entre ses membres, afin d'éviter les problèmes de transmission d'information.
+
+L'inspection : régulièrement, les artefacts (livrables) doivent être revus.
+
+L'adaptation : s'il y a une déviation de l'attendu, le processus de réalisation doit être adapté. C'est le principe appliqué de l'amélioration continue.
+
+Les rôles dans la méthode Scrum
+Cette méthodologie décrit trois entités avec des rôles spécifiques :
+
+Le Product Owner ou PO : personne en charge de maximiser la valeur du produit et donc du travail de l'équipe de développement. Il a à sa charge la définition des éléments du product backlog, leur ordre de priorité et leur bonne compréhension.
+
+Le Scrum Master ou SM : personne en charge de l'aspect méthodologique. C'est un leader au service de l'équipe. Il aide et facilite le travail des personnes.
+
+L'équipe de développement : constituée de 3 à 9 personnes chargées de livrer un incrément potentiellement utilisable du produit. L'équipe est autogérée, elle ne possède pas de chef d'équipe ou ne répond pas à un chef de projet. Elle est aussi pluridisciplinaire : chacun des membres est capable de faire le travail des autres (avec plus ou moins de spécialisation).
+
+Les événements de la méthode Scrum
+Le vocabulaire de la méthode Scrum détermine un certain nombre de termes spécifiques à son organisation :
+
+Definition of Done : il s'agit de l'ensemble des critères, définis par l'équipe, rendant un élément du backlog terminé.
+
+Sprint : ce terme correspond à une période d'au maximum 1 mois, au bout de laquelle un incrément du produit est livré, c'est-à-dire potentiellement utilisable. À chaque début de sprint, on définit une liste d'éléments à réaliser (sprint backlog) à partir de la liste des éléments du produit (product backlog), qui ne peut pas être modifiée pendant l'exécution de celui-ci.
+
+Daily meeting : il s'agit d'une réunion quotidienne d'une durée de 15 minutes maximum entre les membres de l'équipe de développement, avec intervention au début et à la fin du Scrum Master. On y aborde trois points : ce qui a été réalisé la veille, ce qui est à réaliser aujourd'hui, et les obstacles empêchant de les réaliser.
+
+Planification de sprint : c'est une étape de la méthodologie, sur une journée entière, réalisée en début de chaque sprint. Elle sert à identifier le contenu et les objectifs du sprint à venir, en collaboration avec toute l'équipe Scrum.
+
+Revue de sprint : c'est une réunion organisée par l'équipe de développement avec pour invités le Product Owner et des utilisateurs finaux. Elle a pour but de présenter le sprint réalisé sur une durée de 4 h maximum afin de recueillir les retours des utilisateurs.
+
+Rétrospective de sprint : c'est une réunion réalisée en interne dans l'équipe Scrum. Son objectif est d'adapter les processus de réalisation dans le cadre de l'amélioration continue. On y liste ce qui aurait pu être mieux fait et comment améliorer les choses.
+
+Les livrables de la méthode Scrum
+La méthodologie Scrum propose la livraison de différents livrables, appelés « artefacts » :
+
+Le product backlog : il est constitué de la liste ordonnée des éléments à réaliser pour aboutir au produit final. Celle-ci est constamment mise à jour par le Product Owner : des éléments sont ajoutés ou retirés en fonction des besoins des utilisateurs, la liste est priorisée et les éléments les plus prioritaires sont détaillés.
+
+Le sprint backlog  : c'est une liste des éléments, issus du product backlog, choisis pour être réalisés dans le sprint. Elle ne peut pas être changée durant celui-ci.
+
+Le product increment : il s'agit d'une version du produit qui est potentiellement utilisable en production. Il est important de noter que l'incrément doit apporter de la valeur, il faut donc bien avoir ça en tête lors de la création du sprint backlog.
+
+
+La méthode Kanban
+La méthode Kanban est apparue au Japon pendant les années 1950 : il s'agit d'une méthode de gestion des connaissances relatives au travail, visant à organiser les tâches de manière simple et transparente entre tous les participants. Elle est inspirée des méthodologies Lean, que pratiquement tous les constructeurs automobiles implémentent.
+
+Elle se base entre autres sur l'utilisation d'un tableau dont les colonnes représentent les différents états possibles des tâches du projet. Puis, les tâches sont placées sur le tableau, sous la forme de cartes, dans les colonnes représentant leur état actuel.
+
+Ainsi, elle se démarque des approches à flux poussés par un système à flux tirés. C'est, par exemple, l'arrivée d'une commande qui déclenche la chaîne de production pour la réaliser.
+
+En elle-même, la méthode Kanban n'est pas optimale pour la gestion d'un projet informatique, mais est plus adaptée à la gestion d'opérations (par exemple, des opérations de maintenance).
+
+
+Définition
+Méthodologies Lean
+Les méthodologies dites Lean ont pour vocation la recherche de performance par l'amélioration continue des processus et l'élimination du gaspillage.
+
+Les principes et pratiques de la méthode Kanban
+La méthode Kanban définit les grands principes suivants :
+
+S'adapter à l'existant
+
+Implémenter les changements de petite envergure, en continu, au fur et à mesure
+
+Les rôles et processus actuels sont gardés, mais améliorés petit à petit
+
+Les actes de leadership à tous les niveaux de l'équipe doivent être encouragés
+
+Elle respecte cinq pratiques :
+
+Visualiser : grâce à l'utilisation du tableau Kanban pour montrer le flux de travail,
+
+Limiter le nombre de tâches en cours : chaque étape du tableau ne peut contenir qu'un nombre réduit de tâches associées, en fonction de la taille de l'équipe. On cherche donc à se concentrer sur le minimum de tâches possible,
+
+Gérer les flux : il est essentiel de suivre, mesurer et consigner le déroulement du travail à travers chaque étape du tableau. Le but est de connaître la vitesse et la fluidité du travail,
+
+Expliciter : les normes et règles doivent être comprises et suivies par tous,
+
+Améliorer : améliorer le système continuellement et par petites touches.
+
+La méthode SAFe
+La méthode SAFe (pour Scaled Agile Framework) est une méthodologie visant à appliquer l'agilité au niveau d'une organisation entière et pas seulement à celui d'une équipe unique. Elle vise aussi à développer une culture Agile et Lean à grande échelle.
+
+Elle est particulièrement adaptée lorsque le contexte implique de faire intervenir plusieurs équipes de développement, travaillant chacune sur une brique d'un produit final.
+
+Elle présente l'avantage de pouvoir coordonner le développement d'un produit à grande échelle en associant les différentes couches d'intervenants concernés, depuis les équipes de développement jusqu'aux décideurs stratégiques d'une entreprise.
+
+Elle spécifie quatre couches de management :
+
+La couche Team : elle rassemble les équipes réalisant les solutions en itérations synchrones,
+
+La couche Program : elle synchronise les équipes de la couche Team dans un Agile Release Train qui vise à produire des livrables cohérents et fonctionnels,
+
+La couche Large Solution : elle coordonne plusieurs Agile Release Train lorsque l'organisation est trop grande (au-delà de 120 à 150 personnes),
+
+La couche Portfolio : elle correspond au niveau de planification stratégique de l'entreprise (budget, architecture...).
+
+Autres méthodes agiles
+RAD (Rapid Application Development) : une des premières méthodologies agiles. Après une phase d'expression des besoins et du design, la réalisation se fait itérativement en faisant intervenir le plus possible les utilisateurs finaux.
+
+XP (Extreme Programming) : pousse à l'extrême les principes agiles. Par exemple, puisque la qualité est recherchée, la revue du code se fera en binôme. Puisque la simplicité est recherchée, la solution la plus simple sera toujours choisie, etc.
+
+Scrum of Scrum : pour gérer plusieurs équipes Scrum dans une organisation.
+
+BDD (Behavior Driven Development) : axée sur la collaboration de tous les acteurs dans la réalisation d'un projet avec un langage naturel commun et où la création est validée par des tests basés sur ce que devrait faire la solution.
+
+Syntaxe
+À retenir
+Dans le domaine de la gestion de projet, le terme « agile » correspond à un ensemble de valeurs et de principes décrits dans le Manifeste Agile.
+
+On appelle « méthodes agiles » les méthodologies tentant de les implémenter. Parmi celles-ci, on trouve notamment la méthode Scrum, adaptée pour de petites équipes de développement, la méthodes Kanban, optimisée pour l'amélioration continue des processus de production et la réduction du gaspillage, ainsi que des méthodes comme SAFe, pour la gestion de projet à grande échelle

@@ -1,0 +1,57 @@
+Mise en situation
+En tant que développeur, les user stories seront généralement le point de départ de nos tâches de développement dans le cadre de projets gérés « en mode Agile ». Il est donc important de comprendre ce dont il s'agit et de les situer correctement dans le contexte Agile.
+
+Rappel
+Un peu de vocabulaire
+Il n'est pas toujours simple de situer de quoi on parle lorsqu'on évoque des termes tels que le développement Agile ou Scrum.
+
+Agile représente un ensemble de « méthodes et pratiques basées sur les valeurs et les principes du Manifeste Agile », qui repose entre autres sur la collaboration, l'autonomie et des équipes pluridisciplinaires.
+
+Scrum est une méthode qui est utilisée pour implémenter les principes Agile de développement et de gestion de projet.
+
+Définition
+Les user stories
+Dans le développement agile, une user story est une explication générale, non formelle, d'une fonctionnalité logicielle. Celle-ci est écrite du point de vue de l'utilisateur final et son rôle est d'expliquer comment une fonctionnalité apportera de la valeur à l'utilisateur final.
+
+Néanmoins, les user stories ne représentent pas seulement les exigences fonctionnelles et techniques d'un outil. En effet, donner la priorité aux personnes est l'une des valeurs clés du développement Agile et une user story met les utilisateurs finaux au centre de la discussion. Pour cela, elles utilisent un langage non technique afin de fournir un contexte compréhensible de toutes les parties prenantes.
+
+Après avoir lu une user story, l'équipe de développement sait quelle valeur son développement va créer et pourquoi ce travail doit être réalisé.
+
+Les user stories sont l'un des éléments essentiels d'un programme Agile. Elles contribuent à fournir un système de référence axé sur les utilisateurs pour le travail quotidien, ce qui favorise la collaboration, la créativité et la conception d'un meilleur produit dans l'ensemble.
+
+Méthode
+La structure
+Une user story sera toujours formulée selon un format strict et se rédige le plus souvent sur une carte. On retrouve le plus souvent le format suivant : En tant que <qui>, je veux <quoi> afin de <pourquoi>.
+
+Exemple
+Quelques exemples de user stories
+Dans quelques mois, notre équipe va travailler sur un nouveau projet. Il s'agira d'un nouveau réseau social appelé Barker, basé sur le même principe que Twitter, mais celui-ci sera dédié aux animaux et plus particulièrement aux chiens. Les utilisateurs pourront y poster des messages pour conter la vie de leurs compagnons à quatre pattes, leurs plus belles photos, suivre les dernières tendances, interagir avec d'autres maîtres, etc. À coup sûr, ce projet sera une réussite.
+
+Voici quelques exemples de user stories qui pourraient faire partie du projet :
+
+En tant que maître d'un animal, je veux pouvoir disposer d'une photo de profil afin que l'on me différencie facilement des autres utilisateurs du réseau.
+
+En tant que maître d'un animal, je veux pouvoir écrire un nouveau message afin de partager des nouvelles avec les autres utilisateurs.
+
+En tant qu'administrateur de Barker, je veux pouvoir modérer le contenu posté par mes utilisateurs afin de limiter d'éventuels abus.
+
+Il ne s'agit pas ici de poser les prérequis techniques de chacune des fonctionnalités, mais bien de poser les bases de nos besoins et de les rendre accessibles à l'ensemble des parties prenantes du projet afin que tout le monde dispose de la même vision d'ensemble.
+
+Fondamental
+Situer les user stories
+Il est très important de faire la différence entre les divers éléments de vocabulaire que l'on peut entendre au quotidien.
+
+Les user stories représentent la granularité la plus fine des fonctionnalités qui devront être mises en place.
+
+Un ensemble de user stories sur un même thème représentent alors ce que l'on appelle une epic. On pourrait par exemple avoir une epic nommée « Gestion des utilisateurs », qui engloberait des user stories telles que la possibilité pour un administrateur de créer un nouvel utilisateur, de désactiver un utilisateur ou de pouvoir réinitialiser son mot de passe.
+
+L'ensemble des user stories d'un projet représentent ce que l'on appelle le product backlog. Ce product backlog est généralement administré au moyen d'outils spécifiques tels que Jira, Trello, Asana... qui permettent de connaître à un instant donné le statut d'une tâche, et donc l'état d'avancement d'un projet.
+
+
+Syntaxe
+À retenir
+Une user story est une description d'un point de vue utilisateur d'un besoin fonctionnel.
+
+Elle se structure sous la forme « En tant que <qui>, je veux <quoi> afin de <pourquoi> » et représente la plus fine granularité du besoin exprimé.
+
+Les user stories peuvent être regroupées dans des thèmes communs nommés « epics » et l'ensemble des epics et de leurs user stories représente le product backlog.

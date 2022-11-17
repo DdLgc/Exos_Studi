@@ -1,0 +1,142 @@
+Question
+Dans le cadre de la création d'un site web pour le parc d'attraction MyParc vous intervenez en tant que designer UX/UI. Le Product Owner en charge de la gestion du projet vous a indiqué qu'une fonctionnalité de boutique en ligne est prévue et souhaite que vous lui fassiez une proposition fonctionnelle graphique permettant de réaliser cela.
+
+Plusieurs catégories de produits sont prévues et il devra être possible de naviguer entre elles facilement.
+
+Une page de détail d'un produit devra être proposée, elle contiendra une description du produit ainsi que ses modalités de livraison.
+
+L'utilisateur devra pouvoir ajouter autant de produits que souhaité dans un panier et accéder à un tunnel d'achat lui permettant de saisir ses informations de livraison et de paiement.
+
+Vous devez donc réaliser les maquettes en wireframe décrivant les fonctionnalités demandées.
+
+Vous pouvez vous inspirer de mécanismes existants sur d'autre sites pour réaliser ces maquettes.
+
+
+Solution
+
+Afin de répondre aux besoins utilisateurs décris, la boutique en ligne devra présenter, sous forme de menu de navigation, différentes catégories de produits que les utilisateurs pourront commander.
+
+Comme le présente la proposition de maquette ci-dessous, un champ de recherche devra permettre une recherche rapide d'un produit en particulier et, dans le header du site, l'utilisateur pourra accéder à son panier, suivre sa commande, accéder aux coordonnées du service client en cas de besoin et se connecter à son compte :
+
+
+Le menu de navigation doit pouvoir se déplier avec un simple mouse over et afficher pour chaque catégorie, les sous-catégories de produits ainsi que la typologie des produits proposés.
+
+Une image doit illustrer, à l'intérieur du menu déroulant, la catégorie principale en focus.
+
+La sélection d'une sous-catégorie doit pouvoir afficher tous les produits correspondant tandis que la sélection d'un type de produit ne doit afficher que ce type.
+
+
+Quelque que soit la sélection des produits réalisée, par catégorie ou par type, la page en faisant la liste devra être unique.
+
+La partie haute de l'interface devra être constante dans sa construction :
+
+le header, la zone de recherche et le menu de navigation devront rester à la même place ;
+
+une zone dédiée devra faire apparaître un breadcrumb pour permettre à vos utilisateurs de revenir en arrière et de se souvenir du contexte.
+
+Les informations contenues dans les parties centrale et basse seront contextualisées en fonction de la sous-catégorie ou type de produit en cours, on devra y retrouver :
+
+une image pour illustrer la sous-catégorie ou le type de produit en cours ;
+
+le nombre de produits proposés à la vente ;
+
+un système de tri de l'affichage ;
+
+une zone dédiée aux filtres d'affichage ;
+
+une présentation des produits sous forme de carte contenant une image, un titre, un prix et un bouton panier.
+
+
+Un clic sur le bouton panier d'une carte produit doit ajouter automatiquement le produit au panier et un message doit confirmer que le produit a bien été ajouté au panier.
+
+L'utilisateur doit pouvoir avoir le choix, à l'aide de 2 boutons dédiés, entre poursuivre ses achats ou valider son panier en vue de passer commande.
+
+
+Si l'utilisateur souhaite poursuivre ses achats, dans le header du site, le panier doit indiquer le nombre de produits qu'il contient :
+
+
+La sélection d'une carte produit doit permettre de naviguer sur la fiche de détails du produit.
+
+Les éléments fixes présents dans la page de liste des produits seront toujours présents dans cette page (pour rappel : header, zone de recherche, menu de navigation et breadcrumb à une place fixe).
+
+La fiche de détails devra afficher pour chaque produit :
+
+une image principale du produit ;
+
+des images miniatures présentant le produit sous un autre angle (optionnel) ;
+
+un rappel de l'intitulé du produit ;
+
+un rappel de son prix ;
+
+une petite description ;
+
+des détails techniques tels que le poids et les dimensions (optionnel) ;
+
+la quantité à commander ;
+
+un bouton pour ajouter le produit au panier.
+
+Au clic sur le bouton d'ajout le message de validation précédent doit être affiché.
+
+
+Lors de la visualisation du panier, l'interface dédiée devra être rapidement et facilement identifiable, par rapport au reste du site.
+
+Cette interface devra proposer un tunnel d'achat en 4 étapes : récapitulatif, livraison, paiement, validation.
+
+Seule la partie sous les onglets du tunnel d'achat se modifiera en fonction du contexte.
+
+Dans l'étape 1 « Récapitulatif », vous devrez rappeler à l'utilisateur le nombre de produits qu'il a dans son panier et en présenter le détail : photo, titre, prix, quantité.
+
+Il devra pouvoir ajouter des quantités pour chaque produit ou décider d'en supprimer, le montant individuel associé à chaque produit devra être mis à jour automatiquement.
+
+Un bouton doit pouvoir lui permettre de reprendre ses achats.
+
+Un encart devra présenter un récapitulatif de son ticket de caisse en cours, comprenant le montant de la livraison.
+
+Un bouton devra lui permettre de poursuivre sa commande et d'avancer dans le tunnel d'achat.
+
+
+Dans l'étape 2 « Livraison », l'utilisateur devra renseigner ses coordonnées de contact via un formulaire contenant essentiellement des inputs texte.
+
+Ce formulaire devra demander de renseigner obligatoirement :
+
+les prénom et nom du contact
+
+le téléphone
+
+le mail
+
+Sous le formulaire de contact, l'utilisateur devra remplir une adresse de livraison, également à l'aide d'un formulaire contenant des inputs texte.
+
+L'encart qui présente le récapitulatif de la commande en cours devra être à la même place sur toutes les pages.
+
+Un bouton doit permettre d'aller à l'étape suivante et de procéder au paiement.
+
+Un bouton doit pouvoir lui permettre de reprendre ses achats.
+
+
+Dans l'étape 3 « Paiement », l'utilisateur devra avoir le choix entre payer par carte ou par un autre moyen de paiement, si il décide de payer par carte, il devra renseigner ses coordonnées bancaires via un formulaire dont tous les champs sont requis.
+
+L'encart qui présente le récapitulatif de la commande en cours devra être à la même place que sur les autres pages.
+
+Un bouton doit permettre d'aller à l'étape suivante et de valider le paiement.
+
+Un bouton doit pouvoir lui permettre de reprendre ses achats.
+
+
+Dans l'étape 4 « Validation », vous devez informer l'utilisateur que la commande a été validée en fournissant un numéro de commande.
+
+Vous devez également rappeler :
+
+la date de la commande
+
+la date estimée de la livraison
+
+l'adresse de la livraison
+
+le détail de la commande
+
+Un bouton doit permettre à l'utilisateur d'annuler sa commande.
+
+Un bouton doit également lui permettre d'effectuer un nouvel achat.

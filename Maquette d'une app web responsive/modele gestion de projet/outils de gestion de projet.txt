@@ -1,0 +1,134 @@
+Diagramme de Gantt
+Un diagramme de Gantt répertorie toutes les tâches à accomplir pour mener un projet à bien, et indique la date à laquelle ces tâches doivent être effectuées.
+
+Le diagramme de Gantt sert à modéliser les tâches nécessaires à la réalisation d'un projet et à en assurer le suivi. Il permet de représenter les liens de dépendance entre les tâches, leur degré d'accomplissement à tout moment ou encore les ressources impliquées dans leur réalisation.
+
+La colonne de gauche du diagramme énumère toutes les tâches à effectuer, tandis que la ligne d'en-tête représente les unités de temps les plus adaptées au projet (jours, semaines, mois).
+
+Chaque tâche est matérialisée par une barre horizontale, dont la position et la longueur représentent la date de début, la durée et la date de fin. On peut donc visualiser d'un seul coup d'œil :
+
+Les tâches du projet
+
+Les dates de début et de fin de chaque tâche
+
+La durée estimée de chaque tâche
+
+Le chevauchement éventuel des tâches, et la durée de ce chevauchement
+
+La date de début et la date de fin du projet dans son ensemble
+
+Cet outil permet donc d'offrir une aide à la constitution d'un planning de réalisation du projet, ainsi qu'une assistance au suivi de la répartition des ressources pour l’exécution des tâches.
+
+Exemple
+
+Le diagramme de Gantt présenté permet de visualiser l’enchaînement logique des tâches et leur répartition dans le temps, en tenant compte de leur durée prévue.
+
+Chemin critique
+La méthode du chemin critique est une technique de gestion de projet qui permet d'identifier les activités étape par étape et d'en déterminer la criticité.
+
+Pour réaliser cela, il faut suivre un processus en quatre phases :
+
+Diviser le projet en tâches et déterminer leurs dépendances ,
+
+Estimer la durée de chaque tâche,
+
+Créer le diagramme de réseau (PERT),
+
+Identifier le chemin critique.
+
+La détermination du chemin critique est constituée par l'ensemble des tâches ayant la plus longue durée à chaque embranchement de la modélisation.
+
+Cet outil permet de visualiser l'enchaînement et les dépendances entre les tâches. De plus, il permet, en faisant la somme des durées des tâches constituant le chemin critique, de calculer la durée minimale nécessaire pour réaliser le projet.
+
+Exemple
+
+Dans cet exemple de modélisation, le chemin critique est donc constitué des étapes A-B-D-E.
+
+La durée minimale de ce projet serait donc de 17 jours.
+
+Complément
+La méthode PERT
+La méthode PERT (Program Evaluation and Review Technic) peut se définir comme une méthode consistant à ordonnancer sous forme de réseau un ensemble de tâches qui, grâce à leurs dépendances et leur chronologie, concourent à l'atteinte d'un objectif.
+
+Tableau Kanban
+Le tableau Kanban est un outil issu de la méthodologie Kanban. Il est souvent utilisé lors de la réalisation de projet afin de visualiser l'état d'avancement des différentes tâches. Il permet en effet de visualiser un flux de travail (par exemple, les développements d'un projet) afin de clarifier, suivre et améliorer les processus.
+
+Il se présente normalement, sous sa forme la plus simple, en 3 colonnes : « à faire », « en cours » et « fait ». Son fonctionnement consiste à placer, sous forme d'étiquettes, les différentes tâches dans la colonne correspondant à leur état.
+
+Ainsi, une tâche apparaît tout d'abord dans le tableau Kanban au statut « à faire » ; puis, une fois qu'elle est prise en compte par l'équipe, elle est transférée dans la colonne « en cours » avant de passer à l'état « fait » une fois sa réalisation terminée.
+
+Cet outil permet de connaître à tout instant le statut des tâches d'un projet ou d'une itération.
+
+Exemple
+
+L'utilisation du tableau Kanban dans cet exemple permet de constater que deux tâches doivent encore être prises en compte, qu'une tâche est en cours de réalisation par l'équipe et que deux tâches sont terminées.
+
+Work Breakdown Structure
+Le Work Breakdown Structure (ou organigramme des tâches du projet) est un outil simple et puissant pour organiser le périmètre du projet et communiquer sur celui-ci. Il servira aussi à faire le chiffrage du projet complet, à identifier les risques ou les achats à réaliser, mais également à déléguer les tâches à chaque acteur.
+
+Il se présente sous la forme d'un arbre inversé où chaque sous-branche va décomposer les livrables et les étapes nécessaires pour les réaliser.
+
+Le premier élément qui se trouve en haut du graphe est le projet en lui-même. Les éléments les plus élémentaires, en bas de cette hiérarchie, sont appelés work package (« lot de travaux ») et représentent le niveau de détail maximum à atteindre afin d'en réaliser le chiffrage. Il est normalement inutile de descendre plus bas, à un niveau de détail comme une tâche.
+
+Le Work Breakdown Structure sert principalement à ne rien oublier dans les livrables à réaliser et à déterminer la quantité de travail à fournir. Il comprend donc 100 % des travaux à accomplir pour réaliser tous les objectifs d'un projet.
+
+Il y a plusieurs stratégies de décomposition, mais il est important de décomposer par résultat et non par action. On peut ainsi découper un projet :
+
+Par livrables principaux
+
+Par phase de projet, puis par livrables/résultats
+
+Par métier, puis par livrables/résultats
+
+Par responsabilité, puis par livrables/résultats
+
+Cet outil met en avant le livrable, ou le résultat, comme un élément central pour identifier le travail à accomplir.
+
+Ce graphe va être réalisé par le chef de projet en collaboration avec les personnes qui vont réaliser chaque partie du projet. Il est important d'avoir les retours de chacun afin que toute l'équipe se l'approprie et s'en serve.
+
+Cet outil s'applique aussi bien dans un modèle de gestion de projet prédictif qu'un projet dit « agile ». Dans un projet prédictif, on va chercher à détailler tous les work packages pour ensuite réaliser le chiffrage de chacun d'eux. En mode Agile, on va détailler les premiers work packages et laisser le reste à détailler pour plus tard.
+
+La constitution du Work Breakdown Structure va permettre la réalisation d'un diagramme de Gantt, en décomposant les work packages en tâches.
+
+Exemple
+
+Cet organigramme des tâches d'un projet de constitution d'un site web permet de visualiser tous les livrables et les implications de leur réalisation.
+
+La matrice RACI
+RACI est l'acronyme de Responsible, Accountable, Consulted, Informed :
+
+Responsible est un faux-ami, la traduction en français signifie « celui qui réalise l'action »,
+
+Accountable est la personne qui doit s'assurer que l'action est faite,
+
+Consulted est un contributeur à l'action,
+
+Informed est la personne qui sera informée sur l'état de l'action.
+
+Le RACI est un tableau qui va représenter les actions et leurs responsables. Cela permet de montrer clairement qui fait quoi dans un projet ou un processus.
+
+Il ne doit y avoir qu'un seul et unique responsable (Accountable) pour une tâche donnée. En effet, s'il y a plusieurs responsables, alors il n'y a pas de responsable : dès qu'un conflit verra le jour, une partie de ping-pong va survenir où chacun va se renvoyer la balle de la responsabilité et le sujet n'avancera pas.
+
+Il n'y a aussi qu'une seule personne qui va réaliser l'action (Responsible).
+
+Cet outil permet de visualiser et de répertorier les responsabilités de chaque acteur au sein d'un projet.
+
+Exemple
+
+Cet exemple de matrice RACI pour la réalisation d'un site web permet entre autres de constater que la tâche de développement devra être réalisée par l'équipe de développement, que les équipes métiers et de l'infrastructure seront consultées, que le chef de projet sera responsable de sa réalisation, tandis que le sponsor sera tenu informé de son avancement.
+
+Syntaxe
+À retenir
+La gestion de projet peut s'appuyer sur l'utilisation de différents outils pour l'assister dans sa prise de décision et sa détermination de l'organisation d'un projet.
+
+Elle peut ainsi, entre autres, se baser :
+
+sur la réalisation d'un diagramme de Gantt pour en faire la planification,
+
+sur la définition d'un chemin critique pour en déterminer la durée totale,
+
+sur l'utilisation d'un tableau Kanban pour la réalisation et la gestion de l'avancement des tâches,
+
+sur la constitution d'un Work Breakdown Structure pour organiser le périmètre du projet,
+
+sur la définition d'une matrice RACI afin de centraliser les responsabilités des parties prenantes du projet.

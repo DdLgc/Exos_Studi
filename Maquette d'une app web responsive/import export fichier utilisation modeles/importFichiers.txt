@@ -1,0 +1,120 @@
+Si vous connaissez déjà Figma et les possibilités que le logiciel vous offre, que vous avez déjà créé formes, groupes et composants, nous allons voir ici l’importation et l’exportation de nos projets. Nous allons découvrir comment importer des fichiers ou des projets depuis d’autres applications comme Sketch, mais nous verrons également comment exporter certains éléments de nos projets sous différents formats.
+
+Petit bonus, nous verrons également ensemble comment utiliser des modèles qui peuvent être fournis par la communauté et comment les exploiter.
+
+Rappel
+Figma est un éditeur de graphiques et un outil de prototypage, principalement utilisé sur le Web, avec des fonctionnalités hors ligne supplémentaires activées par des applications de bureau. Il peut être alimenté et partagé au sein d’une équipe de designers.
+
+L'ensemble des fonctionnalités se concentre sur l'utilisation dans la conception d'interfaces et d'expériences utilisateur, en mettant l'accent sur la collaboration en temps réel. Le travail est enregistré automatiquement et on peut y accéder grâce à l'historique des versions. Léger et rapide, il n'a pas besoin d'être installé pour utiliser ou partager des fichiers.
+
+Dans un premier temps, nous allons voir les différents types de fichiers existants pouvant être importés ou exportés via Figma.
+
+Lorsque l'on ouvre l'application web ou l'application de bureau Figma, nous arrivons alors sur notre page d'accueil. D'ici, nous pouvons importer directement les fichiers que l'on souhaite.
+
+Sur l'application de bureau, l'icône se trouvera en haut à droite de notre fenêtre.
+
+Sur l'application web, nous pouvons importer un fichier depuis n'importe quelle page qui peut en répertorier.
+
+Les différents types de fichiers capables d'être importés dans notre application sont :
+
+Les fichiers Sketch (.sketch)
+
+Les fichiers Figma (.fig)
+
+Les fichiers de types Images (PNG, JPG, HEIC ou GIF)
+
+Les types de fichiers capables d’être exportés sont les fichiers ayant une extension SVG, PNG, JPG et PDF.
+
+Il existe plusieurs façons d'importer un fichier dans Figma.
+
+La première consiste à utiliser l'outil d'importation de fichiers.
+
+Méthode
+Utiliser l'outil d'importation de fichiers
+Cliquez sur l'icône d'import de fichier ci-dessous selon que nous utilisons l'application de bureau ou web :
+
+
+
+Sélectionnez le fichier depuis la fenêtre qui s'affiche et cliquez sur « Ouvrir » ou « Open ».
+
+Selon la taille du fichier, cela peut prendre plus ou moins de temps pour l'import de celui-ci. Une fois terminé, cliquez sur « Done » ou « Terminer ».
+
+La seconde méthode consiste à utiliser le « Drag and Drop », ou glisser-déposer, directement dans Figma.
+
+Nous pouvons faire glisser un fichier depuis son dossier dans votre ordinateur ou depuis le bureau directement sur Figma. Cette méthode est disponible aussi bien sur l'application de bureau que l'application web.
+
+Nous pouvons effectuer ce glisser-déposer dans la fenêtre qui répertorie les fichiers ou dans l'éditeur de fichier directement. Selon l'une ou l'autre option, différents fichiers peuvent être importés.
+
+Dans le dossier des fichiers :
+
+Fichiers Figma (.fig)
+
+Fichiers Sketch (.sketch)
+
+Fichiers de type Images (PNG, JPG ou GIF)
+
+Dans l'éditeur de fichiers :
+
+Fichiers de type Vecteur (SVG)
+
+Fichiers de type Images (PNG, JPG ou GIF)
+
+Méthode
+Utiliser le Drag and Drop
+Ouvrez la page à laquelle vous souhaitez ajouter un fichier. Cela peut être sur la page qui répertorie les fichiers ou dans un fichier Figma directement.
+
+Localisez et sélectionnez le ou les fichiers à importer. Il peut se situer sur le Bureau ou dans un dossier.
+
+Faites glisser le ou les fichiers. Un encadrement bleu apparaît pour signaler que le ou les fichiers sont prêts à être importés.
+
+Relâchez la souris pour lancer le processus d'importation. Selon la taille du ou des fichiers, cela peut prendre plusieurs secondes.
+
+Une fois l'importation terminée, cliquez sur « Done » pour revenir à la fenêtre qui répertorie les fichiers.
+
+Importer des fichiers Sketch
+Parlons maintenant brièvement de l'import de fichiers Sketch au sein de Figma. En effet, il est possible d'importer un design entier depuis Sketch (format .sketch) dans Figma. Cela va simplement créer un fichier Figma à partir de notre importation Sketch.
+
+Il est possible d'importer et d'exporter des Assets directement dans Figma depuis d'autres applications et inversement.
+
+Tout changement opéré dans le fichier original depuis Sketch n'impactera pas notre fichier Figma et inversement, sauf si nous réitérons l'import.
+
+Les pages
+Comme dans Sketch, il est possible de stocker plusieurs pages dans un seul fichier. Les pages existant dans notre fichier Sketch seront importées comme des pages séparées dans notre fichier Figma.
+
+Les symboles
+Quand on importe notre fichier Sketch dans Figma, chaque « symbole » présent dans notre fichier Sketch sera converti en composant Figma. La page où sont stockés les symboles sur Sketch sera importée dans une page nommée « Symbols » contenant nos composants principaux.
+
+À noter que si le compte que nous utilisons possède le « Professional Plan », les composants peuvent être publiés au sein de notre « Team Library », la bibliothèque de composants de notre équipe.
+
+Les polices d'écriture
+Si nous utilisons une police d'écriture stockée au sein de notre projet Sketch, elle peut tout aussi bien être importée au sein de Figma.
+
+Si nous utilisons l'application de Bureau, nous pouvons par défaut accéder à toutes nos polices stockées localement.
+
+Si nous utilisons Figma depuis le navigateur directement, il sera nécessaire de télécharger le « Font installers » qui permettra à Figma d'accéder à toutes les polices d'écriture stockées localement (lien : figma.com).
+
+Nous pouvons toujours importer des fichiers Sketch, mais les calques de texte peuvent présenter quelques défauts lors de l'import. Si cela se produit, nous aurons un message « Polices manquantes » dans Figma. Cela nous donne alors la possibilité de mettre à jour tous les calques de texte concernés.
+
+Les défauts de polices d’écriture peuvent avoir plusieurs raisons :
+
+Nos collaborateurs utilisent une police installée localement, que nous n’avons pas installée.
+
+Nos collaborateurs utilisent une version différente (plus ancienne ou plus récente) de la police.
+
+Soit le style de police était absent d'un téléchargement, soit nous utilisons une version différente de la police qui n'inclut pas cette graisse ou ce style.
+
+Pour résoudre ces problèmes, nous avons deux solutions qui s’offrent à nous :
+
+Installer ou mettre à jour les polices d’écriture de notre poste de travail.
+
+Choisir une autre police d’écriture pouvant remplacer celle(s) manquante(s).
+
+Pour installer une police d’écriture, il faut se référer à différentes pages, selon que votre appareil est un appareil Apple ou un appareil Windows, pour connaître les étapes à suivre afin d’installer une police d’écriture localement.
+
+En résumé :
+
+Il faut trouver la police d’écriture sur Internet puis la télécharger et l’installer sur notre machine.
+
+Une fois la police d’écriture bien installée, nous pouvons alors rafraîchir la page de notre navigateur afin que Figma puisse accéder aux nouvelles polices d’écritures fraîchement installées.
+
+En bref, rien de bien sorcier et une façon de faire très simple.

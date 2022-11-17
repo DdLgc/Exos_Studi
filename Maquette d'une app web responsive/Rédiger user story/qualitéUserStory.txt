@@ -1,0 +1,52 @@
+Mise en situation
+Une fois qu'une user story a été rédigée, même en ayant respecté un format défini, il est nécessaire de s'assurer que la qualité de sa rédaction soit suffisante pour permettre la prise en charge et la réalisation complète de la fonctionnalité qu'elle définit. Nous allons voir que l'on peut s'assurer de sa qualité en suivant les caractéristiques INVEST et qu'il existe des erreurs classiques à éviter.
+
+Les caractéristiques d'une bonne user story
+Une bonne user story se définit par le fait :
+
+qu'elle soit compréhensible de tous en utilisant un langage naturel,
+
+qu'elle raconte une histoire liée à un utilisateur ou un type d'utilisateur,
+
+qu'elle aille à l'essentiel,
+
+qu'elle soit suffisamment claire pour permettre à l'équipe de développement de l'estimer,
+
+qu'elle soit réalisable complètement en un seul sprint (si ce n'est pas le cas, cela signifie souvent qu'elle peut être découpée).
+
+Afin de s'assurer que ces éléments sont présents dans la rédaction d'une user story, on peut se baser sur les caractéristiques INVEST.
+
+Les erreurs classiques à éviter : le manque de définition de l'utilisateur
+Une user story a pour rôle de décrire simplement et de manière compréhensible une fonctionnalité à valeur ajoutée du produit développé. Elle se focalise sur la description d'un besoin utilisateur plutôt que sur une approche technique. Pour réaliser cela, il est nécessaire que la cible de la user story soit précisément définie et, si le besoin varie en fonction des différents types d'utilisateurs, alors il sera nécessaire d'écrire une user story spécifique pour chacun d'entre eux.
+
+Exemple
+Une user story classique
+CTRL+C pour copier, CTRL+V pour coller
+1
+En tant qu'utilisateur, je veux pouvoir me connecter au site de ma banque pour accéder à mes comptes.
+La détermination de la cible se fait en fonction du produit : la cible de l'exemple ci-dessus peut être acceptable pour un projet donné, mais être trop généraliste pour un autre. Ainsi, dans ce contexte, il n'est pas indiqué de qui il s'agit, quels sont ses usages et ses attentes du produit. L'utilisation d'une cible aussi générique ne permet pas de l'identifier clairement et cela peut porter préjudice à la résolution du besoin exprimé. Afin d'éviter de tomber dans ce piège, il est conseillé d'utiliser des personas.
+
+Les personas
+Les personas sont des personnages fictifs qui représentent un type d'utilisateur représentatif. Leur constitution se base sur une bonne connaissance des utilisateurs du produit.
+
+Une persona se doit d'être très graphique et contient généralement son nom, une image, ses caractéristiques, ses comportements et ses objectifs dans l'utilisation du produit.
+
+
+Exemple
+Rédaction d'une user story avec persona
+1
+En tant qu'Elodie, je veux pouvoir me connecter au site de ma banque pour accéder à mes comptes.
+L'utilisation d'une persona dans la rédaction d'une user story permet immédiatement de savoir à qui elle s'adresse.
+
+Les erreurs classiques à éviter : la définition du comment
+Lors de la rédaction d'une user story, on peut facilement être tenté de décrire comment doit se faire la résolution du besoin : mais ce n'est pas l'objet d'une user story. Celle-ci doit se limiter à répondre aux questions « qui, quoi, pourquoi » afin de ne pas limiter le champ de réflexion des différents acteurs qui travaillent à proposer une solution au besoin.
+
+Ainsi, la user story : « En tant qu'Élodie, je veux me connecter en remplissant le formulaire de connexion et en utilisant le bouton Connexion pour accéder à mes comptes » exprime comment se fait la connexion de l'utilisateur, ce qui ne devrait pas être précisé.
+
+Une user story exprime un besoin du point de vue d'un utilisateur et doit ouvrir les discussions pour aboutir à une solution. Une fois celle-ci validée, c'est dans la rédaction des spécifications techniques et fonctionnelles que sera décrit en détails comment elle doit être implémentée.
+
+Syntaxe
+À retenir
+La qualité de rédaction d'une user story passe par une identification aussi précise que possible des utilisateurs ciblés, par l'utilisation de personas permettant d'en décrire les comportements et les attentes.
+
+Une user story ne doit pas décrire comment un besoin doit être résolu, mais se limiter à son expression la plus naïve possible.

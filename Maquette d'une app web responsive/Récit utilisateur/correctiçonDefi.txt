@@ -1,0 +1,54 @@
+Défi
+Dans le cadre de la réalisation du projet de création d'un site web permettant d’effectuer des ventes aux enchères en ligne, vous en arrivez à la description des scénarios d’utilisation.
+
+Question
+À partir de la user story :
+
+En tant que Wilfried, un utilisateur,
+
+Je souhaite me connecter par le biais de l’application.
+
+Afin d’accéder au contenu partagé.
+
+Rédigez un scénario concernant l’authentification d’un utilisateur.
+
+Les règles métiers sont les suivantes :
+
+Le login doit constituer un pseudo unique
+
+Le mot de passe doit contenir au moins 8 caractères
+
+Solution
+Titre de la user story : US1 - Authentification d’un utilisateur
+
+En tant que Wilfried, un utilisateur,
+
+Je souhaite me connecter par le biais de l’application,
+
+Afin d’accéder au contenu partagé.
+
+Règles métier :
+
+Le login doit constituer un pseudo unique
+
+2. Le mot de passe doit contenir au moins 8 caractères
+
+Critères d’acceptation
+
+Scénario 1 : Tentative de connexion avec un compte pré-conçu
+
+Étant donné que je possède déjà un compte utilisateur à mon nom,
+
+Lorsque j’arrive sur la page d’authentification
+
+Et que je saisis mon pseudo, LowiKar, dans le champ “pseudo”,
+
+Et que je saisis mon mot de passe dans le champ “mot de passe”,
+
+Et que je clique sur “Se rappeler de moi”,
+
+Et que je clique sur “Me connecter”,
+
+Alors, je suis connecté en tant que Lowikar
+
+Et je suis redirigé vers l’accueil.

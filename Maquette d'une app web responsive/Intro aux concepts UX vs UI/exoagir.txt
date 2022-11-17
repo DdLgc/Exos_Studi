@@ -1,0 +1,19 @@
+Vous êtes maintenant dans la peau de l'UX designer du projet de site de réservation de billets en ligne pour le nouveau parc d'attraction.
+
+Vous allez devoir proposer un wireframe du formulaire de connexion. Pour cela, vous pouvez utiliser le logiciel gratuit Balsamiq ou utiliser une feuille de papier et un crayon.
+
+Question
+Après analyse, vous avez conclu que les éléments suivants doivent nécessairement apparaître sur la page de connexion :
+
+Le wireframe doit contenir le logo du site, bien visible, un libellé sous forme de titre qui correspond à l'action que l'utilisateur va réaliser : Se connecter.
+
+Un message l'invitant à créer un compte et un lien Cliquez ici pourront lui permettre d'être redirigé vers un autre formulaire s'il n'a pas encore de compte.
+
+Ce formulaire comporte deux champs : un champ Email et un champ Mot de passe. De plus, un lien vers la fonctionnalité mot de passe oublié doit être visible sous le champ de mot de passe, afin d'aider les utilisateurs.
+
+Un bouton Se connecter permet de valider le formulaire.
+
+À vos crayons !
+
+Solution
+Voici un wireframe correspondant à l'analyse précédente :

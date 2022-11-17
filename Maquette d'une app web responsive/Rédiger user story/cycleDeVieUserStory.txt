@@ -1,0 +1,27 @@
+Mise en situation
+Une user story dans son format final présente une réponse à un besoin fonctionnel. Pour obtenir cela, il est nécessaire que son rédacteur ait une bonne connaissance des différents types d'utilisateurs, ainsi qu'une compréhension approfondie des contraintes techniques et métiers qui lui sont liées. Ce constat implique qu'avant toute rédaction, les informations nécessaires doivent être recueillies auprès des acteurs concernés. Nous allons voir que la conception d'une user story passe par l'identification d'un besoin, puis par la proposition de solutions fonctionnelles graphiques, pour enfin permettre une rédaction complète et finale de la user story.
+
+Identification du besoin utilisateur
+Il est nécessaire d’explorer une user story en détails afin d'en définir les tenants et aboutissants. Pour cela, le Product Owner peut réaliser différents ateliers, que ce soit avec des représentants métiers ou directement avec des utilisateurs. L'objectif étant pour lui de monter en compétences sur le sujet afin d'être en capacité de traduire le besoin exprimé en fonctionnalités du produit.
+
+C'est ensuite en présentant le besoin à l'équipe chargée de la conception du produit que des possibilités de résolution vont être proposées en fonction des contraintes techniques du projet.
+
+La conception graphique comme soutien à la réflexion
+Lorsqu'un besoin utilisateur a été analysé, les réflexions sur la réponse à y apporter s'appuient tout d'abord sur des représentations graphiques fonctionnelles réalisées par le responsable de l'expérience utilisateur, appelé Product Designer.
+
+Celui-ci va donc proposer différentes approches visuelles, sous la forme de maquettes illustrant les différentes solutions répondant au besoin exprimé. Parfois, celles-ci sont présentées à un panel représentatif d'utilisateurs afin d'en dégager la plus pertinente.
+
+C'est à partir de cette maquette que le Product Owner et l'équipe projet vont pouvoir définir les différentes fonctionnalités à développer pour répondre au besoin. À cette fin, il est possible de passer par un story mapping, qui consiste à définir de grandes étapes fonctionnelles (nommées epics) qui sont ensuite fractionnées en user stories détaillées. De cette manière, il devient plus simple d'organiser et de prioriser les user stories qui en découlent.
+
+Le management de la conception des user stories
+L'avancée de la conception des user stories peut être représentée sous la forme d'un tableau Kanban ordonnant les différents besoins exprimés en fonction de leur avancement dans le processus.
+
+Pour un projet permettant de créer et de consulter des recettes de cuisine, un exemple de Kanban pourrait être le suivant :
+
+Exemple
+
+L'utilisation d'un système Kanban permet de suivre le plus précisément possible l'avancement de la conception des user stories du projet et de visualiser les éventuels points fonctionnels à approfondir ou les blocages à anticiper.
+
+
+À retenir
+La conception d'une user story passe par un cycle itératif préalable à sa rédaction, qui consiste à recueillir un besoin utilisateur et à l'approfondir par une montée en compétences fonctionnelles auprès des équipes métiers, suivie de l'identification d'une réponse adaptée par la présentation de différentes maquettes fonctionnelles. La solution retenue est ensuite découpée en autant de fonctionnalités à développer, avant que celles-ci ne fassent l'objet d'une rédaction de user stories détaillées.

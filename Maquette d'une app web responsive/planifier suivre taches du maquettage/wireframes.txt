@@ -1,0 +1,70 @@
+Mise en situation
+Une fois le zoning validé par les représentants des équipes métiers et le Product Owner, les équipes d'UX Design vont réaliser les différentes maquettes nécessaires à une première visualisation des contenus, en respectant l'architecture définie par ce dernier. Ils vont pour cela utiliser une représentation dite « en fil de fer » : les wireframes.
+
+Nous allons voir de quoi ils se composent, ainsi que le rôle qu'ils jouent dans la conception finale de la représentation graphique d'un site ou d'une application.
+
+Définition
+Selon usability.gov :
+
+Un filaire est une illustration bidimensionnelle de l'interface d'une page qui se concentre spécifiquement sur l'allocation de l'espace et la hiérarchisation du contenu, les fonctionnalités disponibles et les comportements prévus.
+
+De quoi s'agit-il ?
+Les wireframes (ou « maquettes en fil de fer », aussi appelées « maquettes basse fidélité » ou « maquettes low fidelity ») représentent le squelette du site ou de l'application. Ils sont conçus comme un plan d'architecte pour la construction d'une maison.
+
+Élaborés à partir du zoning des pages établi précédemment, ils permettent de poser les principaux éléments UI de votre interface (menu de navigation, texte, bouton, image, etc).
+
+Ils définissent l'organisation générale des blocs de contenu et matérialisent la navigation entre les pages.
+
+Il s'agit d'orienter sa réflexion en prenant en compte les standards du Web et les critères ergonomiques. Ils constituent donc la première étape de la phase de conception de la méthodologie de Design Thinking.
+
+Les critères ergonomiques
+Les critères ergonomiques issus des travaux de J.C. Bastien et repris par la norme AFNOR Z67-133-1 permettent d'évaluer l'utilisabilité d'un site ou d'une application et servent de guides aux designers lors de la conception graphique des pages d'un site web ou d'une application :
+
+Compatibilité : capacité de la solution numérique à s'intégrer dans l'activité réelle des utilisateurs. La logique d'utilisation de l'application doit correspondre à la logique de l'utilisateur.
+
+Guidage : moyens mis en œuvre pour assister l'utilisateur dans l'emploi de l'application. Le but étant de faciliter l'usage et l'apprentissage.
+
+Homogénéité : cohérence entre les pages de l'application et au sein des pages.
+
+Flexibilité : varier les moyens permettant d'atteindre un même objectif.
+
+Contrôle : rendre l'utilisateur autonome dans son apprentissage et réduire le nombre d'erreurs potentielles.
+
+Erreur : prévenir et détecter les erreurs (messages pertinents et correction simple et rapide).
+
+Traitement des erreurs et charge mentale : diminuer le nombre d'informations et ne garder que l'essentiel, simplifier les actions, éviter des manipulations ou saisies erronées et aider l'utilisateur à corriger ses erreurs.
+
+Exemple
+
+Cet exemple de wireframes permet de constater l'organisation des blocs de contenu au sein de la page. De plus, on y retrouve les éléments de navigation et les interactions existantes entre les éléments.
+
+Le niveau de détails
+À ce stade de la conception, la couleur intervient très peu, les maquettes sont principalement en nuances de gris. L'aspect visuel se limite au positionnement des blocs de contenu, à leur proportion les uns par rapport aux autres et aux choix des composants de type formulaire.
+
+En effet, il a été constaté maintes fois que les éléments graphiques (tels que la couleur, la typographie ou les images) détournent l'utilisateur du sujet principal du test et viennent interférer avec sa réflexion à propos de la structure de l'interface. C'est pour cette raison que l'UI designer intervient seulement à partir de la prochaine étape, celle de la conception des mockups, où les codes graphiques de la charte du client entrent enfin en jeu.
+
+Le rôle des wireframes
+Les wireframes peuvent être sous forme papier (statiques) ou sous forme numérique (interactifs ou non). Ils permettent aux équipes, aux acteurs métiers et aux utilisateurs de se projeter et donc de tester les solutions envisagées. Chacun peut ainsi évaluer sa compréhension des libellés choisis, de la visibilité et de l'accessibilité des fonctionnalités clés.
+
+Les maquettes en fil de fer ne se substituent pas au cahier des charges fonctionnel, mais demeurent un excellent complément en termes de spécifications.
+
+Outils de conception
+Un wireframe pouvant être statique ou dynamique, en plus du papier et d'un crayon, il sera sûrement utile de posséder une application dédiée à la conception de wireframes. En voici quelques-unes :
+
+Balsamiq Mockups
+
+Axure
+
+Flairbuilder
+
+Wirefame CC
+
+Ou encore :
+
+Adobe XD
+
+Figma
+
+À retenir
+La phase de réalisation des wireframes permet de définir l'organisation générale des blocs de contenus et de matérialiser la navigation. Ils permettent à chacun des intervenants du projet de visualiser, avec plus de détails que lors de la phase de zoning, les différents éléments graphiques d'une page, ainsi que leurs fonctionnalités.
+

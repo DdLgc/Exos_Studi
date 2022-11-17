@@ -1,0 +1,120 @@
+Mise en situation
+Tout comme la rue façonne le style vestimentaire de demain, les comportements des utilisateurs sur la Toile définissent depuis quelques années les tendances graphiques des années à venir. Depuis le début des années 2000, nos interfaces ont subi de grosses mutations, non seulement d'un point de vue ergonomique, mais également stylistique. La place des images, la typographie, les couleurs sont aujourd'hui savamment étudiées pour améliorer le confort du lecteur et la compréhension du produit. Nous allons ainsi découvrir comment des entreprises comme Apple ou Google ont, depuis 30 ans, façonné et influencé nos propositions graphiques (nous, concepteurs et développeurs).
+
+Web 2.0 (2003 - 2010)
+La démocratisation d'Internet et des desktops dans les foyers a fait émerger de nouveaux modes de consommation de l'information en ligne et marque la naissance du « Web social ». Les applications en ligne commencent à apparaître, Internet devient collaboratif. Les technologies et langages de développement doivent s'adapter aux contenus devenus dynamiques, et de plus en plus rapides en termes de débit.
+
+Le design web 2.0 correspond à l'utilisation du balisage sémantique du HTML couplé au CSS et au JavaScript. Il remplace le design web 1.0 dans le début des années 2000.
+
+Finie la conception en tableau, le contenu laisse place au vide pour rendre l'information plus lisible : less is more. On voit aussi émerger de nouveaux métiers, comme l'UX design et la diffusion de nouveaux gabarits d'interface.
+
+Ce style permet ainsi aux internautes ayant peu de connaissances techniques de s'approprier les fonctionnalités du Web.
+
+Désormais, non seulement les sites web mettent leurs internautes au cœur de leurs préoccupations, mais, en plus, l'internaute devient l'utilisateur puisqu'il est acteur du Web et peut enrichir et alimenter la toile de ses connaissances (wiki, blogs, réseaux sociaux, etc.).
+
+Complément
+On peut retenir quelques éléments graphiques marquants du style 2.0, notamment :
+
+une police assez grosse : les titres sont souvent surdimensionnés
+
+des conteneurs aux coins arrondis
+
+des dégradés sur les arrière-plans, permettant de jouer avec la lumière (ils seront remplacés par des textures vers 2007)
+
+dans la même lignée, les effets miroirs et reflets sont utilisés afin de donner de la profondeur
+
+les icônes plus percutantes et plus rapides à comprendre que du texte (elles permettent surtout un gain de place)
+
+Exemple
+Le style web 2.0
+
+Dans cet exemple d'interface des années 2000 on retrouve des conteneurs aux coins arrondis sur la partie droite de la page et l’utilisation d’icônes pour représenter les différentes fonctionnalités disponibles
+
+Skeuomorphic design (2010 - 2012) ou Neumorphic design (2019)
+Le Skeuomorphisme, puis le Neumorphisme, consistent à imiter l'apparence d'un objet réel lors de la conception d'un objet virtuel.
+
+Le Neumorphisme (contraction de New et Skeuomorphisme) est un style qui recherche davantage le détail et la précision que le Skeuomorphisme, notamment grâce à des surbrillances, des jeux d'ombres et des effets de lueurs.
+
+Les exemples les plus marquants sont les icônes d'IOS6, comme la poubelle, la boussole et le calepin Notes.
+
+C'est en partie grâce au Skeuomorphisme qu'Apple est devenu l'un des leaders mondiaux, car, à l'époque, ce style fournissait un repère visuel aux utilisateurs : les boutons et icônes étaient faciles à comprendre, car esthétiquement proches de la réalité.
+
+Le fondement de ce style graphique est la recherche d'affordance, c'est-à-dire la capacité d'un produit à suggérer sa propre utilisation.
+
+Très utilisé par Apple sur ses OS bureautiques depuis les années 90, ce style n'était plus adapté aux nouveaux supports mobiles et surtout aux contraintes de transversalité des interfaces applicatives et aux différentes résolutions des appareils (desktop, mobile et tablette).
+
+Exemple
+Skeuomorphisme
+
+Cette interface contient une représentation virtuelle d'un agenda, ainsi qu'un calepin et une horloge numérique tels qu'on peut les trouver dans la réalité, ce qui est l'essence même du Skeuomorphisme. L'utilisateur a donc la sensation de travailler avec des objets du quotidien posés sur un bureau en bois.
+
+Exemple
+Neumorphisme
+
+L'exemple présenté joue sur l'utilisation d'ombres pour faire ressortir les différents éléments avec lesquels il est possible d’interagir, ce qui accentue l'impression d'objets ancrés dans le réel. De plus, les éléments en question présentent de manière intuitive leurs fonctionnalités : leur affordance est donc élevée.
+
+Flat design (2012 - aujourd'hui)
+C'est un style épuré, minimaliste, qui se base sur des formes simples, avec des aplats de couleurs (absence de relief et de profondeur, effets de transparence, pas de dégradés ni de jeux d'ombres).
+
+Il s'inscrit comme contre-pied du Skeuomorphisme et supprime tous les éléments jugés décoratifs ou superflus (ombres, effet 3D, etc). Il permet ainsi d'apporter une première solution au besoin de responsive design des interfaces, mais également une compréhension plus rapide et une lecture plus légère des éléments graphiques.
+
+Les mots d'ordre sont : simplification et lisibilité.
+
+Exemple
+Flat design
+
+On peut constater l'attachement à la mouvance du Flat Design dans cet exemple par l'absence d'éléments graphiques trop complexes. Les blocs présentent des couleurs avec des ruptures claires (pas de dégradés), les éléments graphiques de la page sont plats et seul l'essentiel des informations est mis en avant.
+
+Material design
+C'est un ensemble de guidelines UX et UI créés par Google en 2014, d'abord pour les développeurs, afin de leur permettre d'intégrer plus facilement les spécifications graphiques dans les applications mobiles et autres appareils gérés par Android.
+
+Passé cet objectif premier, Google est allé plus loin dans la définition de ces règles, et a cherché à faciliter l'usage de ses applications en les rendant plus simples, plus épurées et intuitives.
+
+L'agencement de l'espace est un fondement du principe du Material Design, puisque celui-ci s'inspire de la feuille et de l'encre :
+
+« Contrairement au vrai papier, le matériau digital peut s'étirer et se modifier de manière intelligente. Le matériau contextuel a une surface physique et des bords. Les superpositions et les ombres donnent des informations sur ce que vous pouvez toucher. » (traduction de Matias Duarte, designer et concepteur d'interface chez Google).
+
+Le responsive et la conception par grille sont donc naturellement devenus un standard.
+
+Pour le design des composants graphiques, le Flat Design est gardé en référence : angle arrondi, une palette de 3 couleurs en aplats dont une principale, avec ses nuances, une typographie lisible par le plus grand nombre (Roboto ou sa petite sœur, noto sans) et des micro-interactions qui permettent un retour visuel immédiat.
+
+Exemple
+Material Design
+
+Cet exemple représente un ensemble d'éléments graphiques suivant une conception en Material Design : on y retrouve différents formats d'inputs, pour lesquels le label joue le rôle de placeholder lorsqu'ils sont vides, puis devient un label positionné verticalement lorsqu'ils contiennent une valeur. On y trouve aussi un exemple de contenu adapté au mobile, avec une information principale visible directement et des boutons d'action sous forme d’icônes explicites, et différents boutons dont la visibilité change en fonction qu'ils soient utilisables ou non.
+
+Dark mode, ou mode sombre
+Cette nouvelle tendance de 2020 consiste à produire des interfaces noires ou très foncées, avec des jeux de couleurs plus clairs sur le contenu (texte, images, boutons, etc).
+
+Cette démarche stylistique est apparue suite aux nouveaux usages et comportements des utilisateurs, désireux de réduire la luminosité de leur écran en utilisation nocturne. En effet, 60 % des utilisateurs consultent leur smartphone avant de s'endormir.
+
+Ce nouveau mode permet donc :
+
+d'améliorer la lisibilité du contenu et donc de réduire la fatigue oculaire grâce à un meilleur contraste et une réduction de la luminosité
+
+de limiter l'empreinte carbone de votre site ou application, car il consomme moins de batterie
+
+Exemple
+Dark mode
+
+On peut constater que l'utilisation du dark mode se caractérise par un fond sombre, voire noir, et des textes dans des nuances de gris avec très peu de blanc. Le contraste fort entre ces extrêmes permet de faire ressortir les éléments principaux de la page (boutons d'action, titres, menus).
+
+Les styles de demain (2021 et plus)
+Les éléments 3D immersifs et interactifs : à la limite du réel grâce à la 3D ou à la réalité virtuelle, les interfaces deviennent interactives.
+
+Minimalist Design : dans la lignée du principe ergonomique, cette tendance souhaite une interface simple, fonctionnelle, accessible et épurée via des titres de grande taille et des caractères gras, des icônes linéaires et très peu de couleurs.
+
+Éco-webdesign : l'objectif est de réduire les impacts environnementaux des logiciels en améliorant leur conception et leur réalisation (diminuer la vitesse de chargement des pages, par exemple).
+
+Syntaxe
+À retenir
+Le design des interfaces web a suivi différents courants de pensées et de styles, passant de haut en couleur vers un minimalisme graphique, dont l'objectif est de faire ressortir la quintessence de l'information.
+
+Les différentes modes de design ont été largement influencées et plébiscitées par les leaders du monde du Web, comme Google et Apple.
+
+Complément
+Éléments 3D immersifs et interactifs : https://useplink.com/fr/
+
+Minimalist Design : https://www.wanadev.fr/148-less-is-more-comment-le-minimalisme-applique-au-design-renforce-lefficacite-du-message/
+
+Éco-webdesign : https://www.wholegraindigital.com/ et https://www.websitecarbon.com/

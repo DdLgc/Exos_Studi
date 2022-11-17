@@ -1,0 +1,65 @@
+Mise en situation
+En Design Thinking, la conception d'une interface web commence avant la phase d'intégration graphique. Elle ne débute pas non plus au moment de la création de gabarits, mais bel et bien pendant la phase de Définition.
+
+Dans ce cours, nous allons nous concentrer sur les deux dernières phases, celles de l'Idéation et de l'Intégration, et voir comment UX et UI designers organisent ensemble les contenus, structurent la navigation et valorisent les informations de sorte à répondre à un maximum de critères ergonomiques.
+
+La conception d'interfaces web
+Concevoir une interface web, c'est concevoir son architecture interactionnelle, organiser ses pages, l'arborescence et la navigation, en tenant compte des contraintes du navigateur et de la technologie de développement, mais en plaçant toujours les besoins et attentes de l'utilisateur au cœur des préoccupations.
+
+La navigation web s'est au fil des années standardisée, pour le bien à la fois des développeurs, mais également des utilisateurs qui retrouvent des repères constants entre chaque site web et application. En effet, l'interface occupe une part importante du code développé : en moyenne, elle représente 48 % du code produit et peut représenter jusqu'à 80 % du code des applications web.
+
+(Source : https://www.usabilis.com/ressources/ergonomie-informatique-2/)
+
+
+Ce type de gabarit d'écran a été défini suite à des études qui ont démontré que les utilisateurs avaient des parcours visuels récurrents en forme de Z. Ainsi, il a été établi que le centre de la page était souvent vu en premier. Le regard se portait ensuite en périphérie d'écran vers la gauche et la droite et, pour finir, vers la partie haute et puis basse. Suite à ce constat, les designers (UX et UI) ont découpé les interfaces en zones de contenu manipulables, cherchant ainsi à placer les actions primaires dans les zones plus fréquemment visibles.
+
+L'ergonomie
+Sur desktop, les commandes les plus souvent utilisées sont placées en haut et à gauche, tandis que, sur les écrans tactiles, elles sont centrées en bas et le plus souvent à droite, car plus accessibles pour la manipulation aux doigts
+
+En termes d'interface utilisateur, il existe des dizaines voire des centaines de normes de conception visant à rendre une application la plus ergonomique possible. Ces principes ergonomiques régissent ainsi :
+
+les différents éléments du système de navigation : menus déroulants, moteur de recherche, plan de site, fil d'Ariane, boutons de navigations, liens, etc.
+
+les éléments d'interaction : manipulation claviers/souris/tactile, boutons de contrôle et de sélection, formulaires, etc.
+
+les éléments de langage : libellés des commandes, retours utilisateurs, traitements des erreurs, aide, etc.
+
+la présentation de l'information : hiérarchie de l'information, couleur, police et taille de caractère, icônes, etc.
+
+Les critères ergonomiques
+Les critères ergonomiques issus des travaux de J.C. Bastien, et repris par la norme AFNOR Z67-133-1, permettent d'évaluer l'utilisabilité d'un site ou d'une application et servent de guide aux designers lors de la conception des interfaces homme-machine :
+
+Compatibilité : l'application est-elle adaptée à son utilisateur et à son environnement (vocabulaire employé, par exemple) ?
+
+Guidage : inciter l'utilisateur à effectuer des actions spécifiques, regrouper visuellement des informations de même type, fournir des retours visuels, etc.
+
+Homogénéité : concevoir un fonctionnement cohérent et un graphisme homogène entre les pages.
+
+Flexibilité : offrir à l'utilisateur différentes manières de réaliser la même tâche (accéder à une information via les menus, un champ de recherche ou un plan du site).
+
+Contrôle : permettre à l'utilisateur de toujours garder la main.
+
+Erreur : prévenir et détecter les erreurs (messages pertinents et correction simple et rapide).
+
+Charge mentale : limiter le travail de lecture et de mémorisation (réduire le nombre de clics et la profondeur des menus, par exemple).
+
+Conseil
+Pour concevoir des interfaces accessibles aux personnes handicapées, il est conseillé de consulter le site de W3.org, qui explique tous les fondements de l'accessibilité web et comment intégrer vos composants de sorte à ce qu'ils soient lisibles ou retranscrits oralement : https://www.w3.org/WAI/fundamentals/accessibility-intro/fr.
+
+Syntaxe
+À retenir
+La conception d'interfaces web nécessite de respecter différentes règles ergonomiques qui se sont standardisées pour permettre de répondre aux critères suivants :
+
+Compatibilité
+
+Guidage
+
+Homogénéité
+
+Flexibilité
+
+Contrôle
+
+Erreur
+
+Charge mentale

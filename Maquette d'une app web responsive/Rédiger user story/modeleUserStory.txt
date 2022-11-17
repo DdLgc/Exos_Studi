@@ -1,0 +1,92 @@
+Mise en situation
+Malgré le fait qu’une user story doit se montrer concise et précise, nous allons voir que la rédaction d'une user story s'étoffe au cours de sa vie pour dépasser le cadre de la simple phrase narrative.
+
+Nous verrons que l'on peut y ajouter des notes diverses, ainsi que différents critères d'acceptation et qu'une user story peut être accompagnée d'une Definition of Ready et d'une Definiton of Done. Ces dernières notions spécifient respectivement les conditions permettant de commencer les développements de la user story et celles permettant de la considérer comme terminée.
+
+Les notes
+La structure narrative d'une user story se présente sous la forme d'une phrase répondant aux dimensions Qui, Quoi, Pourquoi et se structure généralement par « En tant que.... je veux.... afin de... » . En tant que telle, cette rédaction narrative ne suffit pas à la bonne prise en charge par l'équipe de développement. Par conséquent, le Product Owner peut y ajouter, sous forme de notes, toutes les informations nécessaires à sa prise en charge et à sa réalisation.
+
+Il est ainsi courant d'y retrouver :
+
+les différentes règles métiers concernées
+
+le contexte général dans lequel elle s'inscrit
+
+les maquettes graphiques
+
+la documentation disponible si elle existe
+
+les contraintes techniques
+
+les cas nominaux et ceux aux limites
+
+Cet ajout d'informations peut sembler conséquent, c'est pourquoi il est primordial de se limiter à l'essentiel et de conserver une rédaction simple. Il ne faut pas perdre de vue qu'une user story est avant tout un moyen de communication entre tous les acteurs du projet et il est important de ne pas la surcharger d'informations inutiles.
+
+Exemple
+Scénarios de test d'une fonctionnalité d'authentification
+Fonctionnalité : Authentification
+Scénario : Tentative d'authentification avec un compte valide
+Étant donné que je dispose d'un compte utilisateur « test »
+Quand j'accède à la page d'authentification /login
+Et que je saisis mon login « test » dans le champ « Utilisateur »
+Et que je saisis mon mot de passe dans le champ « Mot de passe »
+Et que je clique sur le bouton « Connexion » du formulaire
+Alors je suis authentifié sur le site
+Et je suis redirigé vers la page d'accueil à l'URL /home
+L'écriture de ces scénarios de test d'acceptation peut se faire conjointement par le Product Owner, un ou plusieurs référents métiers et un ou plusieurs membres de l'équipe de développement. La réalisation de ces scénarios pendant les reviews de sprint ou les démonstrations permettra de garantir la conformité d'une fonctionnalité livrée aux règles fonctionnelles.
+
+Definition of Ready
+La Definition of Ready (ou DoR) est l'ensemble des critères définis par l'équipe pour considérer une user story comme prête à être traitée par l'équipe de développement dans l'itération ou le sprint suivant.
+
+Pour la définir, on utilise généralement la règle des 6D :
+
+Désirable : elle doit apporter de la valeur à l'utilisateur
+
+Décomposée : elle est suffisamment précise pour ne pas englober d'autres user stories
+
+Débattue : elle a fait l'objet de différentes discussions entre les acteurs du projet
+
+Dérisquée : les risques qu'elle induit ont été identifiés ou réduits
+
+Démontrable : elle peut être présentée en sprint review ou en démonstration
+
+Elle doit posséder une Definition of Done
+
+Ce cadre peut être plus détaillé en fonction des demandes de l'équipe pour, par exemple, s'assurer qu'elle respecte un format de rédaction souhaité ou que des maquettes graphiques soient présentes. De la même façon, on peut y inclure le fait que la user story ait bien suivi un process de conception donné : relue par l'équipe, validée par le métier, estimée par l'équipe etc.
+
+Quel que soit le niveau de détail demandé, la Definition of Ready doit prévenir le commencement des développements lorsqu'une user story n'est pas assez claire ou précise, afin de réduire les pertes de temps que cela induirait.
+
+Definition of Done
+La Definition of Done (ou DoD) est l'ensemble des critères définis par l'équipe pour considérer une user story comme terminée.
+
+Ces critères doivent permettre de s'assurer qu'elle a été complètement développée et que la qualité des développements a été respectée.
+
+Pour cela, les critères peuvent varier en fonction des projets et de leurs contraintes, mais il est courant de retrouver :
+
+La validation des tests d'acceptation définis dans la user story
+
+La validation des tests automatiques
+
+La validation du code par une revue de code
+
+La mise à jour de la documentation
+
+La validation des différentes contraintes fonctionnelles (fonctionnement avec différents navigateurs et appareils, par exemple)
+
+Quels que soient les critères choisis, ceux-ci doivent être suffisants pour déclarer une user story comme entièrement terminée, car leur validation fait sortir la user story du product backlog en la considérant comme partie intégrante du produit fini.
+
+Remarque
+Le backlog de produit (ou product backlog) est une liste de fonctionnalités prévues sur le produit (user stories). Celui-ci est géré et ordonné par le Product Owner et répertorie et classe les demandes attachées au produit en fonction de leur niveau de priorité. Le Story mapping, quant à lui, est une manière de cartographier le backlog. C’est un atelier que l’on réalise lorsque l’on a besoin de structurer la planification des livraisons.
+
+Complément
+Dans le cycle de vie d'une user story, la Definiton of Ready et la Definition of Done sont les éléments déclencheurs qui la font tout d'abord passer du product backlog au sprint backlog et ensuite du sprint backlog au produit fini.
+
+
+Remarque
+Quelle que soit sa complétude, la rédaction d'une user story ne remplace pas la rédaction de spécifications techniques et fonctionnelles. Une user story doit rester un outil de communication et ne se suffit pas à elle-même.
+
+
+À retenir
+La rédaction d'une user story dépasse le cadre de la phrase explicitant le Qui, Quoi, Pourquoi pour inclure autant de détails que nécessaire pour sa bonne prise en charge. Parmi ceux-ci, on peut retrouver l'ajout de différentes notes précisant entre autres le contexte, les règles métiers ou les maquettes graphiques.
+
+De plus, il est recommandé d'y ajouter les différents critères d'acceptation sous forme de scénarios de test pouvant être écrits en collaboration avec les représentants des métiers, grâce à la syntaxe Gherkin. À cela se rajoutent la définition des critères permettant d'intégrer une user story à un sprint, la Definition of Ready, ainsi que les critères permettant de la considérer comme terminée, la Definition of Done.

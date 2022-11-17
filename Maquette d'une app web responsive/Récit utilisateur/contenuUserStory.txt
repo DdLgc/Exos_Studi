@@ -1,0 +1,107 @@
+Mise en situation
+La rédaction d'une user story comme présentation d'un besoin utilisateur n'est pas suffisante pour en assurer la réalisation ainsi que la qualité, c'est pourquoi elle sera souvent agrémentée de différents éléments permettant d'en définir les contours et les attentes.
+
+Nous allons voir qu'une user story complète se compose d'une phrase narrative structurée, de notes diverses et de critères d'acceptation.
+
+Rappel
+La structure d'une user story
+Pour écrire une user story, il est nécessaire de s'imposer et de respecter un format strict afin que son ensemble suive les mêmes règles. Le format suivant est le plus courant : En tant que <qui>, je veux <quoi> afin de <pourquoi>.
+
+Remarque
+Par qui sont rédigés ces user stories ?
+Généralement, les user stories sont rédigées par le Product Owner en fonction des besoins des utilisateurs.
+
+La structure narrative
+Une user story doit pouvoir permettre de répondre à 3 questions : pour qui ? pour quoi ? dans quel but ?
+
+Le qui permet d'indiquer l'utilisateur du point de vue duquel on se place. Il s'agira souvent ici d'un rôle dans l'usage du produit.
+
+Le quoi permet de décrire en quelques mots la fonctionnalité qui va devoir être développée ou le comportement attendu par l'utilisateur. Le but d'une user story n'est pas de fournir une explication exhaustive du besoin, mais d'en poser les bases.
+
+Le pourquoi permet quant à lui d'identifier l'intérêt de la fonctionnalité qui sera développée et de justifier le travail engagé. Il permet également de mieux évaluer la priorité de la user story.
+
+Exemple
+Voici quelques exemples que l'on peut être amenés à retrouver :
+
+En tant qu'administrateur de la plateforme...
+
+En tant qu'utilisateur du réseau social...
+
+En revanche, on évitera d'utiliser des termes trop génériques, tels que de simples pronoms, l'objectif étant d'identifier sans ambiguïté l'acteur concerné dans notre user story.
+
+Complément
+Les personas
+Pour mieux illustrer la diversité des besoins, on peut également utiliser le concept de persona, c'est-à-dire une personne fictive, représentative des catégories d'usagers du produit et à laquelle on peut s'identifier pour mieux en comprendre les attentes.
+
+L'identification et la description des personas se fait alors avant de commencer l'écriture des user stories (par exemple, « Pierre a 25 ans, il s'agit d'un utilisateur habitué des réseaux sociaux. Il est curieux et utilise régulièrement l'outil informatique. Passionné d'animaux, il dispose du profil type de l'utilisateur régulier de notre application »).
+
+Les notes
+Les notes sont des éléments qui peuvent être utiles aux acteurs qui réalisent, testent et valident l'élément fonctionnel décrit. Dans une user story, si cela apporte de la valeur à l'équipe de réalisation, nous pouvons rajouter : le contexte, les règles de gestion, les maquettes graphiques, les cas nominaux, la documentation à disposition en pièce jointe, les contraintes techniques particulières, etc.
+
+Pensez toujours à vos lecteurs et à la simplicité de votre rédaction. Plus votre description sera longue, plus il y a de chances qu'elle soit lue en diagonale et donc que des choses soient négligées, voire oubliées ! Soyez clair et efficace !
+
+Les exemples ou critères d'acceptation
+Afin de valider qu'une user story a été développée de manière à répondre au besoin, il est conseillé d'intégrer à sa rédaction les différents critères permettant d'approuver sa bonne réalisation. Pour que la rédaction de ces critères reste accessible à tous, il est recommandé de suivre la syntaxe Gherkin qui permet d'écrire des scénarios de test compréhensibles quel que soit le niveau technique du lecteur.
+
+Le format de cette syntaxe s’appuie sur trois étapes :
+
+Given, qui liste les conditions initiales du test
+
+When, qui décrit les actions réalisées
+
+Then, qui expose le fonctionnement attendu
+
+Lorsque l'on traduit ces notions en français, on peut obtenir des scénarios sous la forme « Étant donné/Lorsque.... Quand... et que.... Alors.... et... ».
+
+Exemple
+Dans cet exemple de critère d’acceptation, l’utilisateur doit pouvoir ajouter une musique à sa playlist. La User Story “Créer sa propre playlist” se décrit comme :
+
+En tant qu’utilisateur de l’application
+
+Je recherche une musique en spécifiant son titre ou l’artiste
+
+Afin de l’ajouter à une playlist
+
+Dans un premier temps, on retrouve les critères d’acceptation sous forme de liste :
+
+Résultat unique, afficher la musique: artiste/titre
+
+2. Pas de résultat, inviter l’utilisateur à une nouvelle recherche
+
+3. Plusieurs résultats, afficher la liste des musiques triées par ordre alphabétique
+
+Critères d’acceptation sous forme de scénario :
+
+L’utilisateur lance une recherche pour trouver une musique
+
+Étant donné que je suis sur la page de recherche d’une musique
+
+Lorsque je saisis le titre ou l’artiste et que je lance la recherche
+
+Alors je peux consulter la liste des musiques triées par ordre alphabétique
+
+Méthode
+Vérifier les caractéristiques d'un récit
+INVEST est un acronyme mnémotechnique inventé par Bill Wake pour faciliter la mémorisation des critères de qualité d'une user story.
+
+En effet, celle-ci doit être :
+
+Indépendante : elle doit se suffire à elle-même, car les dépendances entre user stories empêchent une bonne planification et une exécution correcte des tests.
+
+Négociable : en tant que support de communication, une user story doit pouvoir évoluer en fonction des évolutions du besoin initial pouvant intervenir. Elle peut donc être modifiée jusqu'à son intégration dans un sprint lorsqu'elle répond au aux critères de la Definition of Ready.
+
+Valorisable : elle doit apporter de la valeur à l'utilisateur et doit donc être exprimée en fonction de l'objectif recherché par l'utilisateur.
+
+Estimable : elle doit être suffisamment claire pour faire l'objet d'une estimation par l'équipe de développement. Lorsque ce n'est pas possible, cela signifie généralement qu'elle n'est pas assez claire ou qu'elle peut être découpée.
+
+Small : plus une user story est petite, plus il est simple de la comprendre et de l'estimer. Une bonne user story doit être réalisable sur une seule itération, elle doit donc être découpée le plus finement possible. Lorsque c'est nécessaire, il ne faut pas hésiter à découper une user story en composantes plus accessibles.
+
+Testable : une user story doit être suffisamment claire pour que des critères d'acceptation et des tests puissent être rédigés en amont de tout développement.
+
+
+À retenir
+Le premier élément rédactionnel d'une user story est sa structure narrative, qui permet de décrire un besoin utilisateur en se positionnant de son point de vue, le profil de ce dernier pouvant être détaillé sous la forme de persona. À cela peuvent s'ajouter différentes notes permettant de contextualiser la réalisation de la user story. Enfin, des critères d'acceptation permettent d'en valider fonctionnellement la réalisation.
+
+Pour attester de la qualité de la rédaction d'une user story, il est recommandé de suivre les principes INVEST.
+
+De plus, il est recommandé d'y ajouter les différents critères d'acceptation sous forme de scénarios de test pouvant être écrits en collaboration avec les représentants des métiers, grâce à la syntaxe Gherkin. À cela s’ajoutent la définition des critères permettant d'intégrer une user story à un sprint, la Definition of Ready, ainsi que les critères permettant de la considérer comme terminée, la Definition of Done.

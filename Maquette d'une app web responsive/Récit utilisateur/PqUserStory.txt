@@ -1,0 +1,87 @@
+Mise en situation
+Dans le cadre de la réalisation d'un projet, l'écriture des user stories intervient bien en amont des développements. En effet, leur définition en tant que structure narrative simple et tournée vers l'utilisateur présente de nombreux avantages lors de l'initialisation d'un projet.
+
+Nous allons voir que leur rédaction permet de définir et clarifier le produit qui sera réalisé, puis nous verrons qu'elles permettent de prioriser l'ordre de réalisation des fonctionnalités et enfin, que leur rôle principal est de servir d'outils de communication auprès de toutes les parties prenantes du projet.
+
+Définir et clarifier le produit
+« Ce qui se conçoit bien s'énonce clairement » : cette citation est d'autant plus vraie lorsque l'on parle d'un projet informatique.
+
+Lorsque les différentes parties prenantes interagissent, il est fondamental que tout le monde parle la même langue et se comprenne. Les user stories seront généralement le point de départ des développements du projet. Les équipes en charge de ces aspects doivent être certaines de ce qu'elles vont construire, pour qui et dans quel but.
+
+Les user stories permettent également la communication du projet en dehors de l'équipe. Leur rédaction permet ainsi d'impliquer plus facilement des personnes non techniques au sein du projet.
+
+Enfin, grâce à ces phrases courtes, il est possible pour n'importe qui de se faire rapidement une idée du produit, de s'en faire une représentation.
+
+Exemple
+Prenons une liste de stories qui pourraient se rapporter à un site qui proposera des recettes de cuisine :
+
+En tant qu'utilisateur, je souhaite pouvoir effectuer une recherche parmi les recettes dans le but de retrouver plus facilement celles qui m'intéressent.
+
+En tant qu'utilisateur, je souhaite pouvoir déposer un commentaire sur une recette afin de pouvoir exprimer mon avis.
+
+En tant qu'utilisateur, je souhaite pouvoir filtrer les recettes par ingrédient afin de ne lister que les recettes que je serai capable de réaliser.
+
+En tant qu'utilisateur, je souhaite pouvoir placer une recette dans mes favoris afin de la retrouver plus facilement par la suite.
+
+En tant qu'utilisateur, je souhaite pouvoir déposer de nouvelles recettes sur la plateforme afin de partager mes connaissances.
+
+En lisant ces quelques phrases, au-delà de toutes considérations techniques, vous avez dû pouvoir vous faire une représentation en quelques secondes des différents éléments fonctionnels. Le site proposera une liste de recettes, que l'on pourra lister, filtrer, et où l'on pourra effectuer une recherche. Ces recettes pourront être commentées et ajoutées en tant que favoris par l'utilisateur.
+
+Articuler les fonctionnalités
+Une fois les user stories correctement définies, il sera plus simple de les hiérarchiser et d'articuler les différentes fonctionnalités du produit. Cela permettra également de prioriser les développements, en établissant quelles fonctionnalités sont fondamentales et apportent le plus de valeur au produit, quand d'autres pourront être développées dans un second temps.
+
+Si l'on reprend notre exemple, le fait de pouvoir effectuer une recherche parmi un ensemble de recettes sera probablement plus important que de permettre à un utilisateur d'associer un avatar à son profil.
+
+Générer des discussions
+Le fait de rédiger une user story permettra également de générer des discussions importantes au sujet du produit. Cela permet à l'ensemble des parties prenantes du projet de mettre en lumière les interrogations ou désaccords potentiels ou de réfléchir à la philosophie même du produit.
+
+Par exemple, un utilisateur doit-il nécessairement être connecté à la plateforme afin de déposer un commentaire ? Comment doit fonctionner le système de recherche ? Doit-il effectuer des suggestions au fil de la saisie ? Quels ingrédients doivent servir de filtres, sur quoi se base-t-on pour fournir cette liste ?
+
+Fonctionnement des user stories
+Une fois une user story écrite, le moment est venu de l'intégrer à votre workflow. Généralement, une user story est rédigée par le Product Owner avant d'être soumise pour revue.
+
+Durant une réunion de planification de sprint ou d'itération, l'équipe détermine les user stories qu'elle va réaliser lors de ce sprint, afin de constituer le sprint backlog. Elle évoque les exigences et fonctionnalités que requiert chaque user story. C'est l'occasion d'aborder les aspects techniques et créatifs dans l'implémentation d'une user story par l'équipe. Une fois un consensus atteint, ces exigences sont ajoutées à la user story.
+
+Autre étape courante de cette réunion : noter les user stories en fonction de leur complexité ou de leur durée d'exécution. Souvent, les équipes utilisent des tailles de T-shirt, la suite de Fibonacci ou le Planning Poker pour effectuer des estimations correctes. Une user story devrait être calculée de sorte à s'achever en un sprint. Ainsi, lorsque l'équipe spécifie chaque user story, elle s'assure de subdiviser celles qui iront au-delà de l'horizon d'achèvement.
+
+La priorisation des user stories
+Toutes les user stories mises en évidence, l’objectif est maintenant de les classer par ordre d'importance pour déterminer par quoi l’on doit débuter, ce que l’on peut mettre de côté pour le moment etc.
+
+Pour cela, nous aurons besoin de méthodes visant à faire ce tri seul ou en équipe.
+
+Pour ce faire, chaque Product Owner va s’appuyer sur une méthode différente et sera motivé de manières différentes. Il peut s’agir d’une question de délai, de budget, de production, etc.
+
+Exemple
+La méthode MoSCoW
+La méthode MoSCoW est un grand classique concernant la priorisation. L’objectif de cette méthode est de prioriser les user stories suivant ce qui doit être fait dans l’immédiat, ce qui devrait être fait, ce qui pourrait l’être et enfin ce qui est à ne pas faire sur l'instant mais qui pourra être effectué dans l’avenir. Celle-ci fût adaptée par Dai Clegg, un consultant chez Oracle UK. Il s’agit d’un outil fortement exploité dans les projets Agile. Elle consiste à classer les exigences d'un projet selon leur degré de criticité.
+
+Cette technique permet de prioriser les user stories selon 4 niveaux de criticité : 
+
+M ou Must have : Il s’agit de la catégorie répertoriant les user stories les plus importantes, elle regroupe les fonctionnalités indispensables au projet. Sans ces fonctionnalités, le projet ne peut aboutir et ne peut même pas commencer à prendre forme
+
+S ou Should have : Regroupe les user stories importantes et apportant une certaine valeur au produit final mais n’étant pas obligatoires pour déployer le projet. Elles seront développées par la suite, si l’on ne manque pas de temps.
+
+C ou Could have : On parle ici de user stories de “confort”, à développer seulement si elles n'induisent pas sur la période de livraison. Celles-ci vont contribuer à améliorer l’expérience de l’utilisateur.
+
+W ou Won’t have : Ces tâches seront laissées de côté pour le moment mais pourront être effectuées dans le futur.
+
+Attention toutefois à ne pas prioriser chaque tâche pour vous retrouvez avec une liste de “MUST” et de “Should” trop encombrée.
+
+En vue de l’exécution de cette méthode, vous possédez différentes options :
+
+Procéder à un vote : Noter les différentes user stories sur des cartes et faire voter l’équipe en charge du projet, tout en limitant le nombre de stories par niveau d’importance pour ne pas en revenir au même point.
+
+Classer les user stories vous-même, puis soumettre le tout à votre équipe.
+
+Conseil
+Le rôle du développeur
+En tant que développeur, il est possible que l'on se considère parfois comme étant « en bout de chaîne » et que l'on n'ose pas forcément poser certaines questions, ou soulever certains problèmes.
+
+De par sa proximité technique avec le projet, il s'agit pourtant parfois de la personne la plus au fait de certains aspects. Il ne faut donc pas avoir peur de poser ces questions, de creuser des user stories, afin que tout le monde dispose du même niveau d'informations ou de connaissances.
+
+Peut-être avez-vous en tête une règle de gestion farfelue, ou la crainte d'un effet de bord qui n'aurait pas été anticipé. Faites-le savoir !
+
+Prenons la user story suivante : En tant qu'administrateur, je souhaite pouvoir supprimer les utilisateurs inactifs automatiquement. Qu'adviendra-t-il des commentaires laissés par les utilisateurs supprimés ? Des réponses éventuelles à ces commentaires ? Des notes éventuelles qu'ils auraient laissées, ou de tout élément qui pourrait être supprimé en cascade ? Si cela n'a pas été précisé, vous ne devez pas laisser ces éléments au hasard.
+
+À retenir
+Même si dans sa forme finale, une user story présente tous les éléments nécessaires à la réalisation de la fonctionnalité dont elle fait l'objet, sa rédaction, sous forme d'une structure narrative lors de l'initialisation d'un projet en fait un objet de communication prépondérant entre tous les intervenants. Sa forme simple et orientée sur les besoins des utilisateurs permet de clarifier et définir les différentes fonctionnalités à venir.

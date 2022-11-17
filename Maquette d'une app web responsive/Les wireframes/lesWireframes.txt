@@ -1,0 +1,106 @@
+Mise en situation
+Lors de la conception d'un projet, il est nécessaire, à travers différents échanges et ateliers de travail, d'identifier de manière claire les différents besoins des utilisateurs. Avant de devenir des fonctionnalités précises, les besoins identifiés feront l'objet de propositions de résolution graphiques : les wireframes constituent pour cela un outil idéal.
+
+Nous allons détailler ici les éléments qui les composent, puis nous verrons quelles sont les conditions essentielles pour pouvoir les réaliser de manière efficace. Enfin, nous présenterons les raisons pour lesquelles ils sont primordiaux au processus de conception graphique.
+
+Rappel
+Les wireframes (ou maquettes fonctionnelles, aussi appelées « fil de fer ») sont une représentation visuelle schématique, souvent en noir et blanc. Ils sont utilisés lors de la conception d'une interface utilisateur pour définir les zones et composants qu'elle doit contenir.
+
+C'est un schéma basse fidélité de l'interface, qui doit illustrer l'agencement des parties qui vont composer chacune des pages.
+
+
+L'exemple ci-dessus présente la structure d'une page sous la forme de wireframes en fonction du support utilisé.
+
+Un manuel du parcours utilisateur
+Les maquettes en wireframe ne doivent pas être confondues avec le zoning, même s'ils sont très proches.
+
+Le zoning, souvent réalisé sur papier, est la première étape dans le processus de conception. Il permet de visualiser uniquement les blocs et les proportions des surfaces dédiées à chaque fonction.
+
+Le wireframe contient davantage d'éléments d'informations. Il sert à définir :
+
+la typologie du contenu (texte, composants, médias)
+
+la hiérarchie et la structure de l'information (par exemple, construire une application sous forme de grille à 4 ou 5 colonnes)
+
+les éléments de navigation
+
+Il s'agit de faire un manuel détaillé du parcours utilisateur afin de visualiser ce qui marche ou ne marche pas en termes d'expérience utilisateur. Son but est de valider avec l'utilisateur final la navigation, c'est-à-dire les enchaînements entre les écrans, et de prioriser l'information, soit la structure de la mise en page.
+
+
+ZONING
+
+
+WIREFRAME
+
+L'impact de la couleur
+À ce stade de la conception, les productions sont des brouillons qui n'ont pas vocation à être conservés tels quels.
+
+Pourtant, comme nous venons de l'aborder, ces maquettes fil de fer vont servir de support pour valider, avec les utilisateurs, la structure de l'application et les principes de navigation. L'ajout de la couleur à ce stade de la conception risque de communiquer un état d'avancement « fini » aux utilisateurs, et donc d'enfermer la réflexion dans des orientations sur lesquelles il sera difficile de revenir. C'est pourquoi les wireframes sont majoritairement réalisés en noir et blanc.
+
+Quand peut-on réaliser des wireframes ?
+Vous venez de clore la phase de découverte (phases de Recherche et de Définition en Design Thinking), pendant laquelle vous avez pris le temps de faire des recherches sur vos utilisateurs, de mener des interviews à propos de leurs buts et motivations au regard de votre application.
+
+Vous avez défini, en phase d'Idéation, des scénarios (parcours types de vos utilisateurs) et imaginé la structure, l'arborescence de votre solution interactive, que vous avez retranscrite par le biais d'une flow map.
+
+Désormais, vous avez une bonne compréhension des besoins et attentes de vos utilisateurs et commencez à visualiser les éléments qui doivent figurer à l'intérieur de vos pages.
+
+Les wireframes ne peuvent être conçus efficacement que si vous êtes en possession de toutes ces informations : vous ne pouvez pas créer un wireframe si vous ne connaissez pas les besoins de vos utilisateurs.
+
+Pourquoi réaliser des wireframes ?
+La phase de Conception de la méthodologie de Design Thinking (et notamment l'étape des wireframes) permet de répondre aux questions suivantes :
+
+Comment l'interface du produit peut répondre favorablement aux besoins des utilisateurs ?
+
+Comment savoir si les solutions, les interactions, la navigation que nous proposons résolvent bien les problèmes que les utilisateurs sont susceptibles de rencontrer ?
+
+Les wireframes permettent de formaliser et de clarifier, à l'aide de croquis plus ou moins élaborés, les attentes et besoins des utilisateurs, mais aussi de confirmer les objectifs du projet.
+
+La finalité est d'obtenir des feedbacks, non seulement de la part de l'équipe, mais aussi des utilisateurs, et d'apporter les correctifs nécessaires avant de poursuivre les étapes de conception puis d'intégration.
+
+Dans une démarche ergonomique, les wireframes permettent de détecter les problèmes d'utilisabilité, c'est-à-dire de vérifier si l'utilisateur parvient bien à trouver, lire et comprendre les informations. Il s'agit donc de voir les faiblesses et les points forts de chacune des idées exprimées, et de prendre les actions correctives au plus tôt afin d'améliorer l'expérience de l'utilisateur.
+
+Il est surtout plus facile et moins coûteux, à terme, de faire des correctifs ou de changer complètement d'orientation UX à l'étape des wireframes que sur une maquette UI détaillée ou un prototype.
+
+Avantages
+Les wireframes présentent plusieurs avantages :
+
+C'est une méthode de conception rapide et peu coûteuse en termes d'investissement.
+
+Ils permettent des correctifs plus faciles et plus rapides qu'un produit fini, ce qui permet une grande réactivité.
+
+Ils offrent la possibilité de tester une ou plusieurs solutions avec les utilisateurs.
+
+Il s'agit d'un bon outil de communication en interne (entre l'UX Designer, le Product Owner et les développeurs) comme avec les équipes métiers, mais surtout avec les utilisateurs.
+
+Ils facilitent le travail collaboratif avec les équipes de développement, car ils peuvent servir de spécifications fonctionnelles, à défaut de cahier des charges.
+
+Ils permettent d'estimer et de chiffrer le temps de développement.
+
+Les outils de création associés
+Les wireframes peuvent être réalisés grâce à différents outils téléchargeables, dont :
+
+Balsamiq, disponible sur tous les supports (Mac, Windows, Linux) et propose une version web permettant de travailler dans le Cloud (SaaS) : https://balsamiq.com/
+
+Axure, l'un des tous premiers logiciels de wireframing professionnels. Ce logiciel est désormais compatible avec Mac et Windows : https://www.axure.com/
+
+Flairbuilder, beaucoup plus récent qu'Axure, disponible en version Mac et Windows : https://fantastech.co/flair-builder/
+
+Adobe XD, dernier venu de la suite Adobe, qui permet de créer des wireframes plutôt haute fidélité et de produire un prototype pré-développement. Il est particulièrement apprécié des UI Designers, car il permet de tester dans les conditions optimales l'expérience utilisateur : https://www.adobe.com/fr/products/xd.html
+
+Il existe aussi des outils entièrement en ligne, comme :
+
+Mockflow : https://mockflow.com/
+
+UXpin : https://www.uxpin.com/
+
+Wireframe.cc : http://wireframe.cc/
+
+Excalidraw : https://excalidraw.com/
+
+Figma : https://www.figma.com/
+
+
+À retenir
+Les wireframes interviennent pendant la phase de Conception de la méthodologie de Design Thinking. En effet, il est nécessaire d'avoir pu identifier les besoins des utilisateurs afin de pouvoir les réaliser. Ils serviront ensuite de base permettant de valider une solution graphique plutôt qu'une autre auprès des équipes métiers et des utilisateurs.
+
+Afin qu'ils puissent jouer ce rôle du mieux possible, il est important de ne pas mettre trop d'éléments en exergue et de proposer des maquettes majoritairement en noir et blanc. Cela permet aux intervenants de se concentrer sur la structure des éléments plutôt que sur leur contenu.
